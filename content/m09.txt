@@ -1,0 +1,217 @@
+# MODULE m09
+num: 09
+level: C1 → C2
+title: Precisão e nuance
+summary: Hedging, ênfase, modais no passado, inversão e nuances de vocabulário. É o que separa quem se comunica de quem se comunica com precisão.
+goal: Controlar o tom, enfatizar o que importa e escolher palavras pela conotação, não só pelo significado.
+
+## LESSON m09-1 | Hedging e linguagem diplomática | 15
+
+### Afirmar com a força certa
+Hedging é calibrar a certeza do que você diz. No C1, você não diz apenas "X is true"; você escolhe entre "X is true", "X seems to be true" e "X might be true" conforme as evidências.
+
+| Força | Exemplos |
+| Alta certeza | clearly, definitely, the data shows that... |
+| Média | it seems that, it appears that, likely, probably, tends to |
+| Baixa | might, could, possibly, it's not entirely clear whether |
+| Suavizar crítica | slightly, a bit, somewhat, not quite, not ideal |
+
+= The new index seems to have improved query performance. | O novo índice parece ter melhorado a performance das queries.
+= This approach might not scale well beyond a million rows. | Essa abordagem pode não escalar bem acima de um milhão de linhas.
+= The results tend to vary depending on the region. | Os resultados tendem a variar dependendo da região.
+
+### Diplomacia no feedback
+| Direto demais | Diplomático |
+| Your code is bad. | There are a few things we could improve in this code. |
+| This won't work. | I'm not sure this will work in production. |
+| You're late. | I noticed the delivery slipped a bit. Is there anything blocking you? |
+
+> [atencao] Hedging demais vira insegurança. "Maybe I think it could possibly be..." não comunica nada. Use um hedge por afirmação.
+
+> [entrevista] Em perguntas sobre fraquezas ou erros, o hedging certo soa maduro: "I tend to spend too long polishing details, so I've started timeboxing my tasks."
+
+> [dica] Em code review, perguntas suavizam sugestões: "Have you considered using a map here?" soa melhor que "Use a map here".
+
+?? Suavize: "The query is slow." → "The query seems ___ slow." (um pouco) ::: a bit ;; slightly ;; somewhat ;; a little ::: Softeners: a bit, slightly, somewhat.
+?? Complete: "It ___ that the issue only happens on mobile." (parece) ::: seems ;; appears ::: It seems / it appears that...
+?? Suavize em pergunta: "Use a cache here." → "Have you ___ using a cache here?" ::: considered ::: Have you considered + -ing?
+
+#### QUIZ
+Q: Os testes mostraram melhora, mas com poucos dados. Qual frase é mais precisa?
+- The change definitely fixed the problem. :: Certeza alta demais para poucos dados.
++ The change seems to have improved performance, but we need more data to confirm. :: Correto: hedge proporcional à evidência.
+- Maybe possibly the change could perhaps help. :: Hedging excessivo.
+Q: Qual é o feedback mais diplomático?
++ I think this function could be a bit simpler. Have you considered splitting it? :: Correto.
+- This function is terrible. :: Agressivo.
+- I don't like it. :: Vago e pessoal.
+
+## LESSON m09-2 | Ênfase: cleft sentences e inversão | 16
+
+### Cleft sentences
+Cleft sentences dividem a frase para destacar uma parte. Muito úteis em entrevistas para deixar claro o que importa.
+
+| Normal | Com ênfase |
+| The lack of monitoring caused the outage. | What caused the outage was the lack of monitoring. |
+| I enjoy solving problems. | What I enjoy most is solving problems. |
+| Ana found the bug. | It was Ana who found the bug. |
+| We need better documentation. | What we need is better documentation. |
+
+= What I really liked about this project was the impact on the sales team. | O que eu mais gostei nesse projeto foi o impacto no time de vendas.
+= It was only after we added logging that we found the root cause. | Foi só depois de adicionarmos logs que encontramos a causa raiz.
+
+### Inversão (formal)
+Depois de expressões negativas ou restritivas no início, a ordem vira de pergunta. É um recurso formal, de C1/C2, usado em escrita e apresentações.
+
+| Normal | Invertido |
+| We had never seen such traffic. | Never had we seen such traffic. |
+| We realized the problem only later. | Only later did we realize the problem. |
+| The tool is not only fast but also cheap. | Not only is the tool fast, but it's also cheap. |
+| As soon as we deployed, the errors started. | No sooner had we deployed than the errors started. |
+
+> [atencao] Inversão em conversa casual soa teatral. Use em escrita formal ou para impacto pontual em apresentação.
+
+> [entrevista] "What I'm looking for in my next role is..." e "What motivates me is..." são cleft sentences que deixam respostas sobre motivação mais claras e confiantes.
+
+> [dica] A cleft "What I mean is..." é ótima para se reformular quando percebe que não foi claro.
+
+?? Reescreva com ênfase: "I enjoy automation." → "What I enjoy ___" ::: is automation ::: What I enjoy is automation.
+?? Complete a inversão: "Never ___ we seen so many errors." ::: had ;; have ::: Never had we seen (ou never have we seen): auxiliar antes do sujeito.
+?? Complete: "Not only ___ the tool free, but it's also open source." ::: is ::: Not only is the tool...
+
+#### QUIZ
+Q: Qual frase usa cleft sentence?
++ What we need is a clear deadline. :: Correto.
+- We need a clear deadline. :: Frase normal.
+- We clearly need a deadline. :: Advérbio, não cleft.
+Q: Qual inversão está correta?
+- Only later we realized the problem. :: Falta a inversão: did we realize.
++ Only later did we realize the problem. :: Correto.
+- Only later realized we the problem. :: Ordem errada.
+
+## LESSON m09-3 | Modais no passado: dedução, crítica e arrependimento | 15
+
+### Modal + have + particípio
+Para falar do passado com modais, a estrutura é sempre **modal + have + past participle**.
+
+| Estrutura | Função | Exemplo |
+| must have done | Dedução forte sobre o passado | The job must have failed overnight; the table is empty. |
+| can't have done | Dedução negativa | He can't have deleted it; he doesn't have access. |
+| might / could have done | Possibilidade no passado | The email might have gone to spam. |
+| should have done | Crítica ou arrependimento | We should have tested it in staging. |
+| shouldn't have done | Crítica | I shouldn't have deployed on a Friday. |
+| could have done | Algo possível que não aconteceu | We could have avoided the outage. |
+| needn't have done / didn't need to | Algo feito sem necessidade | You needn't have stayed late. |
+
+= Someone must have changed the permissions. | Alguém deve ter mudado as permissões.
+= We should have added an alert for that. | Deveríamos ter adicionado um alerta para isso.
+= Looking back, I could have asked for help earlier. | Olhando para trás, eu poderia ter pedido ajuda antes.
+
+> [atencao] Na fala, should have soa "should've" (shoud-ov). Por isso muitos nativos escrevem errado "should of". O correto é sempre have.
+
+> [entrevista] "What would you do differently?" é pergunta clássica depois de você contar um projeto. Responda com modais no passado: "Looking back, I should have documented the flow from the start, and I could have involved the sales team earlier."
+
+> [dica] "Looking back" e "In hindsight" introduzem reflexões sobre o passado e combinam com should have.
+
+?? Complete: "The server is down. Someone ___ restarted it." (dedução forte) ::: must have ;; must've ::: Dedução forte: must have + particípio.
+?? Complete: "We ___ tested it before the release." (arrependimento) ::: should have ;; should've ::: Should have = deveria ter.
+?? Corrija: "I should of checked the logs." ::: I should have checked the logs. ;; I should've checked the logs. ::: "Should of" é erro de escrita: o correto é should have.
+
+#### QUIZ
+Q: "The report is empty. The query ___ failed." Qual é a dedução mais lógica?
++ must have :: Correto: dedução forte com evidência.
+- should have :: Expressa arrependimento, não dedução.
+- needn't have :: Expressa falta de necessidade.
+Q: Como responder "What would you do differently?"
+- I would do nothing different, it was perfect. :: Soa arrogante e sem reflexão.
++ In hindsight, I should have written tests earlier. :: Correto: reflexão com modal no passado.
+- I must have done tests. :: Dedução, não reflexão.
+
+## LESSON m09-4 | Nuance, conotação e idioms | 16
+
+### Palavras parecidas, efeitos diferentes
+No C2, a escolha da palavra comunica atitude. Sinônimos raramente são intercambiáveis.
+
+| Neutro | Positivo | Negativo |
+| confident | self-assured | arrogant |
+| careful | thorough, meticulous | slow, fussy |
+| direct | straightforward, candid | blunt, rude |
+| ambitious | driven | pushy |
+| inexpensive | cost-effective | cheap |
+| persistent | determined | stubborn |
+
+= I'm a thorough person; I like to double-check my work. | Sou uma pessoa minuciosa; gosto de revisar meu trabalho.
+= The solution was cost-effective and easy to maintain. | A solução era econômica e fácil de manter.
+
+### Idioms de trabalho
+Idioms aparecem muito em reuniões com nativos. Reconheça todos; use só os que soarem naturais para você.
+
+| Idiom | Significado |
+| on the same page | alinhados |
+| a ballpark figure | um número aproximado |
+| back to square one | voltar à estaca zero |
+| low-hanging fruit | ganhos fáceis |
+| the bottom line | o essencial, o resultado final |
+| touch base | conversar rapidamente, alinhar |
+| cut corners | fazer nas coxas, pular etapas |
+| up to speed | atualizado sobre o assunto |
+| a steep learning curve | difícil de aprender no começo |
+
+= Let's touch base on Friday to make sure we're on the same page. | Vamos alinhar na sexta para garantir que estamos alinhados.
+= Can you give me a ballpark figure for the cloud costs? | Você pode me dar um número aproximado dos custos de cloud?
+
+> [atencao] "Cheap" pode soar como "de baixa qualidade". Para elogiar o custo, prefira "cost-effective" ou "affordable".
+
+> [entrevista] Em "Describe yourself in three words", escolha palavras com conotação positiva: thorough, curious, driven. Evite "perfectionist" (virou clichê) e "stubborn".
+
+> [dica] Não force idioms. Um idiom mal usado chama mais atenção do que uma frase simples. Comece reconhecendo e só depois use.
+
+?? Complete: "Let's make sure we're all on the same ___." ::: page ::: On the same page = alinhados.
+?? Complete: "Can you give me a ___ figure?" (número aproximado) ::: ballpark ::: Ballpark figure.
+?? Qual palavra é positiva para "careful": thorough ou fussy? ::: thorough ::: Thorough tem conotação positiva; fussy é negativa.
+?? Complete: "The test failed again; we're back to square ___." ::: one ::: Back to square one = estaca zero.
+
+#### QUIZ
+Q: Qual palavra elogia uma solução de baixo custo?
+- cheap :: Pode soar como baixa qualidade.
++ cost-effective :: Correto.
+- stingy :: Significa mesquinho, para pessoas.
+Q: O que significa "low-hanging fruit"?
++ Tarefas fáceis que trazem resultado rápido :: Correto.
+- Problemas que ninguém quer resolver :: Não.
+- Frutas baratas :: Sentido literal; não é o uso no trabalho.
+
+## CHALLENGE m09-c1 | Nuance sob controle | auto
+TASK:
+Reescreva ou complete conforme pedido. Ignora pontuação final.
+ITEMS:
+Ênfase: "The lack of tests caused the bug." → What caused ... ::: What caused the bug was the lack of tests.
+Modal no passado (dedução): "Tenho certeza de que alguém apagou o arquivo." → Someone ... the file. ::: Someone must have deleted the file.
+Arrependimento: "Não documentamos o processo (e deveríamos)." → We ... the process. ::: We should have documented the process.
+Inversão: "We had never seen this error." → Never ... ::: Never had we seen this error.
+Hedging: "This will fail in production." (suavize com might) ::: This might fail in production.
+Idiom: "Precisamos garantir que estamos alinhados." → We need to make sure we're on the same ... ::: page ;; We need to make sure we're on the same page.
+HINT:
+Cleft: What + verbo + was. Dedução forte: must have. Arrependimento: should have. Inversão: had + sujeito. Hedging: might + verbo base.
+SOLUTION:
+1. What caused the bug was the lack of tests.
+2. Someone must have deleted the file.
+3. We should have documented the process.
+4. Never had we seen this error.
+5. This might fail in production.
+6. page
+
+## CHALLENGE m09-c2 | Code review diplomático | manual
+TASK:
+Você está revisando o código de um colega e encontrou três problemas: (1) uma senha escrita direto no código, (2) uma função de 200 linhas, (3) nenhum tratamento de erro na chamada à API. Escreva os três comentários de review em inglês, diplomáticos mas claros. Depois escreva um resumo de 2 frases para o colega.
+HINT:
+Use perguntas ("Have you considered...?"), softeners (a bit, might) e explique o porquê. Para o problema grave (senha), seja claro sobre a prioridade.
+SOLUTION:
+(1) "This password is hardcoded, which could be a security risk if the repo is shared. Could we move it to an environment variable or a secrets manager before merging?"
+(2) "This function is a bit long and might be hard to test. Have you considered splitting it into smaller functions, for example one for validation and one for the API call?"
+(3) "What happens if the API is down? It might be worth adding a try/catch and a retry here."
+Resumo: "Nice work overall, the logic is clear. The hardcoded password is the only blocker; the other two are suggestions."
+EXPECTED:
+- Três comentários com a explicação do motivo.
+- Pelo menos duas formas de suavizar (pergunta, softener, hedge).
+- Prioridade clara: a senha é bloqueante, os outros são sugestões.

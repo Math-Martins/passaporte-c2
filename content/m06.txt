@@ -1,0 +1,201 @@
+# MODULE m06
+num: 06
+level: B2
+title: Pronúncia e listening
+summary: Os sons que mais atrapalham brasileiros, o ritmo do inglês e a fala conectada. Ouvir bem depende de saber como o inglês soa de verdade.
+goal: Ser entendido na primeira vez e entender falas em ritmo natural, com sotaques diferentes.
+
+## LESSON m06-1 | Os sons que denunciam o brasileiro | 16
+
+### A meta é ser entendido
+O objetivo não é eliminar o sotaque, e sim garantir **inteligibilidade**: que a pessoa entenda na primeira vez. Alguns erros mudam a palavra e confundem o ouvinte. Esses são prioridade.
+
+| Problema | Exemplo | Como corrigir |
+| Vogal extra no início (s + consoante) | "estudy", "eschedule" | Comece direto no s: study, schedule, Spanish |
+| Vogal extra no fim | "worki", "bigui", "Facebooki" | Termine na consoante: work, big, book |
+| TH | "tree" no lugar de three | Língua entre os dentes: three, think, the |
+| Vogal curta x longa | ship x sheep, live x leave | Curta é rápida e relaxada; longa é tensa e mais comprida |
+| H inicial | "ouse" no lugar de house | H é só um sopro: house, how, help |
+| Final -ed | "work-ed" | Só se pronuncia como sílaba depois de t/d (veja abaixo) |
+
+= I think the third test failed. | Acho que o terceiro teste falhou.
+= I'm studying Spanish and English. | Estou estudando espanhol e inglês.
+= Can you live with that? We leave at six. | Dá para aceitar isso? Saímos às seis.
+
+### A terminação -ed
+- Depois de **t** ou **d**: vira uma sílaba extra, /ɪd/: wanted, needed, added, started, tested.
+- Depois de sons surdos (p, k, s, sh, ch, f): soa /t/: worked, fixed, stopped, pushed.
+- Nos demais casos: soa /d/: deployed, called, used, planned.
+
+> [atencao] "Worked" tem uma sílaba só: "workt". Dizer "work-ed" é um dos erros mais perceptíveis de brasileiros.
+
+> [entrevista] Palavras que você vai dizer em toda entrevista e precisam estar limpas: experience, developer, data (DEI-ta ou DA-ta), schedule, process, project, worked, built, three, months.
+
+> [dica] Use o YouGlish com as palavras que você mais usa no trabalho. Ouça cinco falantes diferentes e repita junto.
+
+?? Quantas sílabas tem "worked"? (digite o número) ::: 1 ;; one ::: O -ed depois de k soa /t/, sem sílaba extra.
+?? Quantas sílabas tem "tested"? (digite o número) ::: 2 ;; two ::: Depois de t, o -ed vira sílaba: tes-ted.
+?? Em "fixed", o -ed soa como /t/, /d/ ou /ɪd/? (digite t, d ou id) ::: t ::: Depois do som /s/ de fix (ks), o -ed soa /t/.
+
+#### QUIZ
+Q: Qual erro de pronúncia mais atrapalha a compreensão?
++ Trocar sons que mudam a palavra, como three por "tree" :: Correto. Muda o significado.
+- Ter sotaque brasileiro perceptível :: Sotaque inteligível é normal e profissional.
+- Não soar britânico :: Não existe um sotaque obrigatório.
+Q: Como soa o -ed em "planned"?
+- /ɪd/, com sílaba extra :: Só depois de t ou d.
+- /t/ :: Só depois de sons surdos.
++ /d/ :: Correto. Depois de som sonoro (n), soa /d/.
+
+## LESSON m06-2 | Word stress e sentence stress | 15
+
+### Sílaba tônica muda a palavra
+Errar a sílaba tônica atrapalha mais que errar uma vogal. Algumas palavras de trabalho que brasileiros costumam errar:
+
+| Palavra | Tônica correta | Erro comum |
+| developer | de-VEL-op-er | DE-ve-lo-per |
+| development | de-VEL-op-ment | de-ve-LOP-ment |
+| company | COM-pa-ny | com-PA-ny |
+| analysis | a-NAL-y-sis | a-na-LY-sis |
+| analyst | AN-a-lyst | a-NA-lyst |
+| technology | tech-NOL-o-gy | TECH-no-lo-gy |
+| engineer | en-gi-NEER | en-GI-neer |
+| available | a-VAIL-a-ble | a-vai-LA-ble |
+
+> [atencao] As maiúsculas marcam a sílaba tônica. Errar a tônica atrapalha mais a compreensão do que errar o som de uma vogal.
+
+### Substantivo x verbo
+Em pares de duas sílabas, o substantivo costuma ter tônica na primeira e o verbo na segunda: **a REcord / to reCORD**, **a PREsent / to preSENT**, **an INcrease / to inCREASE**, **an UPdate / to upDATE**.
+
+### Sentence stress
+Em uma frase, as palavras de conteúdo (substantivos, verbos principais, adjetivos) são fortes. As palavras gramaticais (a, the, to, of, can, was) ficam fracas e rápidas. Isso cria o ritmo do inglês.
+
+= I NEED to SEND the REPORT by FRIday. | Preciso mandar o relatório até sexta.
+= We MIGRATED the DATAbase to the CLOUD. | Migramos o banco de dados para a nuvem.
+
+> [entrevista] Use a ênfase para destacar o que importa: "I reduced the processing time by SEVENTY percent." A voz sobe e alonga no número.
+
+> [dica] Grave uma frase sua e uma frase de um nativo no YouGlish. Compare só o ritmo, ignorando as vogais. Ritmo é o que mais aproxima você de soar natural.
+
+?? Qual sílaba é a tônica em "developer"? (digite a sílaba: de, vel, op ou er) ::: vel ::: de-VEL-op-er.
+?? Qual sílaba é a tônica em "technology"? (tech, nol, o ou gy) ::: nol ::: tech-NOL-o-gy.
+?? O verbo "to record" tem tônica na 1ª ou 2ª sílaba? (digite 1 ou 2) ::: 2 ::: Verbo: re-CORD. Substantivo: RE-cord.
+
+#### QUIZ
+Q: Em "We need to update the system", quais palavras recebem mais força?
++ need, update, system :: Correto. Palavras de conteúdo são fortes.
+- we, to, the :: Palavras gramaticais ficam fracas.
+- todas igualmente :: Isso tira o ritmo natural do inglês.
+Q: Onde fica a tônica de "analyst"?
++ AN-a-lyst :: Correto.
+- a-NAL-yst :: Essa é a tônica de analysis (a-NAL-y-sis), não de analyst.
+- a-na-LYST :: Não.
+
+## LESSON m06-3 | Connected speech: por que você não entende nativos | 17
+
+### As palavras se juntam
+Nativos não falam palavra por palavra. Eles juntam, encurtam e somem com sons. Você conhece as palavras, mas não as reconhece coladas. Esses são os processos principais:
+
+| Processo | Escrito | Como soa |
+| Linking (consoante + vogal) | turn it off | tur-ni-toff |
+| Weak forms | Can you do it? | k'n yuh DO it |
+| Elision (som some) | next day, last week | nex day, las week |
+| Assimilation (som muda) | did you, want you | didja, wancha |
+| Reduções informais | going to, want to, got to | gonna, wanna, gotta |
+
+= What are you going to do? → Whaddaya gonna do? | O que você vai fazer?
+= Did you get it? → Didja get it? | Você pegou?
+= Let me check it out. → Lemme che-ki-tout. | Deixa eu conferir.
+
+### Weak forms mais comuns
+Palavras gramaticais têm forma forte (sozinhas ou com ênfase) e fraca (no meio da frase): **to** /tə/, **for** /fə/, **can** /kən/, **was** /wəz/, **and** /ən/, **of** /əv/. O som /ə/ (schwa) é o som mais comum do inglês.
+
+> [atencao] Reconhecer gonna e wanna é obrigatório. Usar na fala informal é natural. Escrever gonna em e-mail profissional não é.
+
+> [entrevista] Entrevistadores nativos falam em ritmo normal. Se você treinar connected speech, deixa de pedir repetição a cada pergunta. Treine com entrevistas reais no YouTube.
+
+> [dica] Técnica de shadowing: toque 10 segundos de áudio, pause e repita imitando ritmo e entonação. Faça 10 minutos por dia com o mesmo trecho até ficar igual.
+
+?? Escreva por extenso: "I'm gonna check the logs." ::: I'm going to check the logs. ;; I am going to check the logs. ::: Gonna = going to.
+?? Escreva por extenso: "Do you wanna join the call?" ::: Do you want to join the call? ::: Wanna = want to.
+?? Escreva por extenso: "Didja see the alert?" ::: Did you see the alert? ::: Didja = did you.
+
+#### QUIZ
+Q: Por que muitos alunos B1 leem bem mas não entendem nativos falando?
+- Porque nativos usam palavras que não estão no dicionário :: Na maior parte, são palavras comuns.
++ Porque as palavras se conectam e se reduzem na fala natural :: Correto. É o connected speech.
+- Porque o inglês falado tem outra gramática :: A gramática é a mesma.
+Q: Qual é o som mais comum do inglês?
++ O schwa /ə/ :: Correto. Aparece em quase toda sílaba fraca.
+- O th :: É frequente, mas não o mais comum.
+- O r :: Não.
+
+## LESSON m06-4 | Estratégias de listening | 14
+
+### Ouvir com objetivo
+Ouvir passivamente com legenda em português ajuda pouco. O listening melhora com **escuta ativa**: você sabe o que procura e verifica depois.
+
+1. Ouça sem legenda e anote o tema e 3 ideias principais.
+2. Ouça de novo procurando informações específicas (números, nomes, decisões).
+3. Leia a transcrição e marque o que você não pegou.
+4. Classifique: palavra desconhecida ou palavra conhecida que você não reconheceu? A segunda é problema de connected speech.
+5. Faça shadowing de um trecho difícil.
+6. Resuma em voz alta sem olhar.
+
+### Material por nível
+| Nível | Material | Por quê |
+| B1 | BBC 6 Minute English | Curto, com transcrição e vocabulário |
+| B1 → B2 | TED Talks com legenda em inglês | Fala clara, temas variados |
+| B2 | Luke's English Podcast, podcasts de tecnologia | Fala natural longa |
+| C1 | Entrevistas, debates, conferências técnicas sem legenda | Ritmo real, sotaques variados |
+
+> [atencao] Legenda em português transforma listening em reading. Use legenda em inglês, e só quando já entende boa parte do áudio.
+
+> [entrevista] Em entrevistas com estrangeiros você vai ouvir sotaques indianos, alemães, espanhóis e outros. Inclua palestras com falantes não nativos no seu treino.
+
+> [dica] Velocidade 0.75x é uma ferramenta de estudo, não de consumo. Use para decifrar um trecho e depois volte para 1x.
+
+?? Complete: "Shadowing é repetir o áudio imitando ___ e entonação." ::: ritmo ;; o ritmo ::: Ritmo e entonação são o foco do shadowing.
+?? Se você conhecia a palavra mas não a reconheceu no áudio, o problema é de vocabulário ou de connected speech? (digite vocabulário ou connected speech) ::: connected speech ::: A palavra é conhecida; o problema é reconhecê-la na fala natural.
+
+#### QUIZ
+Q: Qual prática melhora mais o listening?
+- Assistir séries com legenda em português :: Vira treino de leitura em português.
++ Ouvir com objetivo, conferir com a transcrição e fazer shadowing :: Correto.
+- Ouvir música enquanto trabalha :: Exposição passiva ajuda pouco sozinha.
+Q: Para que serve ouvir falantes não nativos?
++ Para se acostumar aos sotaques que vai encontrar em times internacionais :: Correto.
+- Para aprender gramática :: Não é o objetivo.
+- Não serve, só nativos importam :: Grande parte dos times internacionais é de não nativos.
+
+## CHALLENGE m06-c1 | Decifre a fala conectada | auto
+TASK:
+Cada frase está escrita como soa na fala rápida. Escreva a frase por extenso, em inglês padrão.
+ITEMS:
+Whaddaya wanna do? ::: What do you want to do?
+I gotta go. ::: I've got to go. ;; I have got to go. ;; I have to go. ;; I got to go.
+Lemme see. ::: Let me see.
+We're gonna deploy it tomorrow. ::: We're going to deploy it tomorrow. ;; We are going to deploy it tomorrow.
+Didja push the changes? ::: Did you push the changes?
+I dunno. ::: I don't know. ;; I do not know.
+HINT:
+gonna = going to, wanna = want to, gotta = got to, lemme = let me, didja = did you, dunno = don't know, whaddaya = what do you.
+SOLUTION:
+1. What do you want to do?
+2. I've got to go.
+3. Let me see.
+4. We're going to deploy it tomorrow.
+5. Did you push the changes?
+6. I don't know.
+
+## CHALLENGE m06-c2 | Shadowing de 1 minuto | manual
+TASK:
+Escolha 1 minuto de um TED Talk ou episódio do 6 Minute English. Siga as 6 etapas da aula de estratégias. Depois grave você lendo a transcrição do trecho e compare com o original.
+HINT:
+Escolha um falante com ritmo claro. Marque na transcrição as palavras fortes (sentence stress) antes de gravar.
+SOLUTION:
+Não há resposta única. Um bom resultado tem ritmo parecido com o original (palavras de conteúdo fortes, gramaticais fracas), -ed e th corretos, e nenhuma vogal extra no começo ou fim das palavras.
+EXPECTED:
+- Resumo do trecho em 3 ideias principais.
+- Lista de palavras que você conhecia mas não reconheceu no áudio.
+- Gravação comparada ao original, com 3 diferenças anotadas.

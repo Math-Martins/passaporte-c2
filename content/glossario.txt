@@ -1,0 +1,135 @@
+# termo | tradução | definição e exemplo | categoria
+Active voice | voz ativa | Frase em que o sujeito faz a ação. *The team deployed the app.* | Gramática
+Adverb of frequency | advérbio de frequência | Indica com que frequência algo acontece: always, usually, often, sometimes, rarely, never. | Gramática
+Auxiliary verb | verbo auxiliar | Verbo que ajuda a formar tempos, perguntas e negativas: do, does, did, have, be, will. | Gramática
+Cleft sentence | frase clivada | Frase dividida para dar ênfase. *What I enjoy is solving problems.* | Gramática
+Collocation | colocação | Palavras que naturalmente andam juntas. *make a decision, meet a deadline.* | Gramática
+Conditional | condicional | Frase com if que liga condição e resultado. Tipos zero, first, second, third e mixed. | Gramática
+Connector | conector | Palavra que liga ideias: however, therefore, because, as a result. | Gramática
+Contraction | contração | Forma curta: I'm, don't, we've, it's. Natural na fala; menos usada em textos formais. | Gramática
+Countable noun | substantivo contável | Substantivo que pode ser contado: one server, two servers. | Gramática
+Defining relative clause | oração relativa restritiva | Oração essencial para identificar o substantivo, sem vírgulas. *The script that I wrote runs daily.* | Gramática
+Discourse marker | marcador de discurso | Palavra que organiza a fala: actually, anyway, by the way, I mean. | Gramática
+Future Perfect | futuro perfeito | Ação concluída antes de um ponto futuro. *By March, we will have migrated.* | Gramática
+Gerund | gerúndio (forma -ing como substantivo) | Verbo com -ing usado como substantivo. *I enjoy coding.* | Gramática
+Hedging | atenuação | Calibrar a certeza de uma afirmação. *It seems that, it might, tends to.* | Gramática
+Idiom | expressão idiomática | Expressão com sentido não literal. *on the same page, back to square one.* | Gramática
+Imperative | imperativo | Forma de dar instruções. *Run the command. Clone the repository.* | Gramática
+Indirect question | pergunta indireta | Pergunta educada com ordem afirmativa. *Could you tell me where the file is?* | Gramática
+Infinitive | infinitivo | Forma base com ou sem to: to work, work. | Gramática
+Inversion | inversão | Auxiliar antes do sujeito para ênfase formal. *Never had we seen such traffic.* | Gramática
+Irregular verb | verbo irregular | Verbo que não forma o passado com -ed: go/went/gone, build/built/built. | Gramática
+Modal verb | verbo modal | Verbo que expressa possibilidade, obrigação, conselho: can, could, should, must, might. | Gramática
+Non-defining relative clause | oração relativa explicativa | Informação extra entre vírgulas, sem that. *Our CRM, which we bought in 2024, is slow.* | Gramática
+Passive voice | voz passiva | Be + particípio, com foco no objeto. *The data is stored in S3.* | Gramática
+Past Continuous | passado contínuo | Ação em andamento no passado. *I was testing when it crashed.* | Gramática
+Past participle | particípio passado | Terceira forma do verbo: worked, built, written. Usado em tempos perfeitos e na passiva. | Gramática
+Past Perfect | mais-que-perfeito | Ação anterior a outra no passado. *The job had failed before I checked.* | Gramática
+Past Simple | passado simples | Ação terminada em um momento definido. *I finished the course in 2025.* | Gramática
+Phrasal verb | verbo frasal | Verbo + partícula com sentido próprio. *set up, look into, roll back.* | Gramática
+Present Continuous | presente contínuo | Ação agora ou temporária. *I'm working on a migration.* | Gramática
+Present Perfect | presente perfeito | Liga passado e presente. *I've worked here since 2025.* | Gramática
+Present Perfect Continuous | presente perfeito contínuo | Destaca duração até agora. *I've been studying English for three years.* | Gramática
+Present Simple | presente simples | Rotina, fatos, estados. *I work with automation.* | Gramática
+Question tag | pergunta de confirmação | Pergunta curta no fim da frase. *It's ready, isn't it?* | Gramática
+Register | registro | Nível de formalidade da linguagem: formal, neutro, informal. | Gramática
+Reported speech | discurso indireto | Contar o que alguém disse. *She said the API was down.* | Gramática
+Stative verb | verbo de estado | Verbo que descreve estado e quase não vai para -ing: know, need, want, believe. | Gramática
+Subject question | pergunta de sujeito | Pergunta sobre o sujeito, sem do/did. *Who broke the build?* | Gramática
+Uncountable noun | substantivo incontável | Não se conta diretamente: data, information, advice, software. | Gramática
+Word formation | formação de palavras | Criar palavras com prefixos e sufixos: scale, scalable, scalability. | Gramática
+Assimilation | assimilação | Som que muda pelo vizinho na fala. *did you* soa "didja". | Pronúncia
+Connected speech | fala conectada | Como as palavras se juntam e se reduzem na fala natural. | Pronúncia
+Elision | elisão | Som que desaparece na fala. *next day* soa "nex day". | Pronúncia
+Intelligibility | inteligibilidade | Ser entendido com facilidade, independentemente do sotaque. | Pronúncia
+Intonation | entonação | Subida e descida da voz na frase. | Pronúncia
+Linking | ligação | Juntar consoante final com vogal seguinte. *turn it off* soa "tur-ni-toff". | Pronúncia
+Schwa | schwa | O som /ə/, vogal fraca e mais comum do inglês, como o "a" de *about*. | Pronúncia
+Sentence stress | acento da frase | Palavras de conteúdo fortes, palavras gramaticais fracas. | Pronúncia
+Shadowing | shadowing | Repetir um áudio logo depois de ouvir, imitando ritmo e entonação. | Pronúncia
+Weak form | forma fraca | Versão reduzida de palavras gramaticais: to /tə/, can /kən/. | Pronúncia
+Word stress | sílaba tônica | Sílaba mais forte da palavra. *de-VEL-op-er.* | Pronúncia
+Action item | ação a fazer | Tarefa concreta definida em uma reunião ou postmortem. | Trabalho
+ASAP | o quanto antes | As soon as possible. Informal; em e-mail formal use *at your earliest convenience.* | Trabalho
+Ballpark figure | número aproximado | Estimativa rápida. *Can you give me a ballpark figure?* | Trabalho
+Blocker | impedimento | Algo que impede você de avançar. *Any blockers?* | Trabalho
+Bottom line | o essencial | O ponto principal ou resultado final. | Trabalho
+Bug report | relato de bug | Registro de defeito com passos, resultado esperado e resultado real. | Trabalho
+Daily stand-up | reunião diária | Reunião curta sobre ontem, hoje e impedimentos. | Trabalho
+Deadline | prazo | Data limite. *meet a deadline, a tight deadline.* | Trabalho
+Deliverable | entregável | Resultado concreto que deve ser entregue. | Trabalho
+EOD | fim do dia | End of day. *I'll send it by EOD.* | Trabalho
+Escalate | escalar | Levar um problema para um nível superior ou outro time. | Trabalho
+Feedback | retorno, avaliação | Comentário sobre o trabalho. *give feedback, receive feedback.* | Trabalho
+Follow up | dar seguimento | Retomar um assunto. *I'll follow up by email.* | Trabalho
+FYI | para sua informação | For your information. | Trabalho
+Hands-on experience | experiência prática | Experiência de quem realmente fez. | Trabalho
+Heads-up | aviso prévio | Aviso antecipado. *Heads-up: the API will be down tonight.* | Trabalho
+Kickoff | reunião de início | Reunião que inicia um projeto. | Trabalho
+Low-hanging fruit | ganho fácil | Tarefa fácil com resultado rápido. | Trabalho
+Onboarding | integração | Processo de entrada de um novo funcionário ou cliente. | Trabalho
+On the same page | alinhados | Com o mesmo entendimento. | Trabalho
+Ownership | responsabilidade, protagonismo | Assumir algo como seu. *take ownership.* | Trabalho
+Postmortem | análise pós-incidente | Relatório sem culpados sobre o que deu errado e o que muda. | Trabalho
+Signposting | sinalização | Frases que guiam o ouvinte numa apresentação. *First, I'll cover...* | Trabalho
+Stakeholder | parte interessada | Pessoa ou área afetada por um projeto. | Trabalho
+Takeaway | lição principal | A mensagem que fica. *The key takeaway is...* | Trabalho
+Touch base | alinhar rapidamente | Conversar brevemente. *Let's touch base on Friday.* | Trabalho
+Trade-off | contrapartida | O que se perde ao escolher uma opção. | Trabalho
+Up to speed | atualizado | Por dentro do assunto. *Let me bring you up to speed.* | Trabalho
+Workaround | solução paliativa | Forma de contornar um problema sem resolver a causa. | Trabalho
+API | API | Interface que permite a dois sistemas se comunicarem. Pronuncia-se A-P-I. | Cloud
+Autoscaling | escalonamento automático | Ajuste automático da quantidade de recursos conforme a demanda. | Cloud
+Availability zone | zona de disponibilidade | Data center isolado dentro de uma região de cloud. | Cloud
+Bucket | bucket | Contêiner de armazenamento de objetos, como no Amazon S3. | Cloud
+CI/CD | integração e entrega contínuas | Automação de build, testes e deploy. | Cloud
+Container | contêiner | Pacote com a aplicação e suas dependências. | Cloud
+Deployment | implantação | Colocar uma versão no ar. *to deploy, a deployment.* | Cloud
+Downtime | tempo fora do ar | Período em que o sistema não funciona. | Cloud
+Encryption at rest | criptografia em repouso | Dados criptografados enquanto armazenados. | Cloud
+Failover | failover | Troca automática para um sistema reserva quando o principal falha. | Cloud
+High availability | alta disponibilidade | Capacidade de continuar funcionando mesmo com falhas de componentes. | Cloud
+IaaS / PaaS / SaaS | modelos de serviço | Infraestrutura, plataforma ou software como serviço. | Cloud
+IAM | gestão de identidade e acesso | Controle de quem acessa o quê. *IAM role, IAM policy.* | Cloud
+Latency | latência | Tempo de resposta de uma requisição. | Cloud
+Least privilege | menor privilégio | Dar só as permissões necessárias. | Cloud
+Load balancer | balanceador de carga | Distribui o tráfego entre servidores. | Cloud
+Logs | registros | Registros de eventos do sistema usados em troubleshooting. | Cloud
+Monitoring | monitoramento | Acompanhar métricas e alertas de um sistema. | Cloud
+Outage | queda, interrupção | Período em que um serviço fica indisponível. | Cloud
+Rate limit | limite de requisições | Número máximo de chamadas permitidas por período. | Cloud
+Region | região | Localização geográfica de data centers de um provedor de cloud. | Cloud
+Rollback | reversão | Voltar para a versão anterior. Verbo: *roll back.* | Cloud
+Root cause | causa raiz | A causa fundamental de um problema. | Cloud
+Scalability | escalabilidade | Capacidade de crescer para atender mais demanda. | Cloud
+Serverless | sem servidor | Modelo em que você executa código sem gerenciar servidores. | Cloud
+Shared responsibility model | modelo de responsabilidade compartilhada | O provedor cuida da segurança da nuvem; o cliente cuida da segurança na nuvem. | Cloud
+SLA | acordo de nível de serviço | Service Level Agreement: compromisso de disponibilidade ou tempo de resposta. | Cloud
+Staging | homologação | Ambiente de testes parecido com produção. | Cloud
+Troubleshooting | resolução de problemas | Investigar e resolver falhas de forma sistemática. | Cloud
+Virtual machine | máquina virtual | Computador emulado em software, como uma instância EC2. | Cloud
+Webhook | webhook | Chamada HTTP que um sistema envia a outro quando um evento acontece. | Cloud
+Aggregate | agregar | Resumir dados com funções como sum, count, average. | Dados
+Dashboard | painel | Tela com indicadores e gráficos. | Dados
+Data pipeline | pipeline de dados | Sequência automatizada de etapas que move e transforma dados. | Dados
+Data warehouse | armazém de dados | Banco otimizado para análise. | Dados
+ETL | extrair, transformar, carregar | Processo que extrai, transforma e carrega dados em outro sistema. | Dados
+Foreign key | chave estrangeira | Coluna que referencia a chave primária de outra tabela. | Dados
+Index | índice | Estrutura que acelera buscas em um banco de dados. | Dados
+Insight | percepção, descoberta | Conclusão útil tirada dos dados. | Dados
+JOIN | junção | Combina linhas de duas tabelas por uma coluna em comum. | Dados
+KPI | indicador-chave | Key Performance Indicator: métrica de desempenho acompanhada pelo negócio. | Dados
+Outlier | valor atípico | Valor muito diferente dos demais. | Dados
+Primary key | chave primária | Coluna que identifica cada linha de forma única. | Dados
+Query | consulta | Comando que busca ou altera dados. *run a query.* | Dados
+Behavioral question | pergunta comportamental | Pergunta sobre experiências passadas. *Tell me about a time when...* | Entrevista
+Compensation package | pacote de remuneração | Salário mais benefícios. | Entrevista
+Cover letter | carta de apresentação | Carta que acompanha o currículo. | Entrevista
+Gross salary | salário bruto | Antes dos descontos. Líquido é *net salary.* | Entrevista
+Pitch | apresentação curta | Resumo de quem você é em 30 a 90 segundos. | Entrevista
+Résumé / CV | currículo | Résumé é mais usado nos EUA; CV no Reino Unido e na Europa. | Entrevista
+Situational question | pergunta situacional | Pergunta hipotética. *What would you do if...?* | Entrevista
+Soft skills | habilidades comportamentais | Comunicação, trabalho em equipe, organização. | Entrevista
+STAR method | método STAR | Situation, Task, Action, Result: estrutura para respostas comportamentais. | Entrevista
+Strength / weakness | ponto forte / ponto fraco | Tema clássico de entrevista. | Entrevista
+Thank-you email | e-mail de agradecimento | E-mail enviado até 24 horas após a entrevista. | Entrevista

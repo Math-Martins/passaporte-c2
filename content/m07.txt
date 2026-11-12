@@ -1,0 +1,204 @@
+# MODULE m07
+num: 07
+level: B2 → C1
+title: Escrita profissional
+summary: E-mails, mensagens no Slack e Teams, bug reports, relatórios de incidente e documentação. A escrita é onde seu inglês fica registrado, então ela precisa ser clara.
+goal: Escrever mensagens de trabalho claras, no tom certo, sem traduzir do português.
+
+## LESSON m07-1 | E-mails profissionais | 16
+
+### A estrutura de um bom e-mail
+Um e-mail de trabalho tem cinco partes. O erro mais comum de quem traduz do português é enrolar antes de dizer o objetivo.
+
+1. **Subject** específico: "Request: access to the production database" é melhor que "Question".
+2. **Greeting**: Hi Ana, / Hello team, / Dear Mr. Smith, (formal).
+3. **Propósito na primeira frase**: "I'm writing to ask for access to..."
+4. **Detalhes** curtos, com lista se houver mais de dois itens.
+5. **Próximo passo e fechamento**: "Could you let me know by Thursday? Best regards, Matheus"
+
+| Função | Frases |
+| Abrir | I'm writing to... / I'm reaching out about... / Following up on our call, ... |
+| Pedir | Could you please... / Would it be possible to... / I'd appreciate it if you could... |
+| Anexar | Please find attached... / I've attached... |
+| Prazo | by Friday / by end of day (EOD) / at your earliest convenience |
+| Fechar | Let me know if you have any questions. / Looking forward to hearing from you. |
+| Assinatura | Best regards, / Kind regards, / Best, / Thanks, |
+
+= I'm writing to request access to the analytics dashboard. | Escrevo para solicitar acesso ao dashboard de análise.
+= Please find attached the report for October. | Segue em anexo o relatório de outubro.
+= Following up on my previous email, have you had a chance to review the proposal? | Retomando meu e-mail anterior, você teve oportunidade de revisar a proposta?
+
+> [atencao] "I hope this email finds you well" é aceitável, mas virou clichê. Em e-mails internos, vá direto ao ponto. E nunca escreva "Kisses" ou "Hugs" (tradução de "beijos" e "abraços").
+
+> [entrevista] Depois da entrevista, um e-mail curto de agradecimento em 24 horas é um diferencial: agradeça, cite um ponto da conversa e reforce o interesse.
+
+> [dica] Teste da primeira frase: se o leitor só ler a primeira frase, ele sabe o que você quer? Se não, reescreva.
+
+?? Complete: "Please find ___ the invoice." ::: attached ::: "Please find attached" é a fórmula padrão para anexos.
+?? Complete: "I'm writing ___ ask about the deadline." ::: to ::: I'm writing to + verbo.
+?? Complete: "Following ___ on our call, here are the next steps." ::: up ::: Follow up on = dar seguimento a.
+
+#### QUIZ
+Q: Qual é a melhor primeira frase para pedir acesso a um sistema?
++ I'm writing to request access to the production logs. :: Correto. Objetivo claro na primeira frase.
+- I hope you are well and your family too, I want to ask something. :: Enrola e traduz do português.
+- Access. :: Seco demais.
+Q: Qual assinatura é adequada para um e-mail profissional?
+- Hugs, Matheus :: Tradução de "abraços"; não se usa.
++ Best regards, Matheus :: Correto.
+- Bye bye, Matheus :: Informal demais.
+
+## LESSON m07-2 | Slack e Teams: mensagens assíncronas | 13
+
+### Escreva para ser entendido sem conversa
+Em times distribuídos, a pessoa pode ler sua mensagem horas depois, em outro fuso. Uma boa mensagem assíncrona tem contexto, pergunta clara e o que você já tentou.
+
+| Mensagem fraca | Mensagem boa |
+| Hi | Hi Ana! Quick question about the n8n webhook: it's returning 403 since this morning. I checked the token and it's valid. Do you know if the IP allowlist changed? |
+| It's not working | The export job failed at 3 a.m. with a timeout error. Logs: (link). I'm re-running it now. |
+
+### Vocabulário de chat
+- **Heads-up**: aviso prévio. "Heads-up: the API will be down for maintenance at 10 p.m."
+- **FYI**: para sua informação.
+- **Quick question**: pergunta rápida.
+- **No rush**: sem pressa.
+- **Thread**: responda na thread para não poluir o canal.
+- **Ping**: mandar mensagem. "I'll ping you when it's ready."
+
+= Quick question: where can I find the staging credentials? | Pergunta rápida: onde encontro as credenciais de staging?
+= Heads-up: I'll be offline tomorrow afternoon. | Aviso: estarei offline amanhã à tarde.
+= No rush, whenever you have a moment. | Sem pressa, quando tiver um tempo.
+
+> [atencao] Mandar só "Hi" e esperar resposta é considerado improdutivo em muitos times (existe até o site nohello.net sobre isso). Escreva a pergunta inteira na primeira mensagem.
+
+> [entrevista] Perguntas como "How do you communicate in a remote team?" esperam exemplos concretos: "I always include context and what I've already tried, so people can answer asynchronously."
+
+> [dica] Para pedir ajuda, use o formato: o que eu quero fazer, o que acontece, o que eu já tentei, qual é minha pergunta.
+
+?? Complete: "___: the database will be down tonight." (aviso prévio) ::: Heads-up ;; Heads up ::: Heads-up avisa algo com antecedência.
+?? Complete: "No ___, whenever you have time." (sem pressa) ::: rush ::: No rush = sem pressa.
+
+#### QUIZ
+Q: Qual mensagem é melhor para pedir ajuda em um canal?
+- Hi :: Obriga a pessoa a esperar o resto.
++ Hi! The deploy is failing with "permission denied" on S3. I checked the IAM role and it has s3:PutObject. Any idea what else could block it? :: Correto: contexto, o que tentou e pergunta clara.
+- HELP!!! URGENT :: Gera ansiedade e não dá informação.
+Q: O que significa "FYI"?
++ For your information :: Correto.
+- For your interest :: Não.
+- Fix your issue :: Não.
+
+## LESSON m07-3 | Bug report e relatório de incidente | 17
+
+### Bug report
+Um bom bug report permite que outra pessoa reproduza o problema sem perguntar nada.
+
+| Seção | Conteúdo | Exemplo |
+| Title | Resumo específico | Login fails with 500 error when email has uppercase letters |
+| Steps to reproduce | Passos numerados | 1. Go to /login 2. Enter "Ana@Email.com" 3. Click Sign in |
+| Expected result | O que deveria acontecer | User is logged in |
+| Actual result | O que acontece | Page shows "500 Internal Server Error" |
+| Environment | Onde | Production, Chrome 130, Windows 11 |
+| Notes | Logs, prints, frequência | Happens every time; works with lowercase email |
+
+### Relatório de incidente (postmortem)
+Depois de uma falha em produção, times escrevem um relatório **blameless**: focado em processo, não em culpados.
+
+1. **Summary**: o que aconteceu, em duas frases.
+2. **Impact**: quem foi afetado e por quanto tempo.
+3. **Timeline**: horários dos eventos principais.
+4. **Root cause**: a causa raiz.
+5. **Resolution**: o que foi feito para resolver.
+6. **Action items**: o que muda para não repetir.
+
+= On November 3, the WhatsApp notifications stopped for about two hours. | Em 3 de novembro, as notificações de WhatsApp pararam por cerca de duas horas.
+= The root cause was an expired API token. | A causa raiz foi um token de API expirado.
+= As an action item, we added an alert 7 days before the token expires. | Como ação, adicionamos um alerta 7 dias antes de o token expirar.
+
+> [atencao] "Expected" e "actual" são fundamentais. Lembre: actual significa real, verdadeiro (o que de fato aconteceu), e não "atual".
+
+> [entrevista] "Tell me about a time something broke in production" é pergunta comum. Responda com a estrutura do postmortem: impact, root cause, resolution, o que você aprendeu.
+
+> [dica] Use voz passiva e linguagem neutra no relatório: "The token was not renewed" em vez de "Fulano esqueceu de renovar o token".
+
+?? Complete o título de seção do bug report: "Steps to ___" ::: reproduce ::: Steps to reproduce: passos para reproduzir.
+?? Complete: "Expected result: the file is uploaded. ___ result: an error message appears." ::: Actual ::: Actual result = resultado real.
+?? Complete: "The root ___ was a misconfigured firewall rule." ::: cause ::: Root cause = causa raiz.
+
+#### QUIZ
+Q: O que torna um bug report útil?
++ Passos para reproduzir, resultado esperado e resultado real :: Correto.
+- Escrever "não funciona" em letras maiúsculas :: Não ajuda a reproduzir.
+- Culpar quem escreveu o código :: Relatórios são blameless.
+Q: Em um postmortem, o que são "action items"?
+- A lista de culpados :: Postmortems são blameless.
++ Mudanças concretas para evitar que o problema se repita :: Correto.
+- O histórico do Git :: Não.
+
+## LESSON m07-4 | Documentação e README | 15
+
+### Escrever para quem não está na sua cabeça
+Documentação técnica em inglês segue um estilo previsível: frases curtas, imperativo nas instruções, presente simples nas descrições e passiva para o comportamento do sistema.
+
+| Seção do README | Estilo | Exemplo |
+| Overview | Present Simple | This workflow sends daily reminders from Outlook to WhatsApp. |
+| Requirements | Lista | Node.js 20 or later, an n8n instance, a UAZAPI token |
+| Installation | Imperativo | Clone the repository and run npm install. |
+| Configuration | Imperativo + passiva | Set the API_TOKEN variable. The token is stored in .env. |
+| Usage | Imperativo | Run npm start to start the server. |
+| Troubleshooting | Condicional | If you get a 401 error, check that your token is valid. |
+
+= This project automates product registration through WhatsApp. | Este projeto automatiza o cadastro de produtos via WhatsApp.
+= Make sure the webhook URL is publicly accessible. | Garanta que a URL do webhook seja acessível publicamente.
+= If the request fails, the workflow retries up to three times. | Se a requisição falhar, o workflow tenta de novo até três vezes.
+
+### Plain English
+O Google Technical Writing (na Biblioteca) ensina regras simples: uma ideia por frase, voz ativa quando quem faz importa, termos consistentes (não alterne "user", "client" e "customer" para a mesma coisa) e listas para passos.
+
+> [atencao] Não use "you must to". Depois de modal, verbo sem to: "You must set the variable".
+
+> [entrevista] Um README em inglês no seu GitHub é prova concreta de inglês escrito. Recrutadores olham. Deixe pelo menos os projetos fixados com README em inglês.
+
+> [dica] Leia documentação boa como modelo: MDN, AWS e Docker têm padrões consistentes que você pode imitar.
+
+?? Complete (imperativo): "___ the repository and install the dependencies." (clonar) ::: Clone ::: Instruções usam imperativo.
+?? Corrija: "You must to configure the token." ::: You must configure the token. ::: Depois de modal, verbo sem to.
+?? Complete: "If the token ___ (be) invalid, the API returns 401." ::: is ::: Zero conditional para comportamento do sistema.
+
+#### QUIZ
+Q: Qual estilo é usado em passos de instalação?
++ Imperativo: "Run npm install." :: Correto.
+- Futuro: "You will run npm install." :: Mais longo e menos direto.
+- Passado: "We ran npm install." :: Narra, não instrui.
+Q: Qual prática deixa a documentação mais clara?
+- Usar sinônimos variados para a mesma coisa :: Confunde o leitor técnico.
++ Usar o mesmo termo para o mesmo conceito sempre :: Correto. Consistência é clareza.
+- Escrever parágrafos longos :: Dificultam a leitura.
+
+## CHALLENGE m07-c1 | Monte o bug report | auto
+TASK:
+Complete as palavras que faltam no bug report e no e-mail. Digite só a palavra.
+ITEMS:
+Steps to ___: 1. Open the dashboard 2. Click Export. ::: reproduce
+___ result: a CSV file is downloaded. ::: Expected
+___ result: the page freezes. (o que de fato acontece) ::: Actual
+The root ___ was a query without a limit. ::: cause
+Please find ___ the screenshot of the error. ::: attached
+I'm writing ___ report an issue with the export feature. ::: to
+Looking forward to ___ from you. ::: hearing
+HINT:
+Lembre das seções do bug report (steps to reproduce, expected, actual) e das fórmulas de e-mail.
+SOLUTION:
+reproduce, Expected, Actual, cause, attached, to, hearing.
+
+## CHALLENGE m07-c2 | Relatório de incidente real | manual
+TASK:
+Pense em um problema real que você já resolveu (no estágio, na faculdade ou em um projeto). Escreva um relatório de incidente em inglês com as seis seções: Summary, Impact, Timeline, Root cause, Resolution, Action items. Entre 150 e 250 palavras.
+HINT:
+Use Past Simple para a timeline, passiva para o que aconteceu com o sistema e linguagem blameless.
+SOLUTION:
+"Summary: On October 14, the daily WhatsApp reminders were not sent. Impact: About 40 clients did not receive their appointment reminders for one day. Timeline: 07:00 the workflow ran and failed silently. 10:30 a client reported the issue. 10:45 the logs were checked. 11:20 the fix was deployed and the messages were resent. Root cause: The Microsoft Graph token had expired, and the workflow did not have an error alert. Resolution: The token was renewed and the reminders were sent manually. Action items: Add an error branch that notifies the team on Teams; monitor token expiration; document the renewal process."
+EXPECTED:
+- As seis seções presentes.
+- Timeline em Past Simple e linguagem sem culpados.
+- Pelo menos um action item concreto e verificável.

@@ -1,0 +1,179 @@
+# MODULE m11
+num: 11
+level: Projeto final
+title: Projeto final: Job Ready Portfolio
+summary: Um portfólio que prova que você trabalha em inglês: pitch gravado, entrevista simulada, apresentação técnica, documentação e e-mails. Com critérios de avaliação e plano para seguir do C1 ao C2.
+goal: Juntar tudo em evidências concretas e simular uma entrevista completa do início ao fim.
+
+## LESSON m11-1 | O portfólio: o que entregar | 14
+
+### Evidências, não promessas
+Dizer "my English is advanced" no currículo vale pouco. Mostrar um vídeo seu explicando um projeto, um README bem escrito e um relatório em inglês vale muito. O projeto final reúne essas evidências.
+
+| Entrega | Onde fica | Módulo de referência |
+| Pitch "Tell me about yourself" gravado (90 s) | Vídeo não listado ou arquivo | 10 |
+| Apresentação técnica de um projeto (3 a 5 min) | Vídeo | 08 |
+| README em inglês de um projeto | GitHub | 07 |
+| Relatório de incidente ou postmortem | Documento ou GitHub | 07 |
+| Três e-mails (pedido, status, follow-up) | Documento | 07 |
+| Banco de 5 histórias STAR | Documento pessoal | 10 |
+| Entrevista simulada completa (30 min) | Gravação | 11 |
+| Comparação com a gravação do módulo 1 | Notas pessoais | 01 |
+
+= I've put together a short portfolio of my work in English. | Montei um pequeno portfólio do meu trabalho em inglês.
+= Here's a short video where I walk through one of my projects. | Aqui está um vídeo curto em que explico um dos meus projetos.
+
+> [entrevista] Colocar o link do README em inglês ou de uma apresentação gravada no LinkedIn e no currículo gera perguntas na entrevista. Você leva a conversa para um terreno que domina.
+
+> [atencao] Não publique informação confidencial do estágio. Troque nomes de clientes, remova dados reais e descreva a arquitetura em alto nível.
+
+> [dica] Faça o portfólio em etapas, uma entrega por semana. Em dois meses ele está pronto, junto com o restante do curso.
+
+?? Complete: "I've put ___ a short portfolio." (montei) ::: together ::: Put together = montar, reunir.
+?? Complete: "In this video I walk ___ one of my projects." ::: through ::: Walk through = explicar passo a passo.
+
+#### QUIZ
+Q: Por que montar um portfólio em inglês?
++ Porque evidências concretas valem mais do que dizer que o inglês é avançado :: Correto.
+- Porque substitui a entrevista :: A entrevista continua; o portfólio a fortalece.
+- Porque é exigido por lei :: Não.
+Q: O que fazer com dados do estágio no portfólio?
+- Publicar tudo para mostrar a experiência real :: Risco de confidencialidade.
++ Anonimizar nomes e dados e descrever em alto nível :: Correto.
+- Não citar o estágio :: Perde a sua melhor experiência.
+
+## LESSON m11-2 | Autoavaliação com critérios reais | 15
+
+### Os critérios do IELTS como régua
+Os critérios de speaking do IELTS são públicos e servem para avaliar qualquer gravação sua. São quatro:
+
+| Critério | O que observa | Pergunta para você |
+| Fluency and Coherence | Ritmo, pausas, organização das ideias | Falei sem pausas longas? As ideias seguiram uma ordem lógica com conectores? |
+| Lexical Resource | Variedade e precisão do vocabulário | Usei collocations e palavras precisas, ou repeti "good", "thing" e "very"? |
+| Grammatical Range and Accuracy | Variedade e correção da gramática | Usei frases complexas (condicionais, relativas, passiva) com poucos erros? |
+| Pronunciation | Inteligibilidade, ritmo, entonação | Fui entendido na primeira vez? Errei -ed, th ou tônicas? |
+
+Para writing, os critérios são Task Response, Coherence and Cohesion, Lexical Resource e Grammatical Range and Accuracy.
+
+### Como avaliar uma gravação
+1. Ouça uma vez inteira sem parar.
+2. Dê uma nota de 1 a 5 em cada critério.
+3. Transcreva 1 minuto e marque erros no caderno de erros.
+4. Escolha **um** critério para melhorar na próxima semana.
+
+> [atencao] Autoavaliação tende a ser dura demais ou gentil demais. Sempre que puder, peça para alguém com inglês avançado ouvir uma gravação, ou use a correção do Write & Improve para textos.
+
+> [entrevista] Entrevistadores avaliam de forma parecida: entendem você? Você organiza as ideias? Tem vocabulário para o tema? Erros pequenos de gramática pesam bem menos do que clareza.
+
+> [dica] Compare a gravação do módulo 1 com uma gravação atual respondendo à mesma pergunta. Ouvir a diferença é a melhor motivação que existe.
+
+?? Qual critério do IELTS avalia variedade de vocabulário? (em inglês, duas palavras) ::: Lexical Resource ::: Lexical Resource avalia variedade e precisão do vocabulário.
+?? Complete o critério: "Fluency and ___" ::: Coherence ::: Fluency and Coherence.
+
+#### QUIZ
+Q: O que pesa mais em uma entrevista?
++ Clareza e organização das ideias :: Correto. Pequenos erros de gramática pesam menos.
+- Sotaque nativo :: Não é critério.
+- Zero erros de gramática :: Nem nativos falam sem erros.
+Q: Depois de avaliar uma gravação, o que fazer?
+- Tentar melhorar os quatro critérios ao mesmo tempo :: Dispersa o esforço.
++ Escolher um critério para focar na próxima semana :: Correto.
+- Apagar a gravação :: Ela serve de comparação.
+
+## LESSON m11-3 | Simulação completa e próximos passos | 18
+
+### Roteiro da entrevista simulada
+Use este roteiro com um colega, um professor ou um parceiro de conversação (Tandem, Cambly ou italki). Peça para a pessoa falar em ritmo normal e interromper às vezes.
+
+1. Small talk (2 min): How are you? Where are you based?
+2. Tell me about yourself (2 min).
+3. Duas perguntas comportamentais (8 min): um problema técnico e um erro.
+4. Duas perguntas técnicas (8 min): explique um conceito e como faria troubleshooting.
+5. Walk me through a project (5 min).
+6. Perguntas situacionais (3 min): What would you do if...?
+7. Suas perguntas para o entrevistador (2 min).
+
+### Depois do curso: do B2 ao C2
+O curso dá a estrutura; o C1 e o C2 vêm de uso constante. Um plano de manutenção:
+
+| Frequência | Atividade |
+| Diária | 20 min de listening ativo e 10 min de shadowing |
+| Semanal | Uma conversa de 30 min, um texto de 300 palavras corrigido, revisão do caderno de erros |
+| Mensal | Uma gravação avaliada com os critérios do IELTS, um livro ou série longa sem legenda em português |
+| Opcional | Certificação: Cambridge B2 First ou C1 Advanced, IELTS ou TOEFL, conforme o objetivo (vaga ou intercâmbio) |
+
+= Thank you for your time. I really enjoyed learning more about the team. | Obrigado pelo seu tempo. Gostei muito de conhecer mais sobre o time.
+= I'm really interested in this opportunity and I'm looking forward to the next steps. | Tenho muito interesse nesta oportunidade e aguardo os próximos passos.
+
+> [atencao] Para intercâmbio universitário, verifique qual certificação a universidade parceira aceita e a nota mínima antes de escolher a prova. Os requisitos mudam a cada edital.
+
+> [entrevista] Feche a entrevista com agradecimento e interesse. A última impressão conta tanto quanto a primeira.
+
+> [dica] Faça a simulação completa duas vezes, com duas semanas de intervalo. Na segunda, foque no critério que ficou mais fraco na primeira.
+
+?? Complete: "Thank you for your ___." (tempo) ::: time ::: Thank you for your time.
+?? Complete: "I'm looking forward ___ the next steps." ::: to ::: Look forward to + substantivo ou -ing.
+?? Complete: "I'm looking forward to ___ (hear) from you." ::: hearing ::: Depois de look forward to, verbo em -ing.
+
+#### QUIZ
+Q: Como se mantém a evolução depois do curso?
++ Com uso constante: listening diário, conversa semanal e avaliação mensal :: Correto.
+- Refazendo os exercícios de gramática do começo :: Revisar ajuda, mas não substitui uso real.
+- Só com certificação :: Certificação mede, não desenvolve.
+Q: Qual frase está correta?
+- I'm looking forward to hear from you. :: Depois de to (preposição), use -ing.
++ I'm looking forward to hearing from you. :: Correto.
+- I look forward hear from you. :: Falta to e o -ing.
+
+## CHALLENGE m11-c1 | Revisão geral do curso | auto
+TASK:
+Uma frase de cada módulo. Corrija ou complete conforme pedido. Ignora pontuação final e aceita contrações.
+ITEMS:
+Corrija: "I have 22 years." ::: I'm 22 years old. ;; I am 22 years old. ;; I'm 22. ;; I am 22.
+Corrija: "I work here since two years." ::: I've worked here for two years. ;; I have worked here for two years. ;; I've been working here for two years. ;; I have been working here for two years.
+Indireta: "Where is the report?" → Could you tell me ... ::: Could you tell me where the report is?
+Passiva: "They fixed the bug yesterday." ::: The bug was fixed yesterday.
+Collocation: "We need to ___ a decision." (só a palavra) ::: make
+Por extenso: "I'm gonna call you." ::: I'm going to call you. ;; I am going to call you.
+E-mail: "Please find ___ the file." (só a palavra) ::: attached
+Reunião: "Can I jump ___ here?" (só a palavra) ::: in
+Modal no passado: "Deveríamos ter testado." → We ... ::: We should have tested. ;; We should have tested it.
+Entrevista: "I'm looking forward to ___ (hear) from you." (só a palavra) ::: hearing
+HINT:
+Revise: módulo 1 (erros clássicos), 2 (for/since), 3 (indiretas), 4 (passiva), 5 (collocations), 6 (gonna), 7 (e-mail), 8 (reunião), 9 (should have), 10 e 11 (look forward to).
+SOLUTION:
+1. I'm 22 years old.
+2. I've worked here for two years.
+3. Could you tell me where the report is?
+4. The bug was fixed yesterday.
+5. make
+6. I'm going to call you.
+7. attached
+8. in
+9. We should have tested.
+10. hearing
+
+## CHALLENGE m11-c2 | Job Ready Portfolio | manual
+TASK:
+Monte o portfólio completo com as oito entregas da aula 1 deste módulo. Organize tudo em uma pasta ou página com links.
+HINT:
+Uma entrega por semana. Comece pelo que você já tem (README, pitch) e deixe a entrevista simulada por último.
+SOLUTION:
+Não há solução única. Use os exemplos dos módulos 7, 8 e 10 como modelo e adapte aos seus projetos reais.
+EXPECTED:
+- Oito entregas organizadas em um único lugar.
+- Pelo menos um vídeo seu falando de 3 a 5 minutos sem roteiro.
+- README em inglês publicado no GitHub.
+- Nenhum dado confidencial do estágio exposto.
+
+## CHALLENGE m11-c3 | Entrevista simulada de 30 minutos | manual
+TASK:
+Faça a entrevista simulada completa seguindo o roteiro da aula 3, com outra pessoa no papel de entrevistador. Grave. Depois avalie com os quatro critérios do IELTS (nota de 1 a 5 em cada) e compare com a gravação do módulo 1.
+HINT:
+Use o banco de perguntas da aba Entrevista para escolher as perguntas e peça ao entrevistador que não mostre a lista antes.
+SOLUTION:
+Não há solução única. Uma entrevista bem-sucedida tem respostas STAR com resultado, pedidos de esclarecimento naturais quando necessário, pelo menos um conceito técnico explicado com analogia e três perguntas para o entrevistador.
+EXPECTED:
+- Gravação de cerca de 30 minutos cobrindo as sete etapas do roteiro.
+- Notas de 1 a 5 nos quatro critérios, com uma justificativa por nota.
+- Três diferenças concretas em relação à gravação do módulo 1.

@@ -1,0 +1,205 @@
+# MODULE m02
+num: 02
+level: B1 → B2
+title: Tempos verbais com propósito
+summary: Present, past e future escolhidos pelo sentido, não pela regra decorada. É o que você usa para falar de rotina, experiência e planos em uma entrevista.
+goal: Escolher o tempo verbal certo para rotina, projeto atual, experiência, histórias e planos.
+
+## LESSON m02-1 | Rotina x momento: Present Simple e Continuous | 14
+
+### Duas perguntas diferentes
+"What do you do?" e "What are you doing?" parecem iguais, mas pedem coisas diferentes. A primeira pergunta sua profissão ou rotina. A segunda pergunta o que você está fazendo agora, ou neste período.
+
+| Tempo | Uso | Exemplo |
+| Present Simple | Rotina, fatos, coisas permanentes | I work with automation. |
+| Present Continuous | Agora, ou um período temporário | I'm working on a data pipeline this month. |
+
+= What do you do? | O que você faz? (profissão)
+= I work as an intern at a software company. | Trabalho como estagiário em uma empresa de software.
+= What are you working on at the moment? | Em que você está trabalhando no momento?
+= I'm building a dashboard for the sales team. | Estou construindo um dashboard para o time de vendas.
+
+### Stative verbs
+Alguns verbos descrevem estados, não ações, e quase nunca vão para o -ing: **know, understand, believe, want, need, like, prefer, belong, seem, mean**.
+
+- I know Python. (não: I'm knowing)
+- I need more time. (não: I'm needing)
+- What does this error mean? (não: is meaning)
+
+> [atencao] "I'm loving it" é slogan, não regra. Em entrevista, diga "I really like working with data", com Present Simple.
+
+> [entrevista] Em entrevista, use os dois tempos juntos para mostrar contexto: "I work as an automation intern. Right now I'm integrating our CRM with WhatsApp." A primeira frase dá o cargo, a segunda mostra o que você faz de verdade.
+
+> [dica] Palavras como currently, right now, this week e these days sinalizam o Continuous. Usually, always e every day sinalizam o Simple.
+
+?? Complete: "I usually ___ (start) work at 8." ::: start ::: Rotina com usually pede Present Simple.
+?? Complete: "This month I ___ (work) on a migration to AWS." ::: am working ;; 'm working ::: Período temporário pede Present Continuous.
+?? Corrija: "I am knowing SQL." ::: I know SQL. ::: Know é stative verb e não vai para -ing.
+
+#### QUIZ
+Q: O recrutador pergunta "What do you do?". O que ele quer saber?
++ Sua profissão ou ocupação :: Isso. "What do you do?" pergunta o que você faz normalmente.
+- O que você está fazendo neste momento :: Seria "What are you doing?".
+- Seus hobbies :: Para hobbies se pergunta "What do you do in your free time?".
+Q: Qual frase está correta?
+- I'm needing access to the database. :: Need é stative; não vai para -ing.
++ I need access to the database. :: Correto. Need descreve um estado.
+- I needing access to the database. :: Falta o verbo auxiliar e need não vai para -ing.
+
+## LESSON m02-2 | Experiência: Past Simple x Present Perfect | 18
+
+### A diferença que mais cai
+É o ponto de gramática mais importante para entrevistas. O **Past Simple** fala de um momento terminado e definido no passado. O **Present Perfect** liga o passado ao presente: experiência sem data, algo que continua até agora, ou um resultado que importa hoje.
+
+| Past Simple | Present Perfect |
+| I worked at MSystems in 2025. | I've worked at MSystems since 2025. |
+| I finished the course last month. | I've finished the course. (o que importa é que já terminei) |
+| Did you use Docker in that project? | Have you ever used Docker? |
+
+### Sinais de cada tempo
+- Past Simple: yesterday, last year, in 2024, two months ago, when I was in school.
+- Present Perfect: ever, never, already, yet, just, so far, since, for (quando continua até agora).
+
+= Have you ever worked with AWS? | Você já trabalhou com AWS?
+= Yes, I have. I used EC2 and S3 in a university project last semester. | Sim. Usei EC2 e S3 em um projeto da faculdade no semestre passado.
+= I've been working with n8n for about a year. | Trabalho com n8n há cerca de um ano.
+= I haven't used Kubernetes yet. | Ainda não usei Kubernetes.
+
+> [entrevista] O padrão de resposta é: abre com Present Perfect (experiência geral) e detalha com Past Simple (quando e o que aconteceu). "I've built several automations. Last year I built one that sent meeting recordings to WhatsApp automatically."
+
+> [atencao] Nunca use Present Perfect com uma data terminada: "I have worked there in 2024" está errado. Com data, use Past Simple: "I worked there in 2024".
+
+### Present Perfect Continuous
+Para destacar **duração** de algo que continua: "I've been studying English for three years." Com verbos stative, use o Perfect simples: "I've known her for years."
+
+> [dica] Para "há quanto tempo você...", pense em "How long have you been...?" e responda com for (duração) ou since (ponto inicial).
+
+?? Complete: "I ___ (use) Power BI in my last internship." ::: used ::: Experiência em período terminado pede Past Simple.
+?? Complete: "___ you ever ___ (deploy) an app to the cloud?" ::: Have, deployed ;; have, deployed ::: Ever pede Present Perfect: have + particípio.
+?? Complete: "I've been studying English ___ 2019." ::: since ::: Since indica o ponto de início.
+?? Corrija: "I have finished my degree in 2025." ::: I finished my degree in 2025. ::: Com data terminada, use Past Simple.
+
+#### QUIZ
+Q: Qual frase está correta?
+- I have started my internship last year. :: Last year é tempo terminado; pede Past Simple.
++ I started my internship last year. :: Correto. Tempo definido e terminado.
+- I start my internship last year. :: Falta o passado.
+Q: "Have you ever worked remotely?" Qual resposta soa mais natural?
++ Yes, I have. I worked remotely for six months in 2025. :: Isso: abre com Present Perfect e detalha com Past Simple.
+- Yes, I worked. :: A resposta curta deve repetir o auxiliar da pergunta: "Yes, I have."
+- Yes, I have worked remotely in 2025. :: Present Perfect com data terminada não funciona.
+Q: Como dizer "trabalho com SQL há dois anos"?
+- I work with SQL since two years. :: Duas falhas: tempo verbal e since com duração.
+- I worked with SQL for two years. :: Sugere que você parou.
++ I've been working with SQL for two years. :: Correto: Present Perfect Continuous com for.
+
+## LESSON m02-3 | Contar histórias: Past Continuous e Past Perfect | 16
+
+### Por que isso importa
+Perguntas comportamentais ("Tell me about a time when...") pedem uma história. Uma boa história no passado usa três tempos: o **Past Simple** para os acontecimentos principais, o **Past Continuous** para o cenário e o **Past Perfect** para o que aconteceu antes.
+
+| Tempo | Função na história | Exemplo |
+| Past Continuous | Cenário, ação em andamento | We were migrating the database... |
+| Past Simple | O evento que interrompe ou avança a história | ...when the server crashed. |
+| Past Perfect | Algo anterior a outro passado | We had backed up the data the day before. |
+
+= We were preparing a release when a critical bug appeared. | Estávamos preparando um release quando apareceu um bug crítico.
+= I realized that someone had changed the API key. | Percebi que alguém tinha trocado a chave da API.
+= While I was testing the flow, I noticed the duplicated messages. | Enquanto eu testava o fluxo, notei as mensagens duplicadas.
+
+> [entrevista] Em respostas STAR, o Past Continuous monta a Situation ("We were launching a new CRM integration...") e o Past Simple conta Action e Result ("I created a retry step and the errors dropped to zero").
+
+### When x While
+- **While** + ação longa: While I was debugging, my manager called.
+- **When** + ação curta: I was debugging when my manager called.
+
+> [atencao] Não exagere no Past Perfect. Use só quando a ordem dos fatos não estiver clara. "I sent the report after I finished it" já é claro com Past Simple.
+
+> [dica] Treine contar a mesma história em 30 segundos e depois em 2 minutos. Entrevistadores gostam de respostas curtas que podem ser expandidas.
+
+?? Complete: "I ___ (write) the documentation when the client called." ::: was writing ::: Ação em andamento interrompida: Past Continuous.
+?? Complete: "When I arrived, the team ___ already ___ (fix) the issue." ::: had, fixed ::: Ação anterior a outro passado: Past Perfect.
+?? Complete: "___ I was testing the API, I found a bug." (enquanto) ::: While ::: While introduz a ação longa.
+
+#### QUIZ
+Q: Qual frase monta melhor o cenário de uma história?
++ We were running a big data import on a Friday afternoon. :: Isso. Past Continuous descreve o cenário.
+- We ran a big data import. :: Possível, mas conta um evento, não o cenário.
+- We had run a big data import. :: Past Perfect só faz sentido se houver outro passado de referência.
+Q: "When I checked the logs, I saw that the job ___ at 3 a.m."
+- has failed :: Present Perfect não combina com uma narrativa no passado.
++ had failed :: Correto. A falha aconteceu antes de você checar.
+- was failing :: Sugere uma falha em andamento, não um evento pontual anterior.
+
+## LESSON m02-4 | Futuro: planos, decisões e previsões | 15
+
+### Quatro formas de falar do futuro
+Inglês não tem um único futuro. A escolha depende do tipo de futuro.
+
+| Forma | Uso | Exemplo |
+| will | Decisão na hora, promessa, previsão por opinião | I'll send you the file today. |
+| going to | Plano já decidido, previsão com evidência | I'm going to take the AWS Solutions Architect exam. |
+| Present Continuous | Compromisso marcado | I'm meeting the client on Friday. |
+| Future Perfect | Algo terminado antes de um ponto no futuro | By December, I'll have finished the course. |
+
+= I'll get back to you by tomorrow. | Te dou um retorno até amanhã.
+= I'm going to specialize in cloud infrastructure. | Vou me especializar em infraestrutura de cloud.
+= We're deploying the new version next Monday. | Vamos fazer o deploy da nova versão segunda que vem.
+= By the end of the year, I'll have completed my first certification. | Até o fim do ano, terei concluído minha primeira certificação.
+
+> [entrevista] "Where do you see yourself in five years?" pede going to e would like to: "I'm going to keep studying cloud architecture, and I'd like to be working as a cloud engineer, helping teams design reliable systems."
+
+> [atencao] Não use will para algo já combinado. "I will meet the client tomorrow" soa estranho se a reunião já está marcada. Prefira "I'm meeting the client tomorrow".
+
+### Futuro no trabalho
+Em reuniões, will aparece muito como compromisso: "I'll take care of it", "I'll update the ticket". Em prazos, by significa "até": "by Friday", "by the end of the sprint".
+
+> [dica] Para não prometer o que não sabe, use hedging: "I should be able to finish it by Friday" é mais seguro que "I will finish it by Friday".
+
+?? Complete: "Don't worry, I ___ (fix) it now." (decisão na hora) ::: 'll fix ;; will fix ::: Decisão tomada na hora: will.
+?? Complete: "I ___ (take) the exam next month. I've already booked it." ::: 'm taking ;; am taking ;; 'm going to take ;; am going to take ::: Compromisso marcado: Present Continuous (ou going to).
+?? Complete: "By March, we ___ (migrate) all the services." ::: will have migrated ;; 'll have migrated ::: Ação concluída antes de um ponto futuro: Future Perfect.
+
+#### QUIZ
+Q: Um colega pede ajuda e você decide ajudar na hora. O que diz?
++ I'll help you with that. :: Correto. Decisão espontânea pede will.
+- I'm going to help you with that. :: Soa como plano anterior.
+- I help you with that. :: Present Simple não expressa oferta.
+Q: Você já marcou uma entrevista para quinta. Qual frase é mais natural?
+- I will have an interview on Thursday. :: Gramatical, mas menos natural para compromisso marcado.
++ I'm having an interview on Thursday. :: Isso. Present Continuous para compromissos combinados.
+- I have had an interview on Thursday. :: Present Perfect não fala de futuro.
+
+## CHALLENGE m02-c1 | Escolha o tempo certo | auto
+TASK:
+Complete cada frase com a forma correta do verbo entre parênteses. Digite só o trecho que falta (aceita contrações).
+ITEMS:
+I ___ (work) as an automation intern since 2025. ::: have worked ;; 've worked ;; have been working ;; 've been working
+Last semester I ___ (build) a dashboard in Power BI. ::: built
+Right now I ___ (study) for the AWS Solutions Architect exam. ::: am studying ;; 'm studying
+We ___ (deploy) the fix when the alert went off. ::: were deploying
+By the time I joined, they ___ already ___ (choose) Azure. ::: had, chosen ;; had chosen
+I promise I ___ (send) you the report by Friday. ::: will send ;; 'll send
+___ you ever ___ (use) Terraform? ::: Have, used ;; have used
+HINT:
+Procure os sinais: since, last semester, right now, when (interrupção), by the time (antes de outro passado), promessa, ever.
+SOLUTION:
+1. have worked (ou have been working)
+2. built
+3. am studying
+4. were deploying
+5. had, chosen
+6. will send
+7. Have, used
+
+## CHALLENGE m02-c2 | Linha do tempo profissional | manual
+TASK:
+Escreva um parágrafo de 120 a 160 palavras sobre sua trajetória: o que você estudou (Past Simple), o que faz hoje (Present Simple e Continuous), o que já conquistou (Present Perfect) e seus planos (going to, will). Depois leia em voz alta e grave.
+HINT:
+Use pelo menos uma frase de cada tempo. Conectores úteis: after that, currently, so far, next year.
+SOLUTION:
+"I finished my technical course in Systems Development in 2025. After that, I started a degree in Systems Analysis and Development, and I've been working as an automation intern since then. Currently I build workflows with n8n and integrate tools like Microsoft Graph and WhatsApp APIs. This month I'm working on a CRM integration that reactivates old leads. So far, I've earned the AWS Cloud Practitioner certification and I've delivered automations that save hours of manual work every week. Next year I'm going to take a more advanced AWS exam, and I'll keep improving my English, because I want to work in an international cloud team."
+EXPECTED:
+- Pelo menos um verbo em Past Simple, Present Simple, Present Continuous, Present Perfect e um futuro.
+- Nenhuma data terminada usada com Present Perfect.
+- Gravação lida sem pausas longas.

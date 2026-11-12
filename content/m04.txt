@@ -1,0 +1,194 @@
+# MODULE m04
+num: 04
+level: B2
+title: Estruturas B2: passiva, condicionais e relativas
+summary: As estruturas que aparecem em documentação, relatórios e argumentação. Com elas você deixa de falar em frases curtas e soltas.
+goal: Ler e escrever frases mais longas e precisas, do jeito que documentação e reuniões técnicas usam.
+
+## LESSON m04-1 | Voz passiva: a língua da documentação | 16
+
+### Quando usar
+A voz passiva coloca o foco no **resultado** ou no **objeto**, não em quem fez. Por isso ela domina documentação, relatórios de incidente e notícias.
+
+| Ativa | Passiva |
+| The system stores the files in S3. | The files are stored in S3. |
+| Someone deleted the table. | The table was deleted. |
+| We have fixed the bug. | The bug has been fixed. |
+| They will release the update tomorrow. | The update will be released tomorrow. |
+
+A estrutura é sempre **be (no tempo certo) + particípio**. Quem fez a ação aparece com by, se for importante: "The feature was developed by the data team."
+
+= The data is encrypted at rest. | Os dados são criptografados em repouso.
+= The request was rejected because the token had expired. | A requisição foi rejeitada porque o token tinha expirado.
+= The issue has been escalated to the infrastructure team. | O problema foi escalado para o time de infraestrutura.
+= Access is granted through IAM roles. | O acesso é concedido por meio de IAM roles.
+
+> [entrevista] Em relatos de incidente, a passiva evita culpar pessoas: "The configuration was changed without review" em vez de "John changed the configuration". Isso mostra maturidade (blameless culture).
+
+> [atencao] Não esqueça o be. "The file stored in S3" é uma frase incompleta (ou só um trecho). O correto é "The file is stored in S3".
+
+### Passiva com modais
+Modal + be + particípio: "The password must be changed every 90 days", "This step can be skipped".
+
+> [dica] Ao ler documentação, sublinhe as passivas e pergunte "quem faz isso?". Muitas vezes a resposta é "você" ou "o sistema", e isso ajuda a entender a instrução.
+
+?? Passe para a passiva: "The team deployed the new version." ::: The new version was deployed by the team. ;; The new version was deployed. ::: Past Simple na passiva: was/were + particípio.
+?? Passe para a passiva: "We have updated the documentation." ::: The documentation has been updated. ;; The documentation has been updated by us. ::: Present Perfect na passiva: has/have been + particípio.
+?? Complete: "Passwords must ___ (store) in a secrets manager." ::: be stored ::: Modal + be + particípio.
+
+#### QUIZ
+Q: Por que documentação técnica usa tanta voz passiva?
++ Porque o foco está no que acontece com o sistema ou os dados, não em quem faz :: Correto.
+- Porque a passiva é mais curta :: Geralmente ela é mais longa.
+- Porque é obrigatória em inglês formal :: Não é obrigatória; é uma escolha de foco.
+Q: Qual frase está correta?
+- The backup was create yesterday. :: Falta o particípio: created.
++ The backup was created yesterday. :: Correto: was + particípio.
+- The backup created yesterday. :: Falta o be; vira uma frase incompleta.
+
+## LESSON m04-2 | Condicionais: do real ao hipotético | 18
+
+### Os quatro tipos
+Condicionais são essenciais para explicar sistemas ("se isso, então aquilo") e para responder perguntas hipotéticas em entrevistas.
+
+| Tipo | Estrutura | Uso | Exemplo |
+| Zero | If + present, present | Fatos e regras do sistema | If the token expires, the API returns 401. |
+| First | If + present, will | Futuro real e provável | If we finish early, we'll start the next task. |
+| Second | If + past, would | Hipótese irreal no presente | If I had more time, I'd learn Kubernetes. |
+| Third | If + past perfect, would have + particípio | Passado que não aconteceu | If we had tested it, we wouldn't have lost data. |
+
+= If the job fails, the system sends an alert. | Se o job falha, o sistema envia um alerta.
+= If you give me access, I'll fix it today. | Se você me der acesso, eu resolvo hoje.
+= If I were the team lead, I'd automate the deploy. | Se eu fosse o líder do time, automatizaria o deploy.
+= If we had monitored the disk, we would have avoided the outage. | Se tivéssemos monitorado o disco, teríamos evitado a queda.
+
+### Mixed conditional
+Mistura passado e presente: "If I had studied English earlier, I would be more confident now." A condição é passada, o resultado é presente.
+
+> [entrevista] Perguntas situacionais pedem Second Conditional: "What would you do if you disagreed with your manager?" Responda no mesmo tempo: "If I disagreed, I would first try to understand their reasoning, and then I'd share my concerns with data."
+
+> [atencao] Nunca use will ou would na parte do if: "If I will have time" está errado. Correto: "If I have time, I'll call you".
+
+> [dica] "If I were" funciona para todas as pessoas em inglês formal: "If I were you", "If she were here". Em conversa, "if she was" também é aceito.
+
+?? Complete (zero): "If the disk ___ (be) full, the service stops." ::: is ::: Regra do sistema: present + present.
+?? Complete (second): "If I ___ (have) more experience, I would apply for a senior role." ::: had ::: Hipótese no presente: if + past.
+?? Complete (third): "If we had checked the logs, we ___ (find) the error sooner." ::: would have found ;; 'd have found ::: Passado irreal: would have + particípio.
+
+#### QUIZ
+Q: "What would you do if a deploy failed in production?" Qual resposta segue a gramática da pergunta?
++ If a deploy failed, I would roll back first and then investigate the logs. :: Correto: Second Conditional na resposta.
+- If a deploy will fail, I roll back. :: Will no if e tempos misturados.
+- If a deploy fails, I would have rolled back. :: Mistura sem sentido.
+Q: Qual frase descreve um arrependimento sobre o passado?
+- If I study, I'll pass. :: First Conditional, futuro real.
+- If I studied, I'd pass. :: Second Conditional, hipótese no presente.
++ If I had studied, I would have passed. :: Correto: Third Conditional.
+
+## LESSON m04-3 | Relative clauses: frases mais ricas | 14
+
+### Juntar ideias
+Relative clauses ligam frases curtas em uma frase mais completa. Isso eleva seu nível percebido de B1 para B2.
+
+- **who** para pessoas: The engineer who built the pipeline left the company.
+- **which** para coisas: The service which handles payments is down.
+- **that** para pessoas ou coisas, em defining clauses: The script that I wrote runs every night.
+- **where** para lugares: The region where our servers are is us-east-1.
+- **whose** para posse: The client whose account was blocked called us.
+
+= I built an automation that sends meeting recordings to WhatsApp. | Construí uma automação que envia gravações de reuniões para o WhatsApp.
+= It's a tool which helps sales teams reactivate old leads. | É uma ferramenta que ajuda times de vendas a reativar leads antigos.
+
+### Defining x non-defining
+| Tipo | Vírgulas | that? | Exemplo |
+| Defining (informação essencial) | não | sim | The API that we use is rate-limited. |
+| Non-defining (informação extra) | sim | não | Our main API, which was built in 2020, is rate-limited. |
+
+> [atencao] Em non-defining clauses (com vírgulas), não use that. "Our CRM, that we bought last year, is slow" está errado. Use which.
+
+> [entrevista] Para descrever projetos, a relative clause ajuda a dar contexto em uma frase só: "I worked on a bot that registers products through WhatsApp, which saved the team about two hours a day."
+
+> [dica] Em defining clauses, quando o pronome é objeto, ele pode sumir: "The course I'm taking" = "The course that I'm taking".
+
+?? Complete: "The developer ___ wrote this function is on vacation." ::: who ;; that ::: Pessoa como sujeito: who ou that.
+?? Complete: "The server, ___ was installed in 2019, needs an upgrade." ::: which ::: Non-defining clause com vírgulas: which.
+?? Complete: "The customer ___ order failed called support." ::: whose ::: Posse: whose.
+
+#### QUIZ
+Q: Qual frase está correta?
+- My manager, that is from Canada, speaks Portuguese. :: Non-defining clause não aceita that.
++ My manager, who is from Canada, speaks Portuguese. :: Correto: who em non-defining clause.
+- My manager, which is from Canada, speaks Portuguese. :: Which é para coisas.
+Q: Em qual frase o pronome relativo pode ser omitido?
++ The tool that I use every day is n8n. :: Correto. That é objeto (I use the tool), pode sumir.
+- The tool that sends the alerts is n8n. :: That é sujeito (the tool sends); não pode sumir.
+- n8n, which I use every day, is open source. :: Em non-defining, o pronome nunca some.
+
+## LESSON m04-4 | Reported speech: contar o que foi dito | 14
+
+### Para que serve
+No trabalho você repassa o que outras pessoas disseram o tempo todo: em dailies, resumos de reunião e e-mails. Reported speech é a estrutura para isso.
+
+| Direct speech | Reported speech |
+| "The API is down." | She said (that) the API was down. |
+| "We'll fix it tomorrow." | They said they would fix it the next day. |
+| "I've finished the report." | He told me he had finished the report. |
+| "Can you help me?" | She asked if I could help her. |
+| "When does the sprint end?" | He asked when the sprint ended. |
+
+### Say x tell
+- **say** + (that): She said that the build was green.
+- **tell** + pessoa: She told **me** that the build was green.
+
+= The client said they needed the report by Friday. | O cliente disse que precisava do relatório até sexta.
+= My manager asked me to update the ticket. | Meu gestor me pediu para atualizar o ticket.
+
+> [atencao] Se a informação ainda é verdade, não é obrigatório recuar o tempo: "She said the API is down" é aceitável se continua fora do ar. Em contexto formal, o recuo é mais comum.
+
+> [entrevista] Em perguntas sobre feedback ("Tell me about feedback you received"), você vai usar reported speech: "My manager told me that my documentation was too technical for the business team, so I started writing a short summary first."
+
+> [dica] Verbos de relato mais precisos que say deixam seu inglês mais rico: explain, mention, suggest, point out, recommend, confirm.
+
+?? Relate: "I'm working on the fix." → He said he ___ on the fix. ::: was working ::: Present Continuous recua para Past Continuous.
+?? Relate: "Can you send me the file?" → She asked if I ___ send her the file. ::: could ::: Can recua para could.
+?? Complete com say ou tell: "She ___ me the deadline had changed." ::: told ::: Tell é seguido da pessoa.
+
+#### QUIZ
+Q: Qual frase está correta?
+- He said me that the test failed. :: Say não leva a pessoa direto; use told me.
++ He told me that the test had failed. :: Correto.
+- He told that the test failed. :: Tell precisa da pessoa: told me.
+Q: Como relatar a pergunta "Where is the documentation?"
+- She asked where is the documentation. :: Pergunta relatada usa ordem afirmativa.
++ She asked where the documentation was. :: Correto: ordem afirmativa e recuo do tempo.
+- She asked where was the documentation. :: Ainda em ordem de pergunta.
+
+## CHALLENGE m04-c1 | Reescrevendo documentação | auto
+TASK:
+Reescreva cada frase conforme pedido. A correção aceita contrações e ignora pontuação final.
+ITEMS:
+Passiva: "The system backs up the database every night." ::: The database is backed up every night. ;; The database is backed up every night by the system. ;; The database is backed up by the system every night.
+Passiva: "Someone has changed the configuration." ::: The configuration has been changed.
+Condicional (second): "I don't have access, so I can't fix it." → If I ... ::: If I had access, I could fix it. ;; If I had access, I would fix it. ;; If I had access, I'd fix it. ;; If I had access I could fix it.
+Junte com which: "The dashboard shows sales data. It updates every hour." ::: The dashboard, which updates every hour, shows sales data. ;; The dashboard shows sales data, which updates every hour.
+Reported: "We will migrate next month," the manager said. → The manager said ... ::: The manager said they would migrate the following month. ;; The manager said that they would migrate the following month. ;; The manager said they would migrate the next month. ;; The manager said that they would migrate the next month. ;; The manager said we would migrate the following month. ;; The manager said that we would migrate the following month. ;; The manager said we would migrate the next month. ;; The manager said that we would migrate the next month.
+HINT:
+Passiva: be + particípio. Second conditional: if + past, would/could. Which com vírgulas para informação extra. Reported: will vira would e next month vira the following month.
+SOLUTION:
+1. The database is backed up every night.
+2. The configuration has been changed.
+3. If I had access, I could fix it.
+4. The dashboard, which updates every hour, shows sales data.
+5. The manager said they would migrate the following month.
+
+## CHALLENGE m04-c2 | Explique um sistema seu | manual
+TASK:
+Escreva de 100 a 150 palavras explicando como funciona uma automação ou sistema que você conhece (do trabalho, faculdade ou um projeto pessoal). Use pelo menos 2 passivas, 2 condicionais e 2 relative clauses. Depois grave lendo em voz alta.
+HINT:
+Estrutura: o que o sistema faz, como os dados entram, o que acontece em caso de erro, quem usa o resultado.
+SOLUTION:
+"The workflow that I built runs every time a Teams meeting ends. The recording is downloaded through the Microsoft Graph API, which requires specific permissions in Microsoft Entra ID. Then the file is sent to the client on WhatsApp, and a record is created in the company database. If the download fails, the workflow retries three times. If it still fails, an alert is sent to the support team. The sales team, who used to send these files manually, now receives a daily summary. If we hadn't automated this process, the team would still spend hours on it every week."
+EXPECTED:
+- Pelo menos 2 passivas, 2 condicionais e 2 relative clauses.
+- Texto entre 100 e 150 palavras.
+- Gravação lida com clareza, sem travar nas frases longas.

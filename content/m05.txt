@@ -1,0 +1,208 @@
+# MODULE m05
+num: 05
+level: B2
+title: Vocabulário que soa natural
+summary: Collocations, phrasal verbs, conectores e registro. É o que faz uma frase gramaticalmente correta soar como inglês de verdade.
+goal: Trocar traduções literais por combinações naturais e ajustar o tom entre formal e informal.
+
+## LESSON m05-1 | Collocations de trabalho | 15
+
+### Por que "make a decision" e não "do a decision"
+Collocations são palavras que andam juntas. Não há lógica gramatical: é o uso. Uma frase pode estar correta e ainda assim soar estranha por causa da collocation errada.
+
+| Verbo | Combina com |
+| make | a decision, a mistake, progress, a change, an effort, sure |
+| do | research, a task, business, your best, a favor, homework |
+| take | a break, notes, responsibility, ownership, a look, action |
+| meet | a deadline, expectations, requirements, a goal |
+| run | a test, a script, a query, a meeting, a business |
+| raise | a question, an issue, a concern, awareness |
+
+= We need to make a decision by Friday. | Precisamos tomar uma decisão até sexta.
+= I'll take a look at the logs. | Vou dar uma olhada nos logs.
+= I took ownership of the integration project. | Assumi a responsabilidade pelo projeto de integração.
+= We met the deadline even with a smaller team. | Cumprimos o prazo mesmo com um time menor.
+= I'd like to raise a concern about the timeline. | Gostaria de levantar uma preocupação sobre o cronograma.
+
+### Adjetivo + substantivo
+Também existem collocations de adjetivo: **high priority**, **heavy traffic**, **tight deadline**, **steep learning curve**, **strong background**, **hands-on experience**.
+
+> [entrevista] "Hands-on experience" e "take ownership" são expressões que recrutadores procuram. "I have hands-on experience with n8n, and I took ownership of two automation projects."
+
+> [atencao] Brasileiros costumam dizer "take a decision". Em inglês americano, o padrão é "make a decision". "Take a decision" existe no inglês britânico, mas menos.
+
+> [dica] No Oxford Learner's Dictionary, procure a palavra e veja a seção de collocations. Anote o bloco inteiro, não a palavra solta.
+
+?? Complete: "We managed to ___ the deadline." ::: meet ::: Meet a deadline = cumprir o prazo.
+?? Complete: "Let me ___ a look at your code." ::: take ::: Take a look = dar uma olhada.
+?? Complete: "I ___ a mistake in the query." ::: made ::: Make a mistake.
+?? Complete: "Can you ___ the tests again?" ::: run ::: Run a test.
+
+#### QUIZ
+Q: Qual collocation está correta?
+- do a decision :: Decision combina com make.
++ make progress :: Correto.
+- make research :: Research combina com do.
+Q: Como dizer "levantar uma questão" em uma reunião?
++ raise an issue :: Correto. Raise an issue / raise a concern.
+- lift an issue :: Lift é levantar fisicamente.
+- grow an issue :: Não existe essa combinação.
+
+## LESSON m05-2 | Phrasal verbs de trabalho e tecnologia | 17
+
+### O que são
+Phrasal verbs são verbo + partícula com um sentido próprio. Eles dominam a fala informal e o Slack. Em documentação formal aparecem menos, mas em reuniões estão em toda frase.
+
+| Phrasal verb | Significado | Exemplo |
+| set up | configurar, montar | I set up the CI pipeline. |
+| figure out | descobrir, entender | I'm trying to figure out why it fails. |
+| look into | investigar | I'll look into the issue. |
+| carry out | executar, realizar | We carried out a security review. |
+| roll out | lançar gradualmente | We're rolling out the feature next week. |
+| roll back | reverter | We had to roll back the release. |
+| back up | fazer backup, apoiar | Back up the database before the migration. |
+| run into | encontrar (problema) | We ran into a permissions issue. |
+| come up with | ter (ideia), propor | She came up with a better solution. |
+| follow up | dar seguimento | I'll follow up by email. |
+| get back to | retornar a alguém | I'll get back to you tomorrow. |
+| keep up with | acompanhar | It's hard to keep up with new tools. |
+| sign up / log in | cadastrar / entrar | Sign up and log in with your account. |
+| shut down | desligar | The server shut down unexpectedly. |
+
+= We ran into some issues during the migration. | Tivemos alguns problemas durante a migração.
+= I came up with a script to automate the reports. | Criei um script para automatizar os relatórios.
+
+### Separáveis ou não
+Alguns aceitam o objeto no meio: "set the server up" ou "set up the server". Com pronome, o objeto **tem** que ir no meio: "set it up" (nunca "set up it"). Outros não separam: "look into the issue", "run into a problem".
+
+> [atencao] Backup (substantivo) é uma palavra; back up (verbo) são duas. "Do a backup" e "back up the files". O mesmo para setup / set up e rollback / roll back.
+
+> [entrevista] Phrasal verbs deixam sua fala natural na entrevista. "We ran into a timeout issue, so I looked into the logs and figured out that the API had a rate limit."
+
+> [dica] Aprenda phrasal verbs por situação (problema, configuração, comunicação), não em ordem alfabética.
+
+?? Complete: "We had to roll ___ the release because of a bug." ::: back ::: Roll back = reverter.
+?? Complete: "I'll get back ___ you by the end of the day." ::: to ::: Get back to someone.
+?? Complete: "Can you set ___ up for me?" (o ambiente = it) ::: it ::: Com pronome, o objeto fica no meio: set it up.
+?? Complete: "We ran ___ a permissions issue." ::: into ::: Run into = esbarrar em um problema.
+
+#### QUIZ
+Q: Qual frase está correta?
+- I'll set up it tomorrow. :: Com pronome, o objeto vai no meio.
++ I'll set it up tomorrow. :: Correto.
+- I'll setup it tomorrow. :: Setup junto é substantivo.
+Q: Seu chefe diz "Can you look into this?". O que ele quer?
+- Que você olhe rapidamente :: Seria take a look.
++ Que você investigue o problema :: Correto.
+- Que você ignore :: Não.
+
+## LESSON m05-3 | Conectores e discourse markers | 15
+
+### Conectores organizam o pensamento
+Uma resposta B1 é uma lista de frases curtas. Uma resposta B2 tem conectores que mostram a lógica: causa, contraste, consequência, sequência.
+
+| Função | Informal | Formal |
+| Adição | also, plus | moreover, in addition, furthermore |
+| Contraste | but, though | however, nevertheless, on the other hand |
+| Causa | because, since | due to, owing to |
+| Consequência | so | therefore, as a result, consequently |
+| Exemplo | like | for instance, such as |
+| Sequência | first, then, after that | initially, subsequently, finally |
+| Resumo | so, basically | in short, overall, to sum up |
+
+= The tool is free. However, it requires some setup. | A ferramenta é gratuita. Porém, exige alguma configuração.
+= Due to the outage, the report was delayed. | Devido à queda, o relatório atrasou.
+= As a result, we reduced manual work by 70%. | Como resultado, reduzimos o trabalho manual em 70%.
+
+### Discourse markers na fala
+Na conversa, marcadores organizam o turno: **Actually** (corrige ou acrescenta algo inesperado), **Anyway** (volta ao tema), **By the way** (desvio), **I mean** (reformula), **To be honest** (franqueza).
+
+> [atencao] However não liga duas frases com vírgula. "It's fast, however it's expensive" está errado na escrita formal. Use ponto ou ponto e vírgula: "It's fast. However, it's expensive."
+
+> [entrevista] Conectores de resultado ("As a result", "This led to") transformam uma descrição de tarefa em uma conquista. Entrevistadores procuram o resultado.
+
+> [dica] Due to vem antes de substantivo ("due to the delay"); because vem antes de frase ("because the server was slow").
+
+?? Complete: "The server was overloaded. ___, the API became slow." (consequência, formal) ::: As a result ;; Therefore ;; Consequently ::: Consequência formal: as a result, therefore, consequently.
+?? Complete: "The project was delayed ___ a lack of resources." ::: due to ;; owing to ;; because of ::: Antes de substantivo: due to / because of.
+?? Complete: "It's a great tool. ___, it has a steep learning curve." (contraste formal) ::: However ;; Nevertheless ::: Contraste formal.
+
+#### QUIZ
+Q: Qual frase está correta?
+- The test passed, however the build failed. :: However não liga frases com vírgula.
++ The test passed. However, the build failed. :: Correto.
+- The test passed however, the build failed. :: Pontuação errada.
+Q: Qual conector introduz um exemplo?
+- Therefore :: Indica consequência.
++ For instance :: Correto.
+- Nevertheless :: Indica contraste.
+
+## LESSON m05-4 | Registro: formal, neutro e informal | 14
+
+### O mesmo pedido em três tons
+Inglês profissional muda de tom conforme o canal e o público. E-mail para cliente é formal; Slack com colega é neutro ou informal.
+
+| Informal (Slack) | Neutro | Formal (e-mail a cliente) |
+| Can you check this? | Could you check this? | Would you be able to review this? |
+| Got it, thanks! | Thanks, that's clear. | Thank you for the clarification. |
+| Sorry for the delay! | Sorry for the late reply. | I apologize for the delay in responding. |
+| Let me know | Please let me know | I would appreciate it if you could let me know |
+| ASAP | as soon as possible | at your earliest convenience |
+
+### Word formation
+Saber formar palavras multiplica seu vocabulário: **reliable → reliability**, **scale → scalable → scalability**, **available → availability**, **efficient → efficiency**, **secure → security**, **implement → implementation**, **deploy → deployment**.
+
+= We need to improve the reliability of the pipeline. | Precisamos melhorar a confiabilidade do pipeline.
+= Scalability was the main requirement. | Escalabilidade era o requisito principal.
+
+> [atencao] Formal não é complicado. Frases longas e cheias de palavras difíceis cansam. O inglês profissional moderno é claro e educado, não rebuscado.
+
+> [entrevista] Em entrevista, use registro neutro: educado mas natural. Evite gírias ("gonna", "kinda") e também evite formalidade excessiva ("I hereby inform").
+
+> [dica] Prefixos ajudam a deduzir significado: un- e in- negam (unavailable, inefficient), re- repete (redeploy), over- é excesso (overload), under- é falta (underused).
+
+?? Forme o substantivo: "available" → ::: availability ::: -able vira -ability.
+?? Forme o substantivo: "deploy" → ::: deployment ::: Deploy + -ment.
+?? Forme o adjetivo: "scale" (que pode escalar) → ::: scalable ::: Scale + -able.
+?? Deixe formal: "Sorry for the delay!" → "I ___ for the delay." ::: apologize ;; apologise ::: Apologize é a forma formal.
+
+#### QUIZ
+Q: Qual frase é mais adequada em um e-mail para um cliente que você não conhece?
+- Hey, can u send the file ASAP? :: Informal demais.
++ Could you please send the file at your earliest convenience? :: Correto: educado e formal.
+- Send the file. :: Imperativo seco soa rude.
+Q: Qual é o substantivo de "reliable"?
+- reliableness :: Não é a forma usada.
++ reliability :: Correto.
+- reliance :: Reliance vem de rely e significa dependência.
+
+## CHALLENGE m05-c1 | Collocations e phrasal verbs | auto
+TASK:
+Complete com a palavra que falta. Digite só a palavra (ou partícula).
+ITEMS:
+We need to ___ a decision about the cloud provider. ::: make
+I'll ___ a look at the pull request after lunch. ::: take
+The team worked late to ___ the deadline. ::: meet
+We ran ___ a problem with the API limits. ::: into
+She came up ___ a great idea for the dashboard. ::: with
+Please back ___ the files before the migration. ::: up
+The release was delayed due ___ a security issue. ::: to
+Our main goal is to improve the ___ of the system. (substantivo de reliable) ::: reliability
+HINT:
+Pense nos blocos: make a decision, take a look, meet a deadline, run into, come up with, back up, due to.
+SOLUTION:
+make, take, meet, into, with, up, to, reliability.
+
+## CHALLENGE m05-c2 | Uma mensagem, três tons | manual
+TASK:
+Situação: o relatório que você prometeu para hoje vai atrasar um dia porque a API de origem está fora do ar. Escreva a mesma mensagem em três versões: (1) Slack para um colega do time, (2) e-mail para seu gestor, (3) e-mail para um cliente.
+HINT:
+Mantenha os mesmos fatos: atraso de um dia, motivo, novo prazo. Mude cumprimento, vocabulário e fechamento.
+SOLUTION:
+(1) "Hey! Heads-up: the report will be a day late. The source API is down. I'll ping you once it's back."
+(2) "Hi Ana, quick update: the sales report will be delayed by one day because the source API is currently unavailable. I'm monitoring it and expect to send the report tomorrow by noon. Let me know if that works for you."
+(3) "Dear Mr. Smith, I'm writing to let you know that the monthly report will be delayed by one day due to an outage in one of our data sources. We expect to deliver it tomorrow by 12:00. We apologize for any inconvenience. Kind regards, Matheus"
+EXPECTED:
+- Três versões com os mesmos fatos (atraso, motivo, novo prazo).
+- Diferença clara de tom: informal, neutro e formal.
+- Uso de pelo menos um conector de causa (because, due to).

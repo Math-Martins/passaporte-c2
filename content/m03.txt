@@ -1,0 +1,212 @@
+# MODULE m03
+num: 03
+level: B1 → B2
+title: Perguntas, modais e conversa
+summary: Fazer boas perguntas, pedir esclarecimento, dar conselhos e manter um small talk. É o que faz uma conversa fluir quando você não entende tudo.
+goal: Interagir com segurança: perguntar, confirmar, discordar com educação e ganhar tempo sem travar.
+
+## LESSON m03-1 | Perguntas diretas e indiretas | 15
+
+### A ordem da pergunta
+Em perguntas diretas, o auxiliar vem antes do sujeito: **Question word + auxiliary + subject + verb**.
+
+| Pergunta | Auxiliar | Exemplo |
+| Present Simple | do / does | Where does the data come from? |
+| Past Simple | did | Why did the job fail? |
+| To be | am / is / are | Is the server up? |
+| Present Perfect | have / has | Have you checked the logs? |
+| Modais | can / could / should | Could we move the meeting? |
+
+### Perguntas de sujeito
+Quando a pergunta é sobre o próprio sujeito, não há do/does/did: **Who wrote this code?** (não "Who did write"). **What happened?** (não "What did happen").
+
+= Who approved this change? | Quem aprovou essa mudança?
+= What caused the outage? | O que causou a queda?
+
+### Perguntas indiretas
+Perguntas indiretas soam mais educadas e são muito usadas no trabalho. Depois da introdução, a ordem volta a ser de frase afirmativa e o auxiliar some.
+
+| Direta | Indireta |
+| Where is the documentation? | Do you know where the documentation is? |
+| When does the sprint end? | Could you tell me when the sprint ends? |
+| Did they approve the budget? | I was wondering if they approved the budget. |
+
+= Could you tell me how the deployment process works? | Você poderia me dizer como funciona o processo de deploy?
+= Do you know if there's a staging environment? | Você sabe se existe um ambiente de staging?
+
+> [entrevista] No fim da entrevista, quando perguntarem "Do you have any questions for us?", use perguntas indiretas: "I'd like to know how the onboarding works for junior engineers." Mostra interesse e boa educação.
+
+> [atencao] Erro clássico: "Could you tell me where is the office?". Na indireta, a ordem é afirmativa: "Could you tell me where the office is?".
+
+> [dica] "I was wondering if..." é a forma mais suave de pedir algo: "I was wondering if you could review my pull request."
+
+?? Transforme em indireta: "Where is the log file?" → "Do you know ___?" ::: where the log file is ::: Na indireta, sujeito antes do verbo: where the log file is.
+?? Complete: "Who ___ (break) the build?" (pergunta de sujeito, passado) ::: broke ::: Pergunta de sujeito não usa did.
+?? Transforme em indireta: "When does the meeting start?" → "Could you tell me ___?" ::: when the meeting starts ::: O does some e o verbo ganha -s.
+
+#### QUIZ
+Q: Qual pergunta indireta está correta?
+- Can you tell me what time is it? :: A ordem ainda está de pergunta.
++ Can you tell me what time it is? :: Correto. Ordem afirmativa depois da introdução.
+- Can you tell me what time does it is? :: Não existe auxiliar nesse ponto.
+Q: Qual pergunta de sujeito está correta?
++ What happened to the server? :: Correto. Pergunta sobre o sujeito, sem did.
+- What did happen to the server? :: Só se usa did aqui para ênfase, não normalmente.
+- What did happened to the server? :: Duplo passado: erro.
+
+## LESSON m03-2 | Modais: conselho, obrigação e possibilidade | 16
+
+### O que cada modal comunica
+Modais mudam o tom da frase. Trocar must por should transforma uma ordem em um conselho.
+
+| Função | Modais | Exemplo |
+| Habilidade | can, could, be able to | I can write SQL queries. |
+| Conselho | should, ought to | You should add a retry step. |
+| Obrigação forte | must, have to | We have to comply with LGPD. |
+| Sem obrigação | don't have to, don't need to | You don't have to join the call. |
+| Proibição | mustn't, can't | You mustn't share the API key. |
+| Possibilidade | may, might, could | The issue might be in the cache. |
+| Dedução | must, can't | It must be a permissions problem. |
+
+> [atencao] **Mustn't** e **don't have to** são opostos. "You mustn't deploy on Friday" é proibido. "You don't have to deploy on Friday" é opcional.
+
+= It might be a timeout. | Pode ser um timeout.
+= It can't be the database; the queries are fast. | Não pode ser o banco; as queries estão rápidas.
+= It must be the API key. It expired yesterday. | Deve ser a chave da API. Ela expirou ontem.
+
+### Pedidos educados
+No trabalho, prefira could e would para pedidos. Can é mais direto.
+
+= Could you review this when you have a moment? | Você poderia revisar isso quando tiver um tempo?
+= Would you mind sharing the dashboard link? | Você se importaria de compartilhar o link do dashboard?
+
+> [entrevista] Em troubleshooting, modais de possibilidade mostram raciocínio: "It could be a network issue, so first I'd check the security group, and if that's fine, I'd look at the logs." Entrevistadores avaliam esse processo.
+
+> [dica] "Would you mind + -ing?" é muito educado. A resposta "No, not at all" significa "não me importo, pode sim".
+
+?? Complete: "You ___ commit passwords to the repository." (proibido) ::: mustn't ;; must not ;; can't ;; cannot ::: Proibição: mustn't ou can't.
+?? Complete: "You ___ come to the office on Fridays. It's optional." ::: don't have to ;; do not have to ;; don't need to ;; do not need to ::: Ausência de obrigação: don't have to.
+?? Complete: "Would you mind ___ (send) me the logs?" ::: sending ::: Would you mind é seguido de -ing.
+
+#### QUIZ
+Q: "The CPU is at 100% and the app is slow. It ___ be the new release." Qual é a dedução mais forte?
++ must :: Correto. Must indica dedução forte com evidência.
+- should :: Should é conselho ou expectativa, não dedução.
+- can :: Can não expressa dedução afirmativa.
+Q: Qual frase significa que algo é opcional?
+- You mustn't attend the training. :: Isso é proibição.
++ You don't have to attend the training. :: Correto. Não é obrigatório.
+- You must attend the training. :: Isso é obrigação.
+
+## LESSON m03-3 | Pedir esclarecimento e ganhar tempo | 14
+
+### Você não precisa entender tudo
+Em reuniões e entrevistas, entender 100% é raro, mesmo para quem é fluente. O que separa o B1 do B2 é **saber o que fazer quando não entende**. Ficar em silêncio ou dizer "yes" sem entender é o pior caminho.
+
+| Situação | Frase |
+| Não ouviu | Sorry, could you say that again? |
+| Ouviu, mas não entendeu | Sorry, I'm not sure I follow. Could you explain that in another way? |
+| Palavra desconhecida | What do you mean by "SLA" in this context? |
+| Confirmar entendimento | Just to make sure I understood: you need the report by Friday, right? |
+| Pedir para falar mais devagar | Could you speak a bit more slowly, please? |
+
+= Sorry, I didn't catch that. | Desculpa, não peguei isso.
+= So, if I understand correctly, the main problem is latency. | Então, se entendi bem, o principal problema é a latência.
+
+### Ganhar tempo para pensar
+Fillers dão alguns segundos para organizar a resposta sem silêncio constrangedor.
+
+= That's a good question. Let me think for a second. | Boa pergunta. Deixa eu pensar um segundo.
+= Well, it depends on the context, but... | Bom, depende do contexto, mas...
+= How can I put this... | Como posso dizer...
+
+### Contornar a palavra que falta
+Se esquecer uma palavra, descreva: "It's the thing you use to...", "It's a kind of...", "It's similar to...". Isso se chama circumlocution e é uma habilidade avaliada no IELTS e no CEFR.
+
+> [entrevista] Pedir esclarecimento em entrevista técnica é visto como positivo. "Just to clarify, should I assume the data fits in memory?" mostra que você pensa antes de responder.
+
+> [atencao] Evite usar o mesmo filler sempre. "You know" e "like" repetidos a cada frase passam insegurança.
+
+> [dica] Paráfrase é sua aliada: repetir com suas palavras ("So you're saying that...") confirma o entendimento e ganha tempo.
+
+?? Complete: "Sorry, I didn't ___ that." (não peguei) ::: catch ::: Catch é o verbo natural para "pegar" o que alguém disse.
+?? Complete: "Just to make ___ I understood..." ::: sure ::: Make sure = ter certeza.
+?? Complete: "What do you ___ by 'rollback'?" ::: mean ::: "What do you mean by X?" pede o significado no contexto.
+
+#### QUIZ
+Q: Você não entendeu uma pergunta do entrevistador. O que fazer?
+- Responder qualquer coisa para não parecer fraco :: Uma resposta fora do tema é pior do que pedir esclarecimento.
++ Dizer "Sorry, could you rephrase the question?" :: Correto. É natural e profissional.
+- Ficar em silêncio até ele repetir :: O silêncio passa insegurança.
+Q: Qual frase confirma entendimento?
++ So, if I understand correctly, you need the API by Monday. :: Isso. Paráfrase para confirmar.
+- I understand everything. :: Não confirma nada concreto.
+- Say again. :: Soa rude; falta "Could you" e "please".
+
+## LESSON m03-4 | Small talk e networking | 13
+
+### Para que serve o small talk
+O começo de uma call ou entrevista quase sempre tem 1 a 3 minutos de conversa leve. Ele cria rapport e mostra que você consegue conversar, não só responder.
+
+= How's it going? / Pretty good, thanks. How about you? | Como vai? / Bem, obrigado. E você?
+= How's your week been so far? / Busy, but good. | Como está sua semana? / Corrida, mas boa.
+= Where are you based? / I'm based in Sorocaba, near São Paulo. | Onde você mora? / Moro em Sorocaba, perto de São Paulo.
+
+### Como prolongar a conversa
+A regra é responder **e devolver**. Uma resposta de uma palavra mata a conversa.
+
+| Resposta fraca | Resposta que continua a conversa |
+| Fine. | Pretty good! It's been a busy week with exams, but I'm excited about this interview. How about you? |
+| Yes. (Is it hot there?) | Yes, it's really hot this time of year, around 32 degrees. What's the weather like where you are? |
+
+### Temas seguros
+Clima, semana, cidade, viagens, eventos de tecnologia. Evite política, religião e salário no small talk.
+
+> [entrevista] "So, where are you based?" é quase certo no começo de entrevistas remotas. Prepare duas frases sobre sua cidade e uma pergunta de volta.
+
+> [atencao] "How are you?" no começo de reunião não é pedido de relatório. Responda curto e devolva a pergunta.
+
+> [dica] Em eventos e no LinkedIn, "What are you working on these days?" é uma pergunta de abertura ótima para networking.
+
+?? Complete: "Pretty good, thanks. How ___ you?" ::: about ::: "How about you?" devolve a pergunta.
+?? Complete: "I'm ___ in Sorocaba." (moro/fico baseado) ::: based ::: "Based in" é como profissionais dizem onde trabalham ou moram.
+
+#### QUIZ
+Q: Qual é a melhor resposta para "How's your day going?"
+- Fine. :: Correta, mas encerra a conversa.
++ Pretty good, thanks! Busy morning, but productive. How about yours? :: Isso: responde, dá detalhe e devolve.
+- My day is going in a good way. :: Tradução literal; soa artificial.
+Q: Qual tema é seguro para small talk em uma entrevista?
++ O clima ou a cidade onde cada um está :: Correto. São temas neutros.
+- Quanto a empresa paga :: Salário tem momento próprio na entrevista.
+- Opiniões políticas :: Evite em contexto profissional.
+
+## CHALLENGE m03-c1 | Perguntas indiretas e modais | auto
+TASK:
+Reescreva conforme pedido. Ignora maiúsculas e pontuação final.
+ITEMS:
+"Where is the staging server?" → Could you tell me ... ::: Could you tell me where the staging server is?
+"Did the client approve the design?" → I was wondering ... ::: I was wondering if the client approved the design. ;; I was wondering whether the client approved the design.
+"How does the pipeline work?" → Do you know ... ::: Do you know how the pipeline works?
+É proibido compartilhar senhas: "You ___ share passwords." (escreva a frase inteira) ::: You mustn't share passwords. ;; You must not share passwords. ;; You can't share passwords. ;; You cannot share passwords.
+Peça educadamente para alguém enviar o link usando "Would you mind" (frase inteira) ::: Would you mind sending the link? ;; Would you mind sending me the link?
+HINT:
+Depois de "could you tell me", "I was wondering" e "do you know", a ordem é de frase afirmativa e o do/does/did desaparece.
+SOLUTION:
+1. Could you tell me where the staging server is?
+2. I was wondering if the client approved the design.
+3. Do you know how the pipeline works?
+4. You mustn't share passwords.
+5. Would you mind sending the link?
+
+## CHALLENGE m03-c2 | Role-play: os primeiros 3 minutos | manual
+TASK:
+Grave um áudio simulando o começo de uma entrevista remota. Faça as duas partes ou peça para alguém fazer o entrevistador. Roteiro do entrevistador: "Hi! How are you?" / "Where are you based?" / "Can you hear me OK?" / "Great, so let's start. Could you tell me a bit about yourself?" (pare aqui).
+HINT:
+Responda e devolva a pergunta em cada fala. Inclua uma frase pedindo esclarecimento, por exemplo fingindo que o áudio cortou.
+SOLUTION:
+"Hi! I'm doing well, thanks. How about you?" / "I'm based in Sorocaba, about an hour from São Paulo. Where are you based?" / "Yes, I can hear you clearly. Sorry, you cut out for a second. Could you say that again?" / "Sure!"
+EXPECTED:
+- Nenhuma resposta de uma palavra só.
+- Pelo menos uma pergunta devolvida e um pedido de esclarecimento.
+- Áudio de 1 a 2 minutos, sem ler um roteiro.

@@ -1,0 +1,208 @@
+# MODULE m10
+num: 10
+level: B2 → C1
+title: Carreira e entrevistas em inglês
+summary: Apresentação pessoal, respostas STAR, perguntas técnicas de cloud e dados, salário, perguntas ao entrevistador e LinkedIn em inglês.
+goal: Passar por uma entrevista inteira em inglês para uma vaga júnior de cloud ou dados.
+
+## LESSON m10-1 | Tell me about yourself | 18
+
+### A pergunta que abre quase toda entrevista
+"Tell me about yourself" não pede sua biografia. Pede um **pitch profissional** de 60 a 90 segundos. A estrutura mais segura é **Present → Past → Future**.
+
+| Parte | Conteúdo | Tempo verbal |
+| Present | Quem você é hoje: estudo, cargo, foco | Present Simple e Continuous |
+| Past | Como chegou aqui: formação, experiências, conquistas | Past Simple e Present Perfect |
+| Future | Por que esta vaga: o que busca e como se encaixa | going to, would like to, I'm looking for |
+
+### Exemplo para uma vaga de cloud júnior
+= I'm a Systems Analysis and Development student and I currently work as an automation intern. | Sou estudante de ADS e atualmente trabalho como estagiário de automação.
+= Day to day, I build workflows in n8n that integrate tools like Microsoft Graph, WhatsApp APIs and our internal database. | No dia a dia, construo fluxos no n8n que integram ferramentas como Microsoft Graph, APIs de WhatsApp e nosso banco interno.
+= Before that, I completed a technical course in Systems Development, and last year I earned the AWS Cloud Practitioner certification. | Antes disso, concluí um técnico em Desenvolvimento de Sistemas, e no ano passado tirei a certificação AWS Cloud Practitioner.
+= One project I'm proud of is an automation that sends meeting recordings to clients automatically, which saves the team hours every week. | Um projeto de que me orgulho é uma automação que envia gravações de reuniões aos clientes, o que economiza horas do time toda semana.
+= Now I'm looking for a role where I can grow in cloud operations, and that's why this position caught my attention. | Agora busco uma posição onde eu possa crescer em operações de cloud, e por isso esta vaga me chamou atenção.
+
+> [entrevista] Termine o pitch conectando com a vaga. A última frase é a que o entrevistador lembra e costuma gerar a próxima pergunta.
+
+> [atencao] Não decore palavra por palavra. Decore a estrutura e os números. Um texto decorado soa robótico e, se você esquecer uma palavra, trava tudo.
+
+> [dica] Tenha três versões: 30 segundos (networking), 90 segundos (entrevista) e 3 minutos (se pedirem mais detalhes).
+
+?? Complete: "I'm currently ___ (work) as an automation intern." ::: working ::: Situação atual: Present Continuous.
+?? Complete: "Last year I ___ (earn) the AWS Cloud Practitioner certification." ::: earned ::: Data terminada: Past Simple.
+?? Complete: "Now I'm looking ___ a role in cloud operations." ::: for ::: Look for = procurar.
+
+#### QUIZ
+Q: Qual é a melhor estrutura para "Tell me about yourself"?
++ Present, Past, Future, terminando com a conexão com a vaga :: Correto.
+- Infância, escola, família e hobbies :: Não é uma conversa pessoal.
+- Ler o currículo em ordem cronológica :: O entrevistador já leu o currículo.
+Q: Quanto tempo deve durar a resposta?
+- 10 segundos :: Curto demais; parece desinteresse.
++ Entre 60 e 90 segundos :: Correto.
+- Mais de 5 minutos :: Longo demais; perde a atenção.
+
+## LESSON m10-2 | Perguntas comportamentais com STAR | 18
+
+### O método STAR
+Perguntas que começam com "Tell me about a time when..." ou "Give me an example of..." são comportamentais. Elas pedem uma história real, contada com STAR:
+
+| Letra | O que dizer | Peso na resposta | Tempo verbal |
+| Situation | Contexto em 1 ou 2 frases | 10% | Past Continuous / Past Simple |
+| Task | Sua responsabilidade | 10% | Past Simple (I had to / I was responsible for) |
+| Action | O que **você** fez, passo a passo | 60% | Past Simple, com I |
+| Result | O resultado, com número se possível | 20% | Past Simple, Present Perfect |
+
+### Exemplo: "Tell me about a time you solved a difficult problem"
+= Situation: We were sending appointment reminders on WhatsApp, and some clients were receiving duplicated messages. | Situação: Enviávamos lembretes no WhatsApp e alguns clientes recebiam mensagens duplicadas.
+= Task: I was responsible for finding the cause and fixing it without stopping the service. | Tarefa: Eu era responsável por achar a causa e corrigir sem parar o serviço.
+= Action: I checked the execution logs, found that the workflow was triggered twice by the calendar webhook, and added a check that stored the event ID before sending. | Ação: Analisei os logs, descobri que o fluxo era disparado duas vezes pelo webhook do calendário e adicionei uma checagem que guardava o ID do evento antes de enviar.
+= Result: The duplicates dropped to zero, and I documented the fix so the team could reuse it in other workflows. | Resultado: As duplicatas zeraram e documentei a correção para o time reutilizar em outros fluxos.
+
+### Perguntas comportamentais mais comuns
+- Tell me about a time you made a mistake.
+- Describe a situation where you had to learn something quickly.
+- Tell me about a conflict with a teammate.
+- Give me an example of a time you went beyond what was expected.
+- Tell me about a time you had to meet a tight deadline.
+
+> [entrevista] Use "I", não "we", na parte Action. O entrevistador quer saber o que **você** fez. "We fixed it" esconde sua contribuição.
+
+> [atencao] Não escolha uma história em que o erro foi grave e você não aprendeu nada. Em "Tell me about a mistake", o foco é o aprendizado e o que você mudou depois.
+
+> [dica] Prepare um banco de 5 histórias que se adaptam a várias perguntas: um problema técnico, um erro, um prazo apertado, um conflito, algo que você aprendeu sozinho.
+
+?? Complete: "I was ___ for migrating the data." (responsável) ::: responsible ::: Be responsible for.
+?? Na parte Action, você deve usar "I" ou "we"? ::: I ::: Action mostra a sua contribuição.
+?? Complete: "As a ___, response time dropped by 50%." ::: result ::: As a result introduz o resultado.
+
+#### QUIZ
+Q: Qual parte do STAR deve ocupar mais tempo?
+- Situation :: Contexto curto basta.
++ Action :: Correto. É onde você mostra o que fez.
+- Task :: Uma ou duas frases.
+Q: Qual frase de resultado é mais forte?
+- It was good. :: Vaga.
++ The processing time dropped from 2 hours to 15 minutes. :: Correto: específica e com número.
+- Everyone was happy, I think. :: Vaga e insegura.
+
+## LESSON m10-3 | Perguntas técnicas em inglês: cloud e dados | 18
+
+### O que muda na entrevista técnica
+Para júnior, o entrevistador avalia conceitos e raciocínio, não respostas decoradas. Pensar em voz alta em inglês é parte da avaliação. Use frases de raciocínio: "First, I'd check...", "If that's fine, then...", "My assumption is...".
+
+| Pergunta comum | Esqueleto de resposta |
+| What is the difference between IaaS, PaaS and SaaS? | IaaS gives you infrastructure, like virtual machines; PaaS gives you a platform to run code without managing servers; SaaS is a ready-to-use application, like Gmail. |
+| What is high availability? | It means a system keeps working even if a component fails, usually by running in more than one availability zone. |
+| How would you troubleshoot a slow application? | I'd start by checking the monitoring metrics, then the logs, then isolate whether the problem is in the application, the database or the network. |
+| What's the difference between a primary key and a foreign key? | A primary key uniquely identifies each row; a foreign key references the primary key of another table. |
+| What is a JOIN? | It combines rows from two tables based on a related column, like customer_id. |
+| What is the shared responsibility model? | AWS is responsible for the security of the cloud; the customer is responsible for security in the cloud, like data and access. |
+
+= If I'm not sure, I'll tell you my reasoning. | Se eu não tiver certeza, vou te dizer meu raciocínio.
+= My first step would be to check the logs. | Meu primeiro passo seria checar os logs.
+= I haven't used Kubernetes in production, but I understand the main concepts and I've practiced with Docker. | Não usei Kubernetes em produção, mas entendo os conceitos e já pratiquei com Docker.
+
+### Quando você não sabe
+Honestidade com raciocínio vale mais que chute: "I haven't worked with that directly, but based on what I know about X, I'd guess... Is that close?"
+
+> [entrevista] "Have you worked with X?" quando você não trabalhou: responda com o que é próximo. "Not in production, but I studied it for the Cloud Practitioner exam and I've used similar tools like..."
+
+> [atencao] Siglas mudam de pronúncia em inglês: SQL ("S-Q-L" ou "sequel"), AWS ("A-W-S", com W = "double-u"), API ("A-P-I"), JSON ("jay-son"), CI/CD ("C-I-C-D"). Treine as letras do alfabeto em inglês.
+
+> [dica] Para cada tecnologia do seu currículo, prepare em inglês: o que é em uma frase, como você usou e um problema que resolveu com ela.
+
+?? Complete: "My first step ___ be to check the logs." ::: would ::: Hipótese de ação: would.
+?? Complete: "A primary key uniquely ___ each row." ::: identifies ::: Present Simple com -s para he/she/it.
+?? Como se diz a letra W em inglês? (escreva por extenso) ::: double-u ;; double u ;; double you ::: W = double-u. AWS = A, double-u, S.
+
+#### QUIZ
+Q: Você não sabe a resposta de uma pergunta técnica. O que fazer?
+- Ficar em silêncio :: Perde a chance de mostrar raciocínio.
++ Dizer o que sabe de próximo e mostrar o raciocínio :: Correto.
+- Inventar com confiança :: Entrevistadores percebem e isso pesa contra.
+Q: Qual resposta para "What is high availability?" está mais clara?
++ It means the system keeps working even if one component fails, for example by running in multiple availability zones. :: Correto: definição e exemplo.
+- It's when it's available high. :: Repete as palavras sem explicar.
+- It's AWS. :: Confunde o conceito com o provedor.
+
+## LESSON m10-4 | Salário, perguntas ao entrevistador e follow-up | 15
+
+### Expectativa salarial
+Para vagas no Brasil a conversa sobre salário costuma ser em reais, mas pode ser em inglês. Dê uma faixa baseada em pesquisa e mostre flexibilidade.
+
+= Based on my research for similar roles, I'm looking for something in the range of X to Y. | Com base em pesquisa para vagas parecidas, busco algo na faixa de X a Y.
+= I'm open to discussing it, considering the whole package. | Estou aberto a conversar, considerando o pacote completo.
+= Could you share the budget for this position? | Vocês poderiam compartilhar a faixa prevista para esta vaga?
+
+### Perguntas para o entrevistador
+Não ter perguntas parece falta de interesse. Prepare três.
+
+- What does a typical day look like for someone in this role?
+- How do you support junior engineers in their first months?
+- What are the biggest challenges the team is facing right now?
+- How do you measure success in this position after six months?
+- What are the next steps in the process?
+
+### Follow-up e LinkedIn
+Um e-mail de agradecimento em até 24 horas: agradeça, mencione algo específico da conversa e reforce o interesse. No LinkedIn, o headline em inglês ajuda recrutadores estrangeiros: "Cloud & Data Intern | AWS Certified Cloud Practitioner | Automation with n8n and APIs".
+
+> [atencao] "Gross" é salário bruto e "net" é líquido. "Package" ou "compensation" inclui benefícios. Não diga "liquid salary".
+
+> [entrevista] "Do you have any questions for us?" sempre aparece no fim. Responder "No, I think you covered everything" é uma oportunidade perdida.
+
+> [dica] Anote durante a entrevista um detalhe que o entrevistador mencionou. Ele vai para o e-mail de follow-up e mostra que você prestou atenção.
+
+?? Complete: "I'm looking for something in the ___ of 3,000 to 3,500." (faixa) ::: range ::: In the range of.
+?? Complete: "What are the next ___ in the process?" ::: steps ::: Next steps.
+?? Como se diz "salário bruto" em inglês? (uma palavra antes de salary) ::: gross ::: Gross salary = bruto; net salary = líquido.
+
+#### QUIZ
+Q: O entrevistador pergunta "Do you have any questions?". Qual é a melhor resposta?
+- No, thank you. :: Parece desinteresse.
++ Yes, how do you support junior engineers in their first months? :: Correto: mostra interesse e pensamento de longo prazo.
+- How many vacation days do I get? :: Válido mais tarde, mas não como primeira pergunta.
+Q: Qual é o objetivo do e-mail de follow-up?
++ Agradecer, citar algo da conversa e reforçar o interesse :: Correto.
+- Pedir a resposta imediatamente :: Pressionar pega mal.
+- Repetir todo o currículo :: Eles já têm.
+
+## CHALLENGE m10-c1 | Monte sua resposta STAR | auto
+TASK:
+Complete as palavras-chave de uma resposta STAR e de uma entrevista. Digite só a palavra.
+ITEMS:
+"Tell me about a ___ when you solved a difficult problem." ::: time
+Situation: We ___ (send) reminders when users started complaining. ::: were sending
+Task: I was responsible ___ finding the root cause. ::: for
+Action: I ___ (check) the logs and found a duplicated trigger. ::: checked
+Result: As a ___, the duplicates dropped to zero. ::: result
+"Now I'm looking ___ a role where I can grow in cloud." ::: for
+"What are the next ___ in the process?" ::: steps
+HINT:
+STAR: Situation no Past Continuous, Task com responsible for, Action no Past Simple, Result com as a result.
+SOLUTION:
+time, were sending, for, checked, result, for, steps.
+
+## CHALLENGE m10-c2 | Seu pitch de 90 segundos | manual
+TASK:
+Escreva e grave sua resposta para "Tell me about yourself" com a estrutura Present → Past → Future, adaptada a uma vaga real que você queira (cloud ou dados). Depois grave de novo sem olhar o texto.
+HINT:
+Inclua um número (tempo economizado, quantidade de fluxos, clientes atendidos) e termine conectando com a vaga.
+SOLUTION:
+Use como base os cinco exemplos da aula sobre Tell me about yourself e troque pelos seus dados reais. Um bom pitch tem de 150 a 220 palavras, uma conquista com número e uma frase final que liga você à vaga.
+EXPECTED:
+- Texto de 150 a 220 palavras com Present, Past e Future.
+- Pelo menos um número concreto.
+- Segunda gravação feita sem olhar o texto, entre 60 e 90 segundos.
+
+## CHALLENGE m10-c3 | Banco de 5 histórias | manual
+TASK:
+Escreva cinco histórias STAR curtas (80 a 120 palavras cada): um problema técnico, um erro e o que aprendeu, um prazo apertado, um conflito ou discordância, algo que aprendeu sozinho rapidamente.
+HINT:
+Cada história deve ter Action em primeira pessoa (I) e Result com número ou consequência clara.
+SOLUTION:
+Exemplo de "algo que aprendeu sozinho": "Situation: Our team needed to read Teams meeting recordings automatically. Task: I had never used the Microsoft Graph API and had one week. Action: I read the official documentation, tested the endpoints in Postman, and learned how app permissions work in Entra ID. Result: I delivered the integration in five days, and now I'm the person the team asks about Graph."
+EXPECTED:
+- Cinco histórias, cada uma com as quatro partes do STAR.
+- Action em primeira pessoa.
+- Pelo menos três resultados com número.

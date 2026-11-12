@@ -1,0 +1,475 @@
+@ ap01 | Apresentação | B2
+Q: Tell me about yourself.
+PT: Fale sobre você.
+A:
+I'm a Systems Analysis and Development student, and I currently work as an automation intern. Day to day, I build workflows in n8n that connect tools like Microsoft Graph, WhatsApp APIs and our internal database. Before that, I did a technical course in Systems Development, and last year I earned the AWS Cloud Practitioner certification. Now I'm looking for a role where I can grow in cloud, and that's why this position caught my attention.
+TIP: Estrutura Present → Past → Future. Termine conectando com a vaga, em 60 a 90 segundos.
+
+@ ap02 | Apresentação | B1
+Q: What are you currently studying?
+PT: O que você está estudando atualmente?
+A:
+I'm in my first year of a degree in Systems Analysis and Development. At the same time, I'm studying for my next AWS certification and taking courses in SQL and Python for data analysis.
+TIP: Present Continuous para estudos em andamento. Mostre que você estuda além da faculdade.
+
+@ ap03 | Apresentação | B1
+Q: Why did you choose this career?
+PT: Por que escolheu esta carreira?
+A:
+I've always liked understanding how things work. In my technical course I realized I enjoy solving problems with code, and during my internship I saw how automation can save people hours of repetitive work. That impact is what keeps me motivated.
+TIP: Conte um momento concreto. "I've always liked technology" sozinho é genérico.
+
+@ ap04 | Apresentação | B2
+Q: Why do you want to work in cloud?
+PT: Por que você quer trabalhar com cloud?
+A:
+Most of the systems I integrate at work already run in the cloud, and I got curious about what happens behind the APIs I use. Studying for the Cloud Practitioner exam confirmed it: I like thinking about reliability, security and cost. I'd like to start in cloud operations and grow towards architecture.
+TIP: Ligue a motivação à sua experiência real, não só ao mercado aquecido.
+
+@ ap05 | Apresentação | B2
+Q: How would you describe your English level?
+PT: Como você descreve seu nível de inglês?
+A:
+I'd say I'm at an upper-intermediate level. I read documentation in English every day, and I'm comfortable in meetings. I'm currently working on sounding more natural and on my listening with different accents.
+TIP: Honesto e confiante. Mostre como você usa o inglês e o que está melhorando.
+
+@ ap06 | Apresentação | B2
+Q: What do you know about our company?
+PT: O que você sabe sobre nossa empresa?
+A:
+I know you provide cloud services for large companies in Brazil, and I read about your recent focus on managed services and observability. I also noticed in the job description that the team works with both Windows and Linux environments, which matches what I'd like to learn.
+TIP: Pesquise antes: produto, clientes, notícias recentes e a descrição da vaga. Adapte o exemplo à empresa real.
+
+@ ap07 | Apresentação | B2
+Q: Why should we hire you?
+PT: Por que deveríamos contratar você?
+A:
+I already work with APIs and automation in a real company, so I understand how systems connect in practice. I learn fast, as I showed when I learned the Microsoft Graph API in a week, and I have a cloud foundation with my AWS certification. I think I can contribute from the start and grow quickly with the team.
+TIP: Três argumentos: o que você já faz, uma prova de aprendizado rápido, conexão com a vaga.
+
+@ ap08 | Apresentação | B2
+Q: Where do you see yourself in five years?
+PT: Onde você se vê em cinco anos?
+A:
+I see myself working as a cloud engineer, helping teams design reliable and cost-effective systems. I'm going to keep studying for more advanced certifications, and I'd like to be the kind of person juniors can come to with questions.
+TIP: Ambição realista e ligada à área da vaga. Going to para planos, would like to para desejos.
+
+@ ap09 | Apresentação | B2
+Q: What are your strengths?
+PT: Quais são seus pontos fortes?
+A:
+I'd say I'm curious and persistent. When something doesn't work, I don't stop until I understand why. For example, I once spent an afternoon on a webhook that triggered twice, and the fix I found ended up being reused in other workflows.
+TIP: Dois pontos fortes no máximo, cada um com um exemplo curto.
+
+@ ap10 | Apresentação | B2
+Q: What is your greatest weakness?
+PT: Qual é seu maior ponto fraco?
+A:
+I tend to spend too long polishing details before showing my work. I've realized it slows down feedback, so now I timebox tasks and share a first version earlier, even if it's not perfect.
+TIP: Um ponto fraco real e não crítico para a vaga, mais o que você já faz para melhorar.
+
+@ ap11 | Apresentação | B2
+Q: What are you most proud of so far?
+PT: Do que você mais se orgulha até agora?
+A:
+I'm proud of an automation that sends Teams meeting recordings to clients on WhatsApp and registers everything in our database. It replaced a manual process and saves the team several hours a week. It was also the first project where I dealt with access permissions in Microsoft Entra ID.
+TIP: Escolha um projeto com impacto mensurável e uma parte técnica sua.
+
+@ co01 | Comportamental | B2
+Q: Tell me about a time you solved a difficult problem.
+PT: Conte sobre uma vez em que resolveu um problema difícil.
+A:
+Situation: clients were receiving duplicated WhatsApp reminders. Task: I had to find the cause without stopping the service. Action: I checked the execution logs, found that the calendar webhook fired twice, and added a step that stored the event ID before sending. Result: duplicates dropped to zero, and I documented the fix for the team.
+TIP: STAR, com 60% do tempo na Action e um resultado com número.
+
+@ co02 | Comportamental | B2
+Q: Tell me about a time you made a mistake.
+PT: Conte sobre um erro que você cometeu.
+A:
+Early in my internship I tested a workflow directly in production and sent a few test messages to real clients. I told my manager right away, we sent a short apology, and I created a separate test environment with fake contacts. Since then I've always tested in a sandbox first.
+TIP: Assuma o erro, mostre a reação rápida e o que você mudou. O aprendizado é o centro da resposta.
+
+@ co03 | Comportamental | B2
+Q: Describe a situation where you had to learn something quickly.
+PT: Descreva uma situação em que teve de aprender algo rápido.
+A:
+We needed to download meeting recordings automatically, and I had never used the Microsoft Graph API. I had about a week. I read the official documentation, tested the endpoints in Postman and learned how app permissions work. I delivered the integration in five days.
+TIP: Mostre o método de aprendizado (documentação, testes), não só o resultado.
+
+@ co04 | Comportamental | B2
+Q: Tell me about a conflict with a teammate.
+PT: Conte sobre um conflito com um colega.
+A:
+A colleague wanted to add new features to a bot before fixing some error cases. I was worried about reliability. Instead of arguing, I showed him the logs with the failed executions, and we agreed to fix the two most frequent errors first and then add the features. The bot became much more stable.
+TIP: Mostre que você ouviu, trouxe dados e chegou a um acordo. Evite histórias em que você "venceu".
+
+@ co05 | Comportamental | B2
+Q: Tell me about a time you had to meet a tight deadline.
+PT: Conte sobre um prazo apertado.
+A:
+A client needed a report integration in three days instead of two weeks. I split the work into the minimum version the client needed and the improvements that could wait. I delivered the essential part on time and the rest the following week.
+TIP: Priorização é a palavra-chave. Mostre como você decidiu o que entregar primeiro.
+
+@ co06 | Comportamental | B2
+Q: Give me an example of when you went beyond what was expected.
+PT: Dê um exemplo de quando foi além do esperado.
+A:
+I was asked to fix a single failing workflow. While investigating, I noticed that none of our workflows alerted anyone when they failed. I created a reusable error branch that sends a message to the team on Teams and added it to all of them.
+TIP: Mostre iniciativa útil para o time, não horas extras.
+
+@ co07 | Comportamental | B2
+Q: How do you handle pressure?
+PT: Como você lida com pressão?
+A:
+I try to break the problem into smaller parts and focus on what I can control. When there's a production issue, I first communicate the status to the people affected, then work on the fix. Clear communication reduces a lot of the pressure.
+TIP: Responda com um método e, se possível, com um exemplo curto.
+
+@ co08 | Comportamental | B2
+Q: How do you deal with feedback?
+PT: Como você lida com feedback?
+A:
+I see feedback as a shortcut to improving. My manager once told me that my documentation was too technical for the business team, so I started adding a short summary in plain language at the top. Now the sales team actually reads it.
+TIP: Use reported speech para contar o feedback e mostre a mudança concreta.
+
+@ co09 | Comportamental | B2
+Q: How do you organize your tasks?
+PT: Como você organiza suas tarefas?
+A:
+I keep a list of tasks with priorities, and at the start of each day I pick the two or three most important ones. I block time for focused work and leave messages and emails for specific moments. If priorities change, I check with my manager.
+TIP: Ferramentas e método concretos. Mencione alinhamento com o gestor.
+
+@ co10 | Comportamental | B2
+Q: Tell me about a time you worked in a team.
+PT: Conte sobre uma experiência em equipe.
+A:
+In a university project, our group built a marketplace connecting small farm producers to local stores. I was responsible for the cloud architecture on AWS. We had weekly check-ins, and I documented the setup so everyone could deploy their part. We presented a working prototype on time.
+TIP: Deixe claro qual foi a sua parte dentro do time.
+
+@ co11 | Comportamental | C1
+Q: Tell me about a time you disagreed with your manager.
+PT: Conte sobre uma discordância com seu gestor.
+A:
+My manager wanted to send reminders every hour. I was concerned that clients would see it as spam. I suggested a test: one group with hourly messages and one with a single daily summary. The daily summary had fewer complaints and the same response rate, so we kept it.
+TIP: Discorde com dados e proposta. "I was concerned" e "I suggested" mantêm o tom respeitoso.
+
+@ co12 | Comportamental | B2
+Q: Describe a time you had to explain something technical to a non-technical person.
+PT: Descreva quando explicou algo técnico para alguém não técnico.
+A:
+The sales team asked why some messages weren't sent. I explained that the system talks to WhatsApp through an API, which works like a waiter taking orders to the kitchen, and that sometimes the kitchen limits how many orders it accepts per minute. They understood the delay and we agreed on a schedule.
+TIP: Use a estrutura definição, analogia e exemplo do módulo 8.
+
+@ co13 | Comportamental | B2
+Q: How do you keep learning?
+PT: Como você continua aprendendo?
+A:
+I read official documentation, take courses on AWS Skill Builder, and I try to apply what I learn in small projects. For English, I keep an error log and review it every week. I also follow a few podcasts about cloud.
+TIP: Mostre método e constância.
+
+@ co14 | Comportamental | B2
+Q: Tell me about a time you failed to meet a goal.
+PT: Conte sobre uma meta que você não atingiu.
+A:
+I planned to finish a dashboard integration in one sprint, but I underestimated the data cleaning. I told my manager halfway through instead of at the end, and we moved part of the scope to the next sprint. Since then I add a buffer for data quality issues.
+TIP: Mostre que você comunicou cedo e ajustou o planejamento.
+
+@ si01 | Situacional | B2
+Q: What would you do if a deployment failed in production?
+PT: O que você faria se um deploy falhasse em produção?
+A:
+First, I'd check the impact and roll back to the last stable version if users were affected. Then I'd inform the team and the affected stakeholders. After that, I'd look at the logs to find the root cause, fix it in staging, and write a short postmortem.
+TIP: Second conditional e sequência: impacto, reverter, comunicar, investigar, documentar.
+
+@ si02 | Situacional | B2
+Q: What would you do if you didn't know how to complete a task?
+PT: O que faria se não soubesse completar uma tarefa?
+A:
+I'd spend some time researching on my own, in the documentation and in previous tickets. If I were still stuck after about an hour, I'd write down what I'd tried and ask a colleague for help, so their time would be used well.
+TIP: Mostre autonomia e saber a hora de pedir ajuda.
+
+@ si03 | Situacional | B2
+Q: What would you do if you had two urgent tasks at the same time?
+PT: O que faria com duas tarefas urgentes ao mesmo tempo?
+A:
+I'd check the impact of each one and the deadlines. If it wasn't clear which came first, I'd ask my manager to help prioritize. Meanwhile, I'd let the people waiting on the second task know when they could expect it.
+TIP: Priorização mais comunicação.
+
+@ si04 | Situacional | B2
+Q: What would you do if a client was angry about an outage?
+PT: O que faria se um cliente estivesse irritado com uma queda?
+A:
+I'd listen first and acknowledge the impact without making excuses. Then I'd explain what we know so far, what we're doing, and when they'll get the next update. After it's solved, I'd share a short summary of the cause and what we changed.
+TIP: Empatia, transparência e próximo passo com horário.
+
+@ si05 | Situacional | C1
+Q: What would you do if you noticed a colleague made a security mistake?
+PT: O que faria se notasse um erro de segurança de um colega?
+A:
+I'd talk to them privately and quickly, because security issues can't wait. For example, if they committed an API key, I'd suggest rotating the key right away and removing it from the repository history. If it had already been exposed, we'd need to inform the team lead.
+TIP: Rapidez e discrição. Mostre que você sabe o procedimento (rotate the key).
+
+@ si06 | Situacional | B2
+Q: How would you report a technical issue to your team?
+PT: Como você reportaria um problema técnico ao time?
+A:
+I'd write a short message with what happened, the impact, the steps to reproduce, what I've already checked, and a link to the logs. If it's urgent, I'd also mention it in the daily or call the person responsible.
+TIP: É praticamente a estrutura do bug report. Cite as seções.
+
+@ si07 | Situacional | B2
+Q: How would you ask a colleague for help?
+PT: Como você pediria ajuda a um colega?
+A:
+I'd send a message with the context: "Hi, I'm trying to connect the webhook to the CRM, but I'm getting a 403 error. I've checked the token and the URL. Do you have ten minutes to take a look with me?"
+TIP: Contexto, o que já tentou e um pedido específico.
+
+@ si08 | Situacional | B2
+Q: What would you do if requirements changed in the middle of a project?
+PT: O que faria se os requisitos mudassem no meio do projeto?
+A:
+I'd make sure I understood the new requirement and why it changed. Then I'd estimate the impact on the timeline and share it with the stakeholders, so they could decide what to keep and what to postpone.
+TIP: Entender, medir o impacto e deixar a decisão com quem decide.
+
+@ cl01 | Técnica Cloud | B2
+Q: What is cloud computing?
+PT: O que é computação em nuvem?
+A:
+Cloud computing is renting computing resources, like servers, storage and databases, over the internet, and paying for what you use. Think of it as using electricity from the grid instead of owning a generator. The main benefits are flexibility and speed; the trade-off is that costs need to be monitored.
+TIP: Definição, analogia e trade-off em 30 segundos.
+
+@ cl02 | Técnica Cloud | B2
+Q: What's the difference between IaaS, PaaS and SaaS?
+PT: Qual a diferença entre IaaS, PaaS e SaaS?
+A:
+IaaS gives you infrastructure, like virtual machines, and you manage the operating system. PaaS gives you a platform to run your code without managing servers. SaaS is a ready-to-use application, like Gmail or Microsoft 365. The higher you go, the less you manage.
+TIP: Um exemplo de cada. A última frase resume a lógica.
+
+@ cl03 | Técnica Cloud | B2
+Q: What is the shared responsibility model?
+PT: O que é o modelo de responsabilidade compartilhada?
+A:
+It defines who is responsible for what. The cloud provider is responsible for the security of the cloud, like the physical data centers and the hardware. The customer is responsible for security in the cloud, like their data, access permissions and configurations.
+TIP: Of the cloud x in the cloud. Pergunta clássica do Cloud Practitioner.
+
+@ cl04 | Técnica Cloud | B2
+Q: What is high availability?
+PT: O que é alta disponibilidade?
+A:
+High availability means a system keeps working even if one component fails. In AWS, you usually achieve it by running resources in more than one availability zone, with a load balancer distributing the traffic.
+TIP: Definição curta e como se implementa.
+
+@ cl05 | Técnica Cloud | B2
+Q: What's the difference between scalability and elasticity?
+PT: Diferença entre escalabilidade e elasticidade?
+A:
+Scalability is the ability to handle more load by adding resources. Elasticity is doing that automatically, adding and removing resources as demand goes up and down, so you only pay for what you need.
+TIP: Elasticidade é escalabilidade automática nos dois sentidos.
+
+@ cl06 | Técnica Cloud | B2
+Q: What is a region and what is an availability zone?
+PT: O que é região e zona de disponibilidade?
+A:
+A region is a geographic area, like São Paulo or North Virginia. Each region has several availability zones, which are isolated data centers with independent power and networking. Using more than one zone protects you from a data center failure.
+TIP: Cite a região de São Paulo (sa-east-1) se quiser mostrar familiaridade.
+
+@ cl07 | Técnica Cloud | B2
+Q: What is IAM and why is least privilege important?
+PT: O que é IAM e por que o menor privilégio importa?
+A:
+IAM is the service that controls who can access which resources. Least privilege means giving users and services only the permissions they need. It reduces the damage if credentials are stolen or if someone makes a mistake.
+TIP: Ligue à prática: você já configurou permissões no Entra ID, o equivalente da Microsoft.
+
+@ cl08 | Técnica Cloud | B2
+Q: How would you troubleshoot a slow web application?
+PT: Como investigaria uma aplicação lenta?
+A:
+First, I'd check the monitoring metrics to see when it started and whether CPU, memory or network changed. Then I'd look at the logs for errors or slow requests. After that, I'd try to isolate the layer: application, database or network. If a release happened around that time, I'd consider rolling it back.
+TIP: Pensamento em voz alta, em camadas. Sequenciadores: first, then, after that.
+
+@ cl09 | Técnica Cloud | B2
+Q: What's the difference between a virtual machine and a container?
+PT: Diferença entre máquina virtual e contêiner?
+A:
+A virtual machine emulates a full computer, with its own operating system. A container packages only the application and its dependencies and shares the host's operating system kernel. That makes containers lighter and faster to start.
+TIP: Lighter e faster to start são as palavras que o entrevistador espera.
+
+@ cl10 | Técnica Cloud | B2
+Q: What is serverless?
+PT: O que é serverless?
+A:
+Serverless means you run code without managing servers; the provider handles scaling and infrastructure, and you pay per execution. AWS Lambda is an example. The trade-off is less control and possible cold starts.
+TIP: Serverless ainda usa servidores; você só não os gerencia.
+
+@ cl11 | Técnica Cloud | B2
+Q: What is a load balancer?
+PT: O que é um load balancer?
+A:
+A load balancer distributes incoming traffic across several servers, so no single server is overloaded. It also checks the health of the servers and stops sending traffic to the ones that fail.
+TIP: Mencione health checks: mostra que você entende o papel na alta disponibilidade.
+
+@ cl12 | Técnica Cloud | B2
+Q: How can you reduce cloud costs?
+PT: Como reduzir custos de cloud?
+A:
+First, I'd find unused resources, like idle instances or old snapshots. Then I'd right-size instances based on actual usage, use autoscaling, and consider reserved instances or savings plans for steady workloads. Setting budgets and alerts helps catch surprises early.
+TIP: Right-size, autoscaling, reserved instances e budgets alerts são termos que contam pontos.
+
+@ cl13 | Técnica Cloud | B2
+Q: What is monitoring and what would you monitor in a web application?
+PT: O que é monitoramento e o que monitoraria?
+A:
+Monitoring is collecting metrics and logs to know if a system is healthy. In a web application, I'd monitor availability, response time, error rate, and resource usage like CPU and memory, with alerts when they cross a threshold.
+TIP: Cite métricas concretas: latency, error rate, CPU.
+
+@ cl14 | Técnica Cloud | B2
+Q: What is an API, and have you worked with one?
+PT: O que é uma API e você já trabalhou com uma?
+A:
+An API is a way for two systems to communicate following a defined contract. Yes, I work with APIs every day: I integrate the Microsoft Graph API, WhatsApp messaging APIs and our company's internal API in n8n workflows.
+TIP: Definição curta e ponte imediata para sua experiência.
+
+@ cl15 | Técnica Cloud | B2
+Q: What do HTTP status codes 401, 403, 404 and 500 mean?
+PT: O que significam os códigos 401, 403, 404 e 500?
+A:
+401 means unauthorized: the request isn't authenticated. 403 means forbidden: you're authenticated but don't have permission. 404 means the resource wasn't found. 500 is an internal server error, a problem on the server side.
+TIP: A diferença entre 401 e 403 é uma pegadinha comum.
+
+@ cl16 | Técnica Cloud | B2
+Q: What is CI/CD?
+PT: O que é CI/CD?
+A:
+CI, continuous integration, means automatically building and testing code every time someone pushes a change. CD, continuous delivery or deployment, means automatically releasing tested code to an environment. It makes releases smaller, faster and safer.
+TIP: Pronuncie as letras: C-I-C-D.
+
+@ da01 | Técnica Dados | B2
+Q: Have you worked with databases?
+PT: Já trabalhou com bancos de dados?
+A:
+Yes. In my internship I write SQL queries and updates on our company database, mostly to register data from the automations and to generate reports. I've also studied data modeling at university.
+TIP: Seja específico sobre o que você faz (queries, updates, relatórios).
+
+@ da02 | Técnica Dados | B2
+Q: What's the difference between a primary key and a foreign key?
+PT: Diferença entre chave primária e estrangeira?
+A:
+A primary key uniquely identifies each row in a table, like a customer ID. A foreign key is a column that references the primary key of another table, like customer_id in an orders table. It keeps the relationship between the tables consistent.
+TIP: Use o exemplo clássico de clientes e pedidos.
+
+@ da03 | Técnica Dados | B2
+Q: What is a JOIN, and what's the difference between INNER and LEFT JOIN?
+PT: O que é JOIN e a diferença entre INNER e LEFT?
+A:
+A JOIN combines rows from two tables based on a related column. An INNER JOIN returns only the rows that match in both tables. A LEFT JOIN returns all rows from the left table, and the matching rows from the right one, with nulls where there's no match.
+TIP: Mencione os nulls no LEFT JOIN.
+
+@ da04 | Técnica Dados | B2
+Q: What is ETL?
+PT: O que é ETL?
+A:
+ETL stands for extract, transform and load. You extract data from sources, transform it by cleaning and combining it, and load it into a destination like a data warehouse. My n8n workflows do a small-scale version of this when they move data between systems.
+TIP: Ligue à sua experiência com automação.
+
+@ da05 | Técnica Dados | B2
+Q: How would you deal with missing or duplicated data?
+PT: Como lidaria com dados faltantes ou duplicados?
+A:
+First, I'd understand why it happens, because fixing the source is better than cleaning forever. For duplicates, I'd define a unique key and remove or merge repeated rows. For missing values, it depends: I might fill them, flag them, or exclude them, and I'd document the decision.
+TIP: "It depends" seguido de critérios mostra maturidade.
+
+@ da06 | Técnica Dados | B2
+Q: How would you explain a dashboard to a manager?
+PT: Como explicaria um dashboard a um gestor?
+A:
+I'd start with the main message, for example: "Sales dropped 10% this month, mostly in the South region." Then I'd show the chart that supports it, and finish with what we could do about it. Managers want the conclusion first, then the details.
+TIP: Conclusão primeiro, detalhe depois.
+
+@ da07 | Técnica Dados | B2
+Q: What is the difference between WHERE and HAVING?
+PT: Diferença entre WHERE e HAVING?
+A:
+WHERE filters rows before the grouping happens. HAVING filters groups after the aggregation, so you use it with functions like COUNT or SUM, for example to show only customers with more than five orders.
+TIP: Before x after grouping é a chave.
+
+@ da08 | Técnica Dados | B2
+Q: What is a KPI? Give an example.
+PT: O que é um KPI? Dê um exemplo.
+A:
+A KPI is a key performance indicator, a metric that shows if the business is reaching a goal. For example, for our lead reactivation project, a KPI could be the percentage of inactive leads that replied after the automated message.
+TIP: Dê um KPI de um projeto seu.
+
+@ ce01 | Comunicação | B2
+Q: Could you explain your last project in English?
+PT: Poderia explicar seu último projeto em inglês?
+A:
+Sure. My last project was a WhatsApp bot for product registration. The problem was that the team registered products manually, which was slow. I built a flow in n8n that receives a message, extracts the product data and sends it to our company's API. As a result, registration time dropped from about ten minutes to one.
+TIP: Problema, solução, sua parte, resultado. Dois minutos no máximo.
+
+@ ce02 | Comunicação | B2
+Q: How do you communicate in a remote team?
+PT: Como você se comunica em um time remoto?
+A:
+I try to write messages that can be understood without a call: context, what I need and what I've already tried. I give status updates in the daily and say early if I'm blocked. For complex topics, I suggest a quick call and then write a summary.
+TIP: Assíncrono por padrão, call quando necessário, resumo escrito depois.
+
+@ ce03 | Comunicação | B2
+Q: Sorry, the connection dropped. Could you repeat your last point?
+PT: Desculpe, a conexão caiu. Poderia repetir o último ponto?
+A:
+Of course. I was saying that the main result of the project was reducing manual work. Can you hear me well now?
+TIP: Treine retomar uma resposta interrompida com "I was saying that..." e confirmar o áudio.
+
+@ ce04 | Comunicação | C1
+Q: How do you handle meetings where people speak very fast?
+PT: Como lida com reuniões em que falam muito rápido?
+A:
+I focus on the main points and take notes. If I miss something important, I ask for clarification, for example: "Just to make sure I understood, the deadline moved to Friday, right?" Paraphrasing helps me and usually helps others too.
+TIP: Mostre que você tem estratégia, não que entende tudo.
+
+@ fe01 | Fechamento | B2
+Q: What are your salary expectations?
+PT: Qual sua pretensão salarial?
+A:
+Based on my research for similar junior roles in this region, I'm looking for something in the range of X to Y. But I'm open to discussing it, considering the whole package and the learning opportunities.
+TIP: Pesquise a faixa antes. Dê um intervalo, não um número fechado.
+
+@ fe02 | Fechamento | B2
+Q: Do you have any questions for us?
+PT: Você tem perguntas para nós?
+A:
+Yes, a few. What does a typical day look like for someone in this role? And how do you support junior engineers in their first months? Also, what are the next steps in the process?
+TIP: Nunca diga apenas "No". Leve três perguntas preparadas.
+
+@ fe03 | Fechamento | B2
+Q: When can you start?
+PT: Quando você pode começar?
+A:
+I'd need to give my current internship two weeks' notice, so I could start about two weeks after receiving an offer. If you need someone sooner, I can check if there's any flexibility.
+TIP: Seja realista e profissional com o empregador atual.
+
+@ fe04 | Fechamento | B2
+Q: Are you interviewing with other companies?
+PT: Você está participando de outros processos?
+A:
+Yes, I'm in a couple of other processes, but this role is one of my top choices because of the focus on cloud operations and the learning culture you described.
+TIP: Honesto e sem detalhes. Reforce o interesse nesta vaga.
+
+@ fe05 | Fechamento | B2
+Q: Is there anything else you'd like to add?
+PT: Há algo mais que gostaria de acrescentar?
+A:
+Just that I'm really excited about this opportunity. I think my experience with automation and APIs, plus my cloud studies, would let me contribute quickly. Thank you for your time today.
+TIP: Resumo de uma frase do seu valor e agradecimento.
+
+@ fe06 | Fechamento | B2
+Q: Are you willing to work in a hybrid model?
+PT: Aceita trabalhar no modelo híbrido?
+A:
+Yes, I'm open to a hybrid model. I'm based in Sorocaba, so I can come to the São Paulo office on the agreed days. I actually think in-person days are great for learning from more experienced colleagues.
+TIP: Responda a logística com clareza e mostre o lado positivo.
+
+@ fe07 | Fechamento | B2
+Q: How would you rate your experience with Linux?
+PT: Como avalia sua experiência com Linux?
+A:
+I'd say it's basic but growing. I'm comfortable with the terminal, navigating files, permissions and checking logs, and I'm practicing more administration tasks. It's one of the areas I'm actively improving.
+TIP: Seja honesto sobre o nível e mostre o plano de evolução.

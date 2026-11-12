@@ -1,0 +1,56 @@
+## Livros
+- English Grammar in Use | Raymond Murphy · Cambridge University Press | B1–B2 | https://www.cambridge.org/ | O livro de referência para gramática intermediária. Use como eixo dos módulos 2 a 4: leia a unidade, faça os exercícios e crie exemplos seus.
+- Advanced Grammar in Use | Martin Hewings · Cambridge University Press | C1–C2 | https://www.cambridge.org/ | Aprofunda inversão, cleft sentences, modais no passado e estruturas formais do módulo 9.
+- English Collocations in Use (Intermediate e Advanced) | Michael McCarthy e Felicity O'Dell · Cambridge | B2–C1 | - | Exercícios focados em collocations, o tema do módulo 5. Procure pelo título na Cambridge ou em livrarias.
+- English Phrasal Verbs in Use | Michael McCarthy e Felicity O'Dell · Cambridge | B2–C1 | - | Phrasal verbs organizados por tema e contexto.
+- Business Vocabulary in Use | Bill Mascull · Cambridge | B2–C1 | - | Vocabulário de reuniões, negociação e relatórios, complementa os módulos 7 e 8.
+
+## Cursos e plataformas
+- BBC Learning English | BBC | A2–C1 | https://www.bbc.co.uk/learningenglish | Cursos por nível, gramática, vocabulário e pronúncia, gratuito.
+- 6 Minute English | BBC Learning English | B1–B2 | https://www.bbc.co.uk/learningenglish/english/features/6-minute-english | Episódios curtos com transcrição e vocabulário. Ideal para o listening ativo do módulo 6.
+- British Council LearnEnglish | British Council | A2–C1 | https://learnenglish.britishcouncil.org/ | Exercícios de gramática, leitura e listening organizados por nível.
+- Technical Writing (cursos One e Two) | Google for Developers | B2–C1 | https://developers.google.com/tech-writing | Curso gratuito de escrita técnica em inglês. Complementa o módulo 7.
+- AWS Skill Builder | Amazon Web Services | B2 | https://skillbuilder.aws/ | Cursos de AWS em inglês. Estudar cloud em inglês treina vocabulário técnico e listening ao mesmo tempo.
+- Learning How to Learn | Coursera · Barbara Oakley e Terrence Sejnowski | B2 | https://www.coursera.org/learn/learning-how-to-learn | Curso em inglês sobre técnicas de estudo, incluindo repetição espaçada.
+
+## Dicionários e ferramentas
+- Oxford Learner's Dictionaries | Oxford University Press | Todos | https://www.oxfordlearnersdictionaries.com/ | Significado, pronúncia em áudio (UK e US), exemplos e collocations.
+- Cambridge Dictionary | Cambridge University Press | Todos | https://dictionary.cambridge.org/ | Dicionário com pronúncia e seção de gramática.
+- YouGlish | YouGlish | B1–C2 | https://youglish.com/ | Mostra trechos de vídeos reais em que uma palavra é dita. Ótimo para pronúncia e word stress.
+- Forvo | Forvo | Todos | https://forvo.com/ | Pronúncias gravadas por falantes de vários países.
+- Write & Improve | Cambridge | A2–C1 | https://writeandimprove.com/ | Correção automática de textos com indicação de nível.
+- Quizlet | Quizlet | Todos | https://quizlet.com/ | Flashcards para vocabulário e collocations.
+- Hemingway Editor | Hemingway | B2–C1 | https://hemingwayapp.com/ | Destaca frases longas e passivas em excesso. Útil para documentação.
+
+## Listening e pronúncia
+- TED Talks | TED | B1–C2 | https://www.ted.com/talks | Palestras com transcrição e legendas em inglês. Muitos palestrantes não nativos.
+- Luke's English Podcast | Luke Thompson | B2–C1 | https://teacherluke.co.uk/ | Episódios longos de inglês natural, com expressões e phrasal verbs.
+- English with Lucy | Lucy Earl | B1–C2 | https://www.youtube.com/@EnglishwithLucy | Pronúncia britânica, connected speech e vocabulário.
+- Rachel's English | Rachel Smith | B1–C2 | https://www.youtube.com/@rachelsenglish | Pronúncia americana detalhada, com foco em ritmo, linking e reduções.
+- All Ears English | Lindsay McMahon e Michelle Kaplan | B2–C1 | https://www.allearsenglish.com/ | Podcast de conversação e inglês americano natural.
+- Business English Pod | Business English Pod | B2–C1 | https://www.businessenglishpod.com/ | Diálogos de reuniões, negociação e apresentações.
+- Software Engineering Daily | Software Engineering Daily | C1 | https://softwareengineeringdaily.com/ | Entrevistas técnicas sobre software e cloud em ritmo nativo.
+
+## Documentação oficial para treinar inglês técnico
+- AWS Documentation | Amazon Web Services | B2–C1 | https://docs.aws.amazon.com/ | Leia a página de um serviço que você usa e resuma em voz alta.
+- Microsoft Learn | Microsoft | B2–C1 | https://learn.microsoft.com/en-us/ | Documentação de Azure, Microsoft Graph e Power BI.
+- MDN Web Docs | Mozilla | B2 | https://developer.mozilla.org/en-US/ | Referência de HTTP e web. Bom modelo de escrita técnica clara.
+- GitHub Docs | GitHub | B2 | https://docs.github.com/en | Git, pull requests e Actions, com vocabulário que você usa todo dia.
+- Docker Docs | Docker | B2 | https://docs.docker.com/ | Containers, com instruções no imperativo.
+- AWS Well-Architected Framework | Amazon Web Services | C1 | https://aws.amazon.com/architecture/well-architected/ | Vocabulário de reliability, security e cost optimization para entrevistas de cloud.
+
+## Comunidades e conversação
+- r/EnglishLearning | Reddit | B1–C2 | https://www.reddit.com/r/EnglishLearning/ | Dúvidas sobre nuances e uso real.
+- Discord | Discord | A2–C2 | https://discord.com/ | Procure servidores de prática de inglês com salas de voz.
+- Tandem | Tandem | A2–C2 | https://www.tandem.net/ | Troca de idiomas com nativos: você ensina português, eles ensinam inglês.
+- italki | italki | A2–C2 | https://www.italki.com/ | Aulas pagas com professores; útil para entrevistas simuladas.
+- Cambly | Cambly | A2–C2 | https://www.cambly.com/ | Conversação paga com nativos, sem agendamento prévio.
+- Toastmasters International | Toastmasters | B2–C2 | https://www.toastmasters.org/ | Clubes de oratória para treinar apresentações. Procure clubes em inglês na sua região ou online.
+
+## Certificações e referências de nível
+- CEFR (Quadro Europeu Comum) | Council of Europe | Todos | https://www.coe.int/en/web/common-european-framework-reference-languages | Descritores oficiais de A1 a C2. Base do módulo 1.
+- Cambridge English Qualifications | Cambridge | B2–C2 | https://www.cambridgeenglish.org/ | B2 First, C1 Advanced e C2 Proficiency. O certificado não expira, mas instituições podem exigir uma prova recente.
+- IELTS | IELTS | B1–C2 | https://ielts.org/ | Exigido por muitas universidades de intercâmbio. Os critérios de avaliação usados no módulo 11 vêm daqui.
+- TOEFL iBT | ETS | B1–C2 | https://www.ets.org/toefl.html | Comum em universidades americanas.
+- IELTS Advantage | Christopher Pell | B2–C2 | https://www.ieltsadvantage.com/ | Técnicas de speaking e writing que servem também para o trabalho.
+- The Economist | The Economist | C1–C2 | https://www.economist.com/ | Leitura densa de negócios e argumentação (parte é paga).

@@ -1,0 +1,197 @@
+# MODULE m08
+num: 08
+level: C1
+title: Reuniões e apresentações
+summary: Daily, status update, concordar e discordar, explicar conceitos técnicos e apresentar um projeto. É o inglês que você usa ao vivo, sem tempo para traduzir.
+goal: Participar de reuniões com autonomia e apresentar um projeto técnico de forma estruturada.
+
+## LESSON m08-1 | Daily stand-up e status updates | 14
+
+### A estrutura da daily
+A daily tem três perguntas fixas. Respostas curtas e específicas são o padrão.
+
+| Pergunta | Tempo verbal | Exemplo |
+| What did you do yesterday? | Past Simple | Yesterday I finished the CRM webhook and wrote the tests. |
+| What are you working on today? | Present Continuous / going to | Today I'm going to integrate the reports with Power BI. |
+| Any blockers? | Present Simple / Present Perfect | I'm blocked on the database access. I've asked IT, but haven't heard back yet. |
+
+= I'm still working on the migration; it should be done by tomorrow. | Ainda estou na migração; deve ficar pronta amanhã.
+= No blockers on my side. | Sem impedimentos da minha parte.
+= I might need some help from the infra team with the VPN. | Talvez eu precise de ajuda do time de infra com a VPN.
+
+### Status update escrito
+Em relatórios semanais, use o formato **Done / In progress / Next / Risks**. Frases curtas, com verbos no início.
+
+> [atencao] "I'm blocked" não é admitir fracasso. É informação útil para o time. Dizer o bloqueio cedo é sinal de maturidade.
+
+> [entrevista] "How do you handle being stuck on a task?" combina com o vocabulário da daily: "I timebox it. If I'm stuck for more than an hour, I write down what I've tried and ask for help in the daily or in the team channel."
+
+> [dica] Prepare sua daily em três linhas antes da reunião. Em pouco tempo isso vira automático e você para de improvisar.
+
+?? Complete: "Yesterday I ___ (finish) the API integration." ::: finished ::: O que fez ontem: Past Simple.
+?? Complete: "I'm ___ on the access request." (bloqueado) ::: blocked ::: Blocked on = bloqueado por algo.
+?? Complete: "No blockers on my ___." ::: side ::: "On my side" = da minha parte.
+
+#### QUIZ
+Q: Qual resposta é melhor na daily?
++ Yesterday I fixed the duplicated messages bug. Today I'm writing the docs. No blockers. :: Correto: curta, específica, estruturada.
+- I did many things yesterday and I will do many things today. :: Vaga demais.
+- I worked. :: Não informa nada.
+Q: Como dizer que está esperando uma resposta e por isso parado?
+- I'm waiting the answer. :: Wait precisa de for.
++ I'm blocked until I hear back from the security team. :: Correto.
+- I'm stopped for the answer. :: Tradução literal.
+
+## LESSON m08-2 | Concordar, discordar e interromper com educação | 16
+
+### Discordar sem criar conflito
+Em culturas de trabalho anglo-saxônicas, discordar é normal, mas o tom é suave. A estrutura é **reconhecer + discordar + propor**.
+
+| Função | Frases |
+| Concordar | I agree. / That makes sense. / Good point. / I'm with you on that. |
+| Concordar em parte | I see your point, but... / That's true to some extent, however... |
+| Discordar | I'm not sure I agree. / I see it a bit differently. / I have some concerns about that. |
+| Propor | What if we...? / How about...? / Another option could be... |
+| Interromper | Sorry to interrupt, but... / Can I jump in here? / If I could just add something... |
+| Retomar a palavra | As I was saying... / Just to finish my point... |
+
+= I see your point, but I'm worried about the cost. What if we tested it with a smaller dataset first? | Entendo seu ponto, mas me preocupo com o custo. E se testássemos primeiro com um dataset menor?
+= Can I jump in here? I think we're missing the security aspect. | Posso entrar aqui? Acho que estamos esquecendo a parte de segurança.
+
+### Softeners
+Palavras que suavizam: **a bit**, **slightly**, **I think**, **maybe**, **perhaps**, **it seems**. "That's wrong" vira "I think that might not be quite right".
+
+> [atencao] "You are wrong" é muito direto em inglês profissional, mesmo que em português soe normal. Prefira "I see it differently" ou "I'm not sure that's the case".
+
+> [entrevista] "Tell me about a time you disagreed with a colleague" pede essa estrutura. Mostre que você ouviu, trouxe dados e chegou a um acordo, não que você venceu a discussão.
+
+> [dica] "What if we...?" é a forma mais útil de discordar: transforma a crítica em proposta.
+
+?? Complete: "Sorry to ___, but I have a question." ::: interrupt ::: Sorry to interrupt.
+?? Complete: "I see your ___, but I have some concerns." ::: point ::: I see your point.
+?? Complete: "What ___ we used a queue instead?" ::: if ::: What if we...?
+
+#### QUIZ
+Q: Qual é a forma mais adequada de discordar em uma reunião?
+- That's a stupid idea. :: Agressivo.
++ I see your point, but I'm concerned about the timeline. What if we split it into two phases? :: Correto: reconhece, discorda e propõe.
+- No. :: Seco e sem proposta.
+Q: Como interromper educadamente?
++ Sorry to jump in, but can I add something? :: Correto.
+- Stop, I want to talk. :: Rude.
+- Wait wait wait. :: Informal e abrupto.
+
+## LESSON m08-3 | Explicar conceitos técnicos de forma simples | 17
+
+### O teste da avó
+Em entrevistas e reuniões com áreas de negócio, você precisa explicar conceitos sem jargão. A estrutura que funciona é: **definição em uma frase + analogia + exemplo real**.
+
+| Conceito | Definição simples | Analogia |
+| API | A way for two systems to talk to each other. | Like a waiter who takes your order to the kitchen and brings back the food. |
+| Cloud computing | Renting computing resources over the internet instead of buying servers. | Like using electricity from the grid instead of having your own generator. |
+| ETL | A process that extracts data, transforms it, and loads it into another system. | Like collecting ingredients, preparing them, and putting the dish on the table. |
+| Database index | A structure that makes searches faster. | Like the index at the back of a book. |
+| Load balancer | A component that distributes traffic across servers. | Like a supermarket manager opening more checkouts and sending people to the shortest line. |
+
+= In simple terms, an API is a contract between two systems. | Em termos simples, uma API é um contrato entre dois sistemas.
+= Think of it as a waiter between your app and the database. | Pense nela como um garçom entre seu app e o banco de dados.
+= For example, in my internship, our bot uses an API to register products in the ERP. | Por exemplo, no estágio, nosso bot usa uma API para cadastrar produtos no ERP.
+
+### Linguagem de explicação
+- **In simple terms / Basically / In a nutshell**: introduz a versão simples.
+- **Think of it as... / It's similar to...**: introduz a analogia.
+- **For example / In practice**: introduz o caso real.
+- **The main benefit is... / The trade-off is...**: fecha com valor e limitação.
+
+> [atencao] Analogia demais confunde. Use uma analogia e volte para o caso real.
+
+> [entrevista] "What is an API?" e "Explain cloud computing to a non-technical person" são clássicos para júnior. A estrutura definição, analogia e exemplo responde em 30 segundos.
+
+> [dica] Trade-off é a palavra que mostra senioridade: "The main benefit of serverless is that you don't manage servers; the trade-off is less control and possible cold starts."
+
+?? Complete: "In ___ terms, a container packages an app with everything it needs." ::: simple ::: In simple terms.
+?? Complete: "Think of it ___ a shipping container for software." ::: as ::: Think of it as...
+?? Complete: "The main benefit is speed; the ___ is higher cost." (contrapartida) ::: trade-off ;; tradeoff ;; trade off ::: Trade-off = a contrapartida.
+
+#### QUIZ
+Q: Qual estrutura funciona melhor para explicar um conceito técnico?
++ Definição curta, analogia e exemplo real :: Correto.
+- Ler a definição da Wikipedia :: Longa e técnica demais.
+- Usar o máximo de jargão para mostrar conhecimento :: Mostra falta de clareza.
+Q: O que significa "trade-off"?
+- Uma troca de turno :: Não.
++ Uma contrapartida: o que você perde ao escolher uma opção :: Correto.
+- Um erro de configuração :: Não.
+
+## LESSON m08-4 | Apresentar um projeto | 16
+
+### Estrutura da apresentação
+Signposting são frases que dizem ao ouvinte onde ele está na apresentação. Em inglês profissional elas são esperadas e ajudam quem não é nativo, tanto quem fala quanto quem ouve.
+
+| Parte | Signposting |
+| Abertura | Today I'm going to walk you through... / The goal of this presentation is... |
+| Roteiro | First, I'll cover... Then... Finally... |
+| Problema | The problem we were trying to solve was... |
+| Solução | So what we built was... / Here's how it works. |
+| Dados | As you can see on this slide... / This chart shows... |
+| Resultado | As a result... / This reduced... by... |
+| Transição | Moving on to... / That brings me to... |
+| Fecho | To sum up... / The key takeaway is... |
+| Perguntas | I'm happy to take any questions. |
+
+= Today I'm going to walk you through the automation we built for the sales team. | Hoje vou apresentar a automação que construímos para o time de vendas.
+= As you can see on this chart, response time dropped from two days to ten minutes. | Como vocês podem ver neste gráfico, o tempo de resposta caiu de dois dias para dez minutos.
+= That's a great question. I don't have the exact number, but I'll check and get back to you. | Ótima pergunta. Não tenho o número exato, mas vou verificar e te retorno.
+
+### Responder perguntas que você não sabe
+"I don't know" sozinho soa fraco. Complete: "I'm not sure about that, but my guess would be... I'll confirm and follow up."
+
+> [atencao] Não leia os slides. Slides têm palavras-chave; a frase completa sai da sua boca. Ler em voz alta denuncia insegurança.
+
+> [entrevista] Muitas entrevistas técnicas pedem "Walk me through a project you're proud of". É uma apresentação de 2 a 3 minutos sem slides: problema, solução, sua parte, resultado, aprendizado.
+
+> [dica] Ensaie a apresentação três vezes em voz alta, gravando. Na terceira, você já não precisa de roteiro.
+
+?? Complete: "Today I'm going to walk you ___ our new architecture." ::: through ::: Walk someone through = explicar passo a passo.
+?? Complete: "Moving ___ to the results..." ::: on ::: Moving on to = passando para.
+?? Complete: "The key ___ is that automation saved 10 hours a week." (lição principal) ::: takeaway ::: Key takeaway = mensagem principal.
+
+#### QUIZ
+Q: O que é signposting?
++ Frases que indicam a estrutura da apresentação ao ouvinte :: Correto.
+- Placas de sinalização nos slides :: Não literalmente.
+- O título de cada slide :: Não exatamente; são frases faladas.
+Q: Alguém faz uma pergunta que você não sabe responder. Qual é a melhor reação?
+- Inventar uma resposta :: Arriscado e pouco profissional.
++ I'm not sure, but I'll check and follow up with you. :: Correto: honesto e com próximo passo.
+- I don't know. Next question. :: Seco.
+
+## CHALLENGE m08-c1 | Frases de reunião | auto
+TASK:
+Complete com a palavra que falta. Digite só a palavra.
+ITEMS:
+Can I jump ___ here? ::: in
+I see your ___, but I have some concerns. ::: point
+What ___ we split the task into two parts? ::: if
+Today I'll walk you ___ the results of the project. ::: through
+As you can ___ on this chart, costs went down. ::: see
+I'm ___ on the database access. (bloqueado) ::: blocked
+To ___ up, the migration was a success. ::: sum
+The main benefit is flexibility; the ___ is complexity. ::: trade-off ;; tradeoff ;; trade off
+HINT:
+Expressões: jump in, see your point, what if, walk through, as you can see, blocked on, sum up, trade-off.
+SOLUTION:
+in, point, if, through, see, blocked, sum, trade-off.
+
+## CHALLENGE m08-c2 | Apresentação de 3 minutos | manual
+TASK:
+Grave uma apresentação de 3 minutos, sem slides, de um projeto seu (estágio, faculdade ou pessoal). Use pelo menos 5 frases de signposting e explique um conceito técnico com a estrutura definição, analogia e exemplo.
+HINT:
+Roteiro: abertura com objetivo; problema; solução e como funciona; sua parte; resultado com número; aprendizado; convite para perguntas.
+SOLUTION:
+"Today I'm going to walk you through a WhatsApp bot I built during my internship. First, I'll explain the problem, then how the bot works, and finally the results. The problem was that product registration was manual and slow. So what we built was a bot in n8n. In simple terms, it receives a message, reads the product data, and calls our company's API to save it. Think of the API as a waiter taking the order to the kitchen. My part was designing the flow and handling errors. As a result, registration time dropped from about ten minutes to one. The key takeaway for me was the importance of error handling. I'm happy to take any questions."
+EXPECTED:
+- Gravação de 2,5 a 3,5 minutos, sem ler roteiro.
+- Pelo menos 5 frases de signposting.
+- Um conceito técnico explicado com definição, analogia e exemplo.
+- Um resultado com número.

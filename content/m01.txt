@@ -1,0 +1,229 @@
+# MODULE m01
+num: 01
+level: B1
+title: O mundo do inglês profissional
+summary: Onde você está no CEFR, como o inglês aparece no dia a dia de tecnologia e como estudar para chegar ao ponto de se virar em uma entrevista.
+goal: Saber exatamente o que separa o B1 do B2 e montar uma rotina de estudo que funciona.
+
+## LESSON m01-1 | CEFR: o mapa do B1 ao C2 | 12
+
+### O que o CEFR mede de verdade
+O CEFR (Common European Framework of Reference for Languages) é o quadro que define os níveis A1, A2, B1, B2, C1 e C2. Ele não mede quantas regras você decorou. Ele descreve **o que você consegue fazer** com a língua: entender, falar, escrever e interagir em situações cada vez mais complexas.
+
+Por isso os descritores são frases do tipo "consigo...". Se você está no B1, já consegue manter uma conversa sobre assuntos familiares, contar uma experiência e dar uma opinião simples. O que falta é **independência**: falar de assuntos menos previsíveis sem travar, e entender gente falando em velocidade natural.
+
+| Nível | O que você consegue fazer | Em uma vaga de tecnologia |
+| B1 | Conversar sobre temas familiares, contar experiências, justificar opiniões de forma simples | Lê documentação com esforço, entende reuniões lentas |
+| B2 | Argumentar, discutir temas técnicos, entender falantes nativos em ritmo normal | Participa de dailies, entrevistas e reuniões com autonomia |
+| C1 | Usar a língua com flexibilidade e precisão, ajustar o registro ao público | Apresenta projetos, negocia, escreve documentação clara |
+| C2 | Entender praticamente tudo e expressar nuances finas | Comunicação equivalente à de um profissional nativo bem formado |
+
+> [atencao] C2 não é "falar sem sotaque" nem "não errar nunca". É conseguir entender quase tudo e se expressar com precisão e flexibilidade. Sotaque brasileiro inteligível é perfeitamente profissional.
+
+### A meta realista
+Para uma vaga júnior em empresa que usa inglês, o **B2 é a primeira grande meta**. Ele já permite fazer uma entrevista inteira em inglês. O C1 vem depois, junto com a prática real de trabalho. Não espere chegar ao C2 para se candidatar.
+
+> [entrevista] É comum o recrutador perguntar "How would you rate your English?". Uma resposta honesta e confiante funciona melhor que um número: "I'd say I'm at an upper-intermediate level. I read documentation every day and I'm comfortable in meetings, and I'm working on sounding more natural."
+
+### Como saber se você já é B2
+Faça esta autoavaliação honesta. Se você responde "sim" para a maioria, está perto do B2:
+
+- Consigo explicar um projeto meu por 3 minutos sem roteiro escrito.
+- Entendo um vídeo técnico sem legenda em português, mesmo perdendo alguns detalhes.
+- Quando não sei uma palavra, consigo contornar e explicar a ideia de outro jeito.
+- Escrevo um e-mail de trabalho sem traduzir frase por frase.
+
+= I'd say I'm at an upper-intermediate level. | Eu diria que estou em um nível intermediário avançado.
+= I'm comfortable reading technical documentation. | Fico à vontade lendo documentação técnica.
+= I'm working on my fluency. | Estou trabalhando a minha fluência.
+
+> [dica] Leia os descritores oficiais do CEFR (link na Biblioteca) e marque os que você já cumpre. É a forma mais objetiva de saber onde você está.
+
+?? Complete: "I'd ___ I'm at an upper-intermediate level." (eu diria) ::: say ::: "I'd say..." suaviza a afirmação e soa natural em entrevista.
+?? Complete: "I'm comfortable ___ technical documentation." (lendo) ::: reading ::: Depois de preposição ou de adjetivos como comfortable, o padrão natural é "comfortable + -ing": comfortable reading, comfortable speaking.
+
+[fale] Grave um áudio de 1 minuto respondendo "How would you describe your English level?". Guarde a gravação: você vai comparar com a do fim do curso.
+
+#### QUIZ
+Q: Qual é a melhor descrição do nível B2?
+- Falar sem sotaque e sem erros :: Isso nem é exigência do C2. O CEFR não mede sotaque.
++ Usar o inglês com independência, argumentando e entendendo falas em ritmo natural :: Exato. B2 é o nível da independência comunicativa.
+- Conhecer todas as regras de gramática :: O CEFR descreve o que você consegue fazer, não quantas regras sabe.
+Q: Para uma vaga júnior em tecnologia, qual é a meta mais sensata?
+- Esperar chegar ao C2 antes de se candidatar :: Esperar o C2 atrasa sua carreira sem necessidade.
++ Chegar ao B2 e continuar evoluindo para o C1 enquanto trabalha :: Isso. B2 já permite entrevistas e reuniões; o C1 vem com prática.
+- Ignorar o inglês e focar só no técnico :: Muitas vagas exigem inglês na entrevista; ignorar fecha portas.
+
+## LESSON m01-2 | Inglês no dia a dia de tecnologia | 15
+
+### Onde o inglês aparece
+Em tecnologia, você usa inglês muito antes de falar com um gringo. Ele aparece em quatro situações, cada uma com uma habilidade principal:
+
+| Situação | Habilidade | Exemplo |
+| Documentação e mensagens de erro | Reading | Ler a AWS Documentation para configurar um bucket S3 |
+| Reuniões, dailies e calls | Listening e Speaking | Dar um status update na daily de um time distribuído |
+| Tickets, e-mails, Slack e Teams | Writing | Abrir um bug report claro para outro time |
+| Entrevistas | As quatro juntas | Explicar seu último projeto e responder perguntas comportamentais |
+
+### Por que o B1 trava em reuniões
+No B1, a maioria das pessoas lê bem mas trava ao ouvir e falar. Isso acontece por três motivos: falta de **chunks** prontos (blocos de palavras que você usa sem montar na hora), pouca exposição a fala em ritmo natural e o hábito de traduzir do português palavra por palavra.
+
+A solução não é estudar mais gramática. É aprender frases funcionais inteiras e treinar em voz alta. Exemplos de chunks que você vai usar o tempo todo:
+
+= Could you say that again? | Pode repetir?
+= Let me share my screen. | Deixa eu compartilhar minha tela.
+= I'll look into it. | Vou investigar isso.
+= Just to make sure I understood... | Só para ter certeza de que entendi...
+= I'm still working on it. | Ainda estou trabalhando nisso.
+
+> [dica] Monte um caderno de chunks por situação (reunião, e-mail, entrevista). É mais útil que uma lista de palavras soltas, porque você já aprende como a frase é usada.
+
+### Inglês técnico tem regras próprias
+Documentação técnica usa muita **voz passiva** ("The file is stored in..."), **imperativo** ("Run the following command") e **condicionais** ("If the request fails, the client retries"). Você vai estudar cada uma dessas estruturas nos próximos módulos, sempre com exemplos de cloud, dados e software.
+
+= Run the following command. | Execute o seguinte comando.
+= The data is stored in an S3 bucket. | Os dados são armazenados em um bucket S3.
+= If the request fails, the client retries automatically. | Se a requisição falhar, o cliente tenta de novo automaticamente.
+
+> [atencao] Não traduza "eu vou ver isso" como "I will see this". O natural é "I'll look into it" ou "I'll check it".
+
+> [entrevista] Em entrevistas para vagas de cloud e dados, é comum pedirem para você ler um trecho de documentação ou de log e explicar o que está acontecendo, em inglês. Treine ler em voz alta e resumir.
+
+?? Complete: "Could you say that ___?" (pedir para repetir) ::: again ::: "Could you say that again?" é a forma mais natural e educada de pedir repetição.
+?? Complete: "I'll look ___ it." (vou investigar) ::: into ::: "Look into" é o phrasal verb de investigar um problema.
+
+#### QUIZ
+Q: Por que muita gente no B1 trava ao falar em reuniões?
+- Porque o inglês técnico é impossível :: Ele tem padrões previsíveis e se aprende.
++ Porque faltam chunks prontos, exposição a fala natural e há o hábito de traduzir palavra por palavra :: Isso. A solução é treinar frases funcionais em voz alta.
+- Porque falta decorar mais verbos irregulares :: Ajuda pouco. O gargalo é produção oral e compreensão auditiva.
+Q: Qual estrutura aparece muito em documentação técnica?
++ Voz passiva, como "The data is stored in..." :: Correto. Documentação foca no resultado, não em quem faz a ação.
+- Gírias e phrasal verbs informais :: Aparecem mais em conversas e no Slack, não em documentação formal.
+- Tempos perfeitos contínuos :: Existem, mas são raros em documentação.
+
+## LESSON m01-3 | Como estudar: método, revisão e caderno de erros | 15
+
+### O ciclo de cinco etapas
+Todo assunto novo do curso passa por cinco etapas. Pular a produção é o erro mais comum: você entende, acha que aprendeu, e trava na hora de usar.
+
+1. **Compreensão**: entender como a estrutura funciona.
+2. **Exemplos**: ver frases reais com a estrutura.
+3. **Exercícios**: verificar se entendeu (os exercícios e quizzes das aulas).
+4. **Produção**: criar frases, textos e áudios seus (os desafios de cada módulo).
+5. **Revisão**: voltar ao assunto alguns dias depois.
+
+> [atencao] Um conteúdo não está dominado só porque você entendeu a explicação. Está dominado quando você consegue usar sem olhar exemplos prontos.
+
+### Repetição espaçada
+O cérebro esquece rápido o que vê uma vez só. Revisar em intervalos crescentes fixa a memória com menos esforço. Este curso usa os intervalos de **1, 3, 7 e 14 dias** no banco de perguntas de entrevista: cada vez que você lembra bem de uma resposta, ela volta mais tarde.
+
+### Caderno de erros
+Mantenha um registro com três colunas. Revise uma vez por semana. É ele que mostra os seus erros recorrentes, que são diferentes dos de outra pessoa.
+
+| Erro | Correção | Por quê |
+| She work every day. | She works every day. | Terceira pessoa do Present Simple leva -s |
+| I have 20 years. | I'm 20 years old. | Idade usa o verbo to be |
+| I didn't went. | I didn't go. | Depois de did, o verbo volta à forma base |
+
+### Uma rotina possível
+Com 10 a 12 horas por semana, distribua as habilidades. Uma sessão de 90 minutos pode ter 30 min de gramática, 15 de vocabulário, 20 de listening, 15 de speaking e 10 de revisão. No B1 e B2, dê mais peso a listening e speaking, que é onde você está mais fraco.
+
+> [entrevista] "How do you keep learning?" é pergunta comum para júnior. Descrever um método concreto (revisão espaçada, caderno de erros, prática diária) mostra autonomia: "I keep an error log and review it every week."
+
+> [dica] Estude pouco todo dia em vez de muito um dia só. Cinco sessões de 1h30 rendem mais que um sábado de 8 horas.
+
+?? Corrija: "She work every day." ::: She works every day. ::: Terceira pessoa (he, she, it) no Present Simple leva -s.
+?? Corrija: "I didn't went to the meeting." ::: I didn't go to the meeting. ::: Depois de did/didn't, use a forma base do verbo.
+?? Corrija: "I have 22 years." ::: I'm 22 years old. ;; I am 22 years old. ;; I'm 22. ;; I am 22. ::: Em inglês, idade usa to be, não have.
+
+#### QUIZ
+Q: Qual etapa do ciclo mais gente pula?
+- Compreensão :: Quase todo mundo lê a explicação.
++ Produção :: Isso. Sem produzir frases e áudios próprios, o conteúdo não vira habilidade.
+- Exercícios :: Exercícios costumam ser feitos; o problema é parar neles.
+Q: Para que serve o caderno de erros?
++ Identificar os seus erros recorrentes e revisá-los toda semana :: Correto. Cada pessoa erra coisas diferentes.
+- Anotar todas as palavras novas :: Isso é um caderno de vocabulário, outra ferramenta.
+- Copiar as regras do livro :: Copiar regras não mostra onde você erra.
+
+## LESSON m01-4 | Os erros clássicos de brasileiros | 15
+
+### False friends
+Algumas palavras parecem português mas significam outra coisa. Em entrevista, um false friend pode mudar o sentido da sua frase.
+
+| Palavra | Significa | Não significa |
+| actually | na verdade | atualmente (use currently) |
+| pretend | fingir | pretender (use intend ou plan) |
+| push | empurrar / enviar (git push) | puxar (pull) |
+| eventually | no fim das contas | eventualmente (use occasionally) |
+| exquisite | refinado, requintado | esquisito (use weird) |
+| support | apoiar, dar suporte | suportar alguém (use stand ou put up with) |
+| assist | ajudar | assistir (use watch ou attend) |
+
+= I'm currently working as an intern. | Atualmente trabalho como estagiário.
+= I intend to move into a cloud role. | Pretendo migrar para uma função de cloud.
+= I attended a workshop on AWS. | Participei de um workshop de AWS.
+
+### Estruturas traduzidas do português
+- **"I have 22 years"** → I'm 22 (years old).
+- **"Make a question"** → ask a question.
+- **"Explain me"** → explain to me / explain it to me.
+- **"I am agree"** → I agree.
+- **"Depends of"** → it depends on.
+- **"Discuss about"** → discuss (sem about).
+- **"Since two years"** → for two years (since é para ponto no tempo: since 2024).
+
+> [entrevista] "I have experience in automation since two years" é um erro que o entrevistador nota na hora. Diga "I've been working with automation for two years" ou "since 2024".
+
+> [atencao] Push e pull são o contrário do que parecem para quem pensa em português: push empurra (envia), pull puxa (traz). Em Git isso é literal: git push envia, git pull traz.
+
+### Pronúncia que denuncia
+Brasileiros tendem a colocar uma vogal no começo de palavras com s + consoante ("estudy", "especial") e no fim de palavras terminadas em consoante ("worki", "bigui"). Você vai treinar isso no módulo de pronúncia. Por enquanto, preste atenção: **study** começa direto no "s".
+
+> [dica] Use o YouGlish para ouvir uma palavra dita por várias pessoas em vídeos reais. Em poucos segundos você percebe a pronúncia natural.
+
+?? Corrija: "Can you explain me the process?" ::: Can you explain the process to me? ;; Could you explain the process to me? ::: Explain não aceita objeto indireto direto: explain something to someone.
+?? Corrija: "It depends of the budget." ::: It depends on the budget. ::: Depend usa a preposição on.
+?? Corrija: "I am agree with you." ::: I agree with you. ::: Agree já é verbo; não use am antes.
+?? Corrija: "I work here since two years." ::: I've worked here for two years. ;; I have worked here for two years. ;; I've been working here for two years. ;; I have been working here for two years. ::: Para duração use for, e com tempo que chega até agora use Present Perfect.
+
+#### QUIZ
+Q: Como dizer "atualmente sou estagiário"?
+- Actually I'm an intern. :: Actually significa "na verdade". Soa como uma correção.
++ Currently I'm an intern. :: Currently é o equivalente de "atualmente".
+- Eventually I'm an intern. :: Eventually significa "no fim das contas".
+Q: Qual frase está correta?
+- I want to make a question. :: Em inglês, se usa ask a question.
+- Let's discuss about the deadline. :: Discuss não leva about.
++ Could I ask a question about the deadline? :: Correto: ask a question e preposição about depois de question.
+
+## CHALLENGE m01-c1 | Caça aos erros de brasileiro | auto
+TASK:
+Reescreva cada frase na forma correta. A correção aceita contrações (I'm, I've) e ignora a pontuação final.
+ITEMS:
+I have 25 years and I'm a developer. ::: I'm 25 and I'm a developer. ;; I am 25 and I am a developer. ;; I'm 25 years old and I'm a developer. ;; I am 25 years old and I am a developer. ;; I'm 25 and I am a developer. ;; I am 25 and I'm a developer. ;; I'm 25 years old and I am a developer.
+Actually I work with cloud, since 2024. (quer dizer: atualmente) ::: Currently I work with cloud, since 2024. ;; Currently, I work with cloud, since 2024. ;; I currently work with cloud, since 2024. ;; I've been working with cloud since 2024. ;; I have been working with cloud since 2024.
+She explained me the error. ::: She explained the error to me.
+We discussed about the architecture. ::: We discussed the architecture.
+Can I make a question? ::: Can I ask a question? ;; Could I ask a question? ;; May I ask a question?
+HINT:
+Procure: idade com have, false friend actually, explain + pessoa, discuss + about, make + question.
+SOLUTION:
+1. I'm 25 and I'm a developer.
+2. Currently I work with cloud, since 2024. (Ou, melhor: I've been working with cloud since 2024.)
+3. She explained the error to me.
+4. We discussed the architecture.
+5. Can I ask a question?
+
+## CHALLENGE m01-c2 | Gravação de linha de base | manual
+TASK:
+Grave um áudio de 2 minutos respondendo, sem roteiro escrito: "Tell me a little about yourself and why you're learning English." Depois, transcreva o que você disse (pode usar o ditado do celular) e anote no caderno de erros tudo o que você corrigiria.
+HINT:
+Siga a ordem: quem você é, o que estuda, o que faz no trabalho, por que o inglês importa para você. Use chunks como "Currently I'm...", "I'm studying...", "I'd like to...".
+SOLUTION:
+Exemplo de resposta: "Hi, I'm Matheus. I'm from Sorocaba, in Brazil. Currently I'm studying Systems Analysis and Development at university, and I work as an intern, building automation workflows with n8n. I'm learning English because I want to work in cloud and data, and most documentation and many interviews are in English. I'd also like to do an exchange program, so I need to reach an advanced level."
+EXPECTED:
+- Áudio de cerca de 2 minutos, sem ler um texto pronto.
+- Transcrição com pelo menos 5 erros identificados e corrigidos no caderno de erros.
+- Gravação guardada para comparar no módulo 11.
