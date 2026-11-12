@@ -97,10 +97,10 @@ legend { padding: 0 6px; color: var(--muted); font-size: 14px; }
 .call.atencao { border-color: var(--amber); } .call.atencao b { color: var(--amber); }
 .call.dica { border-color: var(--blue); } .call.dica b { color: var(--blue); }
 .says { list-style: none; padding: 0; margin: 12px 0; font-family: var(--f-ui); }
-.says li { display: grid; grid-template-columns: auto auto 1fr; gap: 4px 10px; align-items: center; padding: 8px 0; border-bottom: 1px dashed var(--line); }
-.says .en { font-weight: 600; grid-column: 3; }
-.says .pt { color: var(--muted); grid-column: 3; font-size: 15px; }
-.says .tools { grid-row: 1 / span 2; display: flex; flex-direction: column; gap: 4px; }
+.says li { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; align-items: center; padding: 8px 0; border-bottom: 1px dashed var(--line); }
+.says .en { font-weight: 600; grid-column: 2; }
+.says .pt { color: var(--muted); grid-column: 2; font-size: 15px; }
+.says .tools { grid-row: 1 / span 2; display: flex; gap: 4px; }
 .spk, .icon { width: 34px; height: 34px; padding: 0; justify-content: center; border-radius: 50%; background: var(--board); color: var(--ink); border: 1px solid var(--line); font-size: 14px; }
 .spk::before { content: '▶'; font-size: 12px; }
 .ex, .speak, .quiz-q { background: var(--sheet); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; margin: 14px 0; font-family: var(--f-ui); }

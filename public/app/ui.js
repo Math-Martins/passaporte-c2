@@ -21,7 +21,12 @@ export function toast(msg, kind = 'ok') {
 // Run an async action; show its error and keep the UI usable.
 export async function attempt(fn, okMsg) {
   try { const r = await fn(); if (okMsg) toast(okMsg); return r; }
-  catch (e) { console.warn(e); toast(e.message || String(e), 'error'); return undefined; }
+  catch (e) {
+    console.warn(e);
+    const msg = e.message || String(e);
+    toast(/failed to fetch|network|load failed/i.test(msg) ? 'Sem conexão com o servidor. Nada foi apagado: tente de novo.' : msg, 'error');
+    return undefined;
+  }
 }
 
 export const wordCount = s => (s.trim().match(/\S+/g) || []).length;
