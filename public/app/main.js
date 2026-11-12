@@ -37,9 +37,14 @@ export async function reloadCfg() {
   return state.cfg;
 }
 
+let renderSeq = 0;
+let lastUid;
+
 async function render() {
+  const token = ++renderSeq;
   let session;
   try { session = await getSession(); } catch (e) { return serverDown(e); }
+  lastUid = session?.user.id ?? null;
   if (!session) {
     nav.hidden = true;
     return (await import('./views/login.js')).render(view);
@@ -63,17 +68,25 @@ async function render() {
   nav.querySelectorAll('a').forEach(a => a.toggleAttribute('aria-current', a.getAttribute('href') === `#/${section}`));
   if (nav.querySelector('[aria-current]')) nav.querySelector('[aria-current]').setAttribute('aria-current', 'page');
   view.replaceChildren(h('p', { class: 'muted' }, 'Carregando…'));
+  // Each navigation renders into its own container; only the latest one is shown.
+  const stage = h('div');
   try {
-    await (await import(`./views/${mod}.js`)).render(view, name === 'modulo' ? ['modulo', ...params] : params);
+    await (await import(`./views/${mod}.js`)).render(stage, name === 'modulo' ? ['modulo', ...params] : params);
   } catch (e) {
     console.error(e);
-    view.replaceChildren(h('div', { class: 'card' }, h('h2', {}, 'Algo deu errado'), h('p', { class: 'muted' }, e.message)));
+    stage.replaceChildren(h('div', { class: 'card' }, h('h2', {}, 'Algo deu errado'), h('p', { class: 'muted' }, e.message)));
   }
+  if (token !== renderSeq) return;
+  view.replaceChildren(stage);
   view.focus({ preventScroll: true });
   window.scrollTo(0, 0);
 }
 
 export const rerender = render;
 window.addEventListener('hashchange', render);
-supabase.auth.onAuthStateChange(evt => { if (evt === 'SIGNED_IN' || evt === 'SIGNED_OUT') { state.cfg = null; render(); } });
+// supabase-js re-emits SIGNED_IN on tab refocus; only a different user should reset the screen.
+supabase.auth.onAuthStateChange((evt, session) => {
+  const uid = session?.user.id ?? null;
+  if (lastUid !== undefined && uid !== lastUid) { state.cfg = null; render(); }
+});
 render();

@@ -59,10 +59,15 @@ export async function render(el) {
       extra, h('div', { class: 'row' }, revealBtn, rateRow)));
     revealBtn.focus();
   };
+  let busy = false;
   async function rate(r) {
+    if (busy || i >= queue.length) return; // a double tap must not skip the next card
+    busy = true;
     const c = queue[i];
     const patch = review(c, r, today());
-    if (!(await attempt(async () => { await updateCard(c.id, patch); return true; }))) return;
+    const ok = await attempt(async () => { await updateCard(c.id, patch); return true; });
+    busy = false;
+    if (!ok) return;
     attempt(() => logStudy(c.kind === 'interview' ? 'Speaking' : 'Vocabulário', 1, 'srs'));
     i++; show();
   }

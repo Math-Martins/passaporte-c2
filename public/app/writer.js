@@ -29,13 +29,12 @@ export function mountWriter(el, { context, prompt = '', minWords = 0, maxWords =
     if (!text) return toast('Escreva algo antes de enviar.', 'error');
     send.disabled = true;
     const sa = getRubric();
-    const ok = await attempt(async () => {
-      const row = await addEntry('submission', { context, text, word_count: wordCount(text), self_assessment: sa, external_score: external.value.trim() || null });
-      for (const e of sa.errors) await addEntry('error', { ...e, explanation: '', category: 'outro', source: 'self_review' });
-      return row;
-    }, 'Texto enviado');
+    const ok = await attempt(() => addEntry('submission', { context, text, word_count: wordCount(text), self_assessment: sa, external_score: external.value.trim() || null }), 'Texto enviado');
     send.disabled = false;
-    if (ok) { ta.value = ''; updateCount(); onSaved?.(ok); }
+    if (!ok) return;
+    ta.value = ''; updateCount(); onSaved?.(ok);
+    // Errors are separate so a failure here never makes the user resend (and duplicate) the text.
+    attempt(async () => { for (const e of sa.errors) await addEntry('error', { ...e, explanation: '', category: 'outro', source: 'self_review' }); });
   };
   el.append(h('div', { class: 'stack' },
     prompt ? h('p', {}, prompt) : null,

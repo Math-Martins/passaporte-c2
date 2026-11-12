@@ -1,5 +1,5 @@
 import { h, mount, toast, attempt } from '../ui.js';
-import { getKV, setKV, listRecordings, listEntries } from '../db.js';
+import { getKV, updateKV, listRecordings, listEntries } from '../db.js';
 import { checkAnswer } from '../check.js';
 import { speak } from '../tts.js';
 import { mountRecorder } from '../recorder.js';
@@ -47,7 +47,7 @@ function mountExercise(el, ex, exok) {
       if (!input.value.trim()) return;
       if (checkAnswer(input.value, ex.a)) {
         out.replaceChildren(h('p', { class: 'ok' }, '✓ Certo. ', h('span', { class: 'muted' }, ex.why)));
-        if (!exok[ex.id]) { exok[ex.id] = true; attempt(() => setKV('exok', exok)); }
+        if (!exok[ex.id]) { exok[ex.id] = true; attempt(() => updateKV('exok', {}, o => { o[ex.id] = true; })); }
       } else {
         out.replaceChildren(h('p', { class: 'bad' }, '✗ Resposta esperada: ', h('b', { lang: 'en' }, ex.a[0])), h('p', { class: 'muted' }, ex.why));
         attempt(() => logError({ wrong: input.value.trim(), correct: ex.a[0], explanation: ex.why, category: 'exercício', source: 'exercise:' + ex.id }));
@@ -71,7 +71,7 @@ function mountQuiz(el, lesson, saved, onAnswered) {
         answers[qi] = oi; paint();
         if (answers.filter(a => a != null).length === lesson.quiz.length) {
           saved[lesson.id] = answers;
-          await attempt(() => setKV('quiz', saved));
+          await attempt(() => updateKV('quiz', {}, o => { o[lesson.id] = answers; }));
           onAnswered();
         }
       } }, o.t),

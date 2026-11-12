@@ -1,5 +1,5 @@
 import { h, mount, attempt, fmtMin } from '../ui.js';
-import { getKV, setKV, addEntry, listEntries } from '../db.js';
+import { getKV, setKV, updateKV, addEntry, listEntries } from '../db.js';
 import { currentWeek, phaseOf, weekGoalMinutes, repeatWeeks, planWeekRange, TOTAL_WEEKS } from '../plan.js';
 import { diffDays } from '../dates.js';
 import { minutesBySkill } from '../stats.js';
@@ -21,7 +21,7 @@ export function hoursForm(onSaved) {
 
 function gateView(phase, gate, saved, onChange) {
   const g = { checklist: phase.gate.checklist.map(() => false), exam: '', project: '', passedAt: null, ...saved };
-  const save = () => attempt(() => setKV('gate:' + phase.id, g));
+  const save = () => attempt(() => updateKV('gate:' + phase.id, {}, o => Object.assign(o, g)));
   const exam = h('textarea', { style: 'min-height: 70px; font-family: var(--f-ui); font-size: 15px', 'aria-label': 'Notas do simulado' }, g.exam);
   const project = h('textarea', { style: 'min-height: 90px; font-family: var(--f-ui); font-size: 15px', 'aria-label': 'Projeto da fase' }, g.project);
   exam.onchange = () => { g.exam = exam.value; save(); };
@@ -36,10 +36,10 @@ function gateView(phase, gate, saved, onChange) {
       h('button', { type: 'button', class: 'amber', disabled: !!g.passedAt, onclick: async () => { g.passedAt = today(); await save(); onChange(); } }, g.passedAt ? `Aprovado em ${g.passedAt.split('-').reverse().join('/')}` : 'Marcar aprovado'),
       h('button', { type: 'button', class: 'ghost', onclick: async () => {
         if (!confirm('Isso adia o plano em 4 semanas e desmarca as tarefas das 4 últimas semanas desta fase para você refazê-las. Continuar?')) return;
-        const ptasks = await getKV('ptasks', {});
-        const r = repeatWeeks(state.cfg.start, phase.end, ptasks);
-        const cfg = { ...state.cfg, start: r.start };
-        if (await attempt(async () => { await setKV('ptasks', r.ptasks); await setKV('plancfg', cfg); return true; }, 'Plano adiado em 4 semanas')) { state.cfg = cfg; onChange(); }
+        const cfg = { ...state.cfg, start: repeatWeeks(state.cfg.start, phase.end, {}).start };
+        if (await attempt(async () => {
+          await updateKV('ptasks', {}, o => { const kept = repeatWeeks(state.cfg.start, phase.end, o).ptasks; for (const k of Object.keys(o)) if (!(k in kept)) delete o[k]; });
+          await setKV('plancfg', cfg); return true; }, 'Plano adiado em 4 semanas')) { state.cfg = cfg; onChange(); }
       } }, 'Repetir 4 semanas de consolidação')));
 }
 
@@ -82,9 +82,10 @@ export async function render(el, [n]) {
       const href = linkFor(t.l);
       return h('label', { class: `task${ptasks[t.id] ? ' done' : ''}` },
         h('input', { type: 'checkbox', checked: !!ptasks[t.id], onchange: async e => {
-          if (e.target.checked) ptasks[t.id] = true; else delete ptasks[t.id];
-          e.target.closest('.task').classList.toggle('done', e.target.checked);
-          await attempt(() => setKV('ptasks', ptasks));
+          const on = e.target.checked;
+          e.target.closest('.task').classList.toggle('done', on);
+          const ok = await attempt(async () => { await updateKV('ptasks', {}, o => { if (on) o[t.id] = true; else delete o[t.id]; }); return true; });
+          if (!ok) { e.target.checked = !on; e.target.closest('.task').classList.toggle('done', !on); }
         } }),
         h('span', {}, t.t, href ? h('a', { href, style: 'margin-left: 6px' }, 'abrir →') : t.l === 'plano' ? h('a', { href: '#portao', onclick: e => { e.preventDefault(); document.getElementById('portao')?.scrollIntoView(); }, style: 'margin-left: 6px' }, 'ver portão ↓') : null));
     }))),

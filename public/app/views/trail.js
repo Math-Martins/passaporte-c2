@@ -1,5 +1,5 @@
 import { h, mount, attempt } from '../ui.js';
-import { getKV, setKV } from '../db.js';
+import { getKV, updateKV } from '../db.js';
 import { checkAnswer } from '../check.js';
 import { mountRecorder } from '../recorder.js';
 import { mountWriter } from '../writer.js';
@@ -40,7 +40,7 @@ function manualChallenge(c, chdone, chitems, onDone) {
   const items = [...tmp.querySelectorAll('li')].map(li => li.textContent);
   const marks = chitems[c.id] || items.map(() => false);
   const list = h('div', {}, items.map((t, i) => h('label', { class: 'task' },
-    h('input', { type: 'checkbox', checked: marks[i], onchange: async e => { marks[i] = e.target.checked; chitems[c.id] = marks; await attempt(() => setKV('chitems', chitems)); } }),
+    h('input', { type: 'checkbox', checked: marks[i], onchange: async e => { marks[i] = e.target.checked; await attempt(() => updateKV('chitems', {}, o => { o[c.id] = marks; })); } }),
     h('span', {}, t))));
   const rec = h('div'), wr = h('div');
   mountRecorder(rec, { context: 'challenge:' + c.id });
@@ -58,7 +58,7 @@ async function renderModule(el, id) {
   const [done, chdone, chitems] = await Promise.all([getKV('done', {}), getKV('chdone', {}), getKV('chitems', {})]);
   const markDone = c => async () => {
     chdone[c.id] = true;
-    await attempt(() => setKV('chdone', chdone), `Desafio "${c.title}" feito`);
+    await attempt(() => updateKV('chdone', {}, o => { o[c.id] = true; }), `Desafio "${c.title}" feito`);
     if (m.challenges.every(x => chdone[x.id])) await attempt(() => completeChallenges(m));
     renderModule(el, id);
   };

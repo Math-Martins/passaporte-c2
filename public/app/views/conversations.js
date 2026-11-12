@@ -31,14 +31,15 @@ export async function render(el) {
     const minutes = Number(f.minutes.value);
     const errors = errs.map(([a, b]) => ({ wrong: a.value.trim(), correct: b.value.trim() })).filter(x => x.wrong && x.correct);
     const expressions = exprs.map(([a, b]) => ({ en: a.value.trim(), pt: b.value.trim() })).filter(x => x.en);
-    const ok = await attempt(async () => {
-      await addEntry('conversation', { partner: f.partner.value.trim(), platform: f.platform.value, minutes, topic: f.topic.value.trim(), errors, expressions }, f.day.value);
+    const ok = await attempt(() => addEntry('conversation', { partner: f.partner.value.trim(), platform: f.platform.value, minutes, topic: f.topic.value.trim(), errors, expressions }, f.day.value), 'Conversa registrada');
+    if (!ok) return;
+    // Follow-ups run after the conversation is saved, so a failure here never leads to a duplicate conversation.
+    await attempt(async () => {
       await logStudy('Speaking', minutes, 'conversation');
       for (const x of errors) await logError({ ...x, category: 'outro', source: 'conversation' });
       if (expressions.length) await addCards(expressions.map(x => ({ kind: 'vocab', source_ref: 'conv:' + x.en.toLowerCase(), front: x.en, back: x.pt || '' })));
-      return true;
-    }, 'Conversa registrada');
-    if (ok) render(el);
+    });
+    render(el);
   } },
   h('h2', { style: 'margin-top: 0' }, 'Registrar conversa'),
   h('div', { class: 'grid' }, f.day, f.partner, f.platform, h('div', { class: 'row' }, f.minutes, h('span', { class: 'muted' }, 'min'))),

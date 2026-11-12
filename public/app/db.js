@@ -35,6 +35,21 @@ export async function setKV(key, value) {
   check(await supabase.from('kv').upsert({ key, value, updated_at: new Date().toISOString() }, { onConflict: 'user_id,key' }), 'salvar');
 }
 
+// Read-modify-write on a fresh copy, one write at a time per key, so another device's
+// changes and quick successive clicks are never overwritten by a stale object.
+const kvQueue = {};
+export function updateKV(key, fallback, mutate) {
+  const run = async () => {
+    const value = await getKV(key, fallback);
+    mutate(value);
+    await setKV(key, value);
+    return value;
+  };
+  const p = (kvQueue[key] || Promise.resolve()).then(run, run);
+  kvQueue[key] = p.catch(() => {});
+  return p;
+}
+
 // ---------- SRS ----------
 export async function listCards() {
   return check(await supabase.from('srs_card').select('*').order('created_at'), 'ler cartões');

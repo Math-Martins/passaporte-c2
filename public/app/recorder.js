@@ -12,9 +12,10 @@ function pickMime() {
 const fmt = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
 
 // Saves self-assessment on a recording and turns the noted errors into error-log entries.
+// The assessment is saved first; noted errors are best effort so a retry never duplicates them.
 export async function saveAssessment(recId, assessment) {
   await updateRecording(recId, { self_assessment: assessment });
-  for (const e of assessment.errors) await addEntry('error', { ...e, explanation: '', category: 'outro', source: 'self_review' });
+  attempt(async () => { for (const e of assessment.errors) await addEntry('error', { ...e, explanation: '', category: 'outro', source: 'self_review' }); });
 }
 
 export function mountRecorder(el, { context, referenceText = '', onSaved } = {}) {
@@ -41,13 +42,15 @@ export function mountRecorder(el, { context, referenceText = '', onSaved } = {})
     try { stream = await navigator.mediaDevices.getUserMedia({ audio: true }); }
     catch { status.textContent = 'Microfone indisponível neste navegador ou permissão negada.'; return; }
     chunks = []; secs = 0;
-    rec = new MediaRecorder(stream, mime ? { mimeType: mime } : undefined);
+    try { rec = new MediaRecorder(stream, mime ? { mimeType: mime } : undefined); }
+    catch { stream.getTracks().forEach(t => t.stop()); status.textContent = 'Este navegador não consegue gravar áudio.'; return; }
     rec.ondataavailable = e => e.data.size && chunks.push(e.data);
     rec.onstop = finish;
     rec.start();
     recBtn.textContent = '■ Parar';
     status.replaceChildren(h('span', { class: 'dot' }), ' 0:00');
     timer = setInterval(() => {
+      if (!box.isConnected) { stop(); return; } // left the screen: release the microphone
       secs++;
       status.replaceChildren(h('span', { class: 'dot' }), ` ${fmt(secs)} / ${fmt(MAX_SEC)}`);
       if (secs >= MAX_SEC) stop();
@@ -57,6 +60,7 @@ export function mountRecorder(el, { context, referenceText = '', onSaved } = {})
   recBtn.onclick = () => (rec?.state === 'recording' ? stop() : start());
 
   function finish() {
+    if (!box.isConnected) return;
     const blob = new Blob(chunks, { type: rec.mimeType || mime || 'audio/webm' });
     const duration = secs;
     status.textContent = `${fmt(duration)} gravados`;
@@ -86,7 +90,7 @@ export function mountRecorder(el, { context, referenceText = '', onSaved } = {})
     if (!rows) return;
     history.replaceChildren(...(rows.length ? rows : []).map(r => {
       const audio = h('audio', { controls: true, preload: 'none' });
-      const btn = h('button', { type: 'button', class: 'ghost', onclick: async () => { audio.src = await recordingUrl(r.path); audio.play(); btn.remove(); } }, '▶');
+      const btn = h('button', { type: 'button', class: 'ghost', 'aria-label': 'Ouvir gravação', onclick: async () => { const url = await attempt(() => recordingUrl(r.path)); if (url) { audio.src = url; audio.play(); btn.remove(); } } }, '▶');
       const s = r.self_assessment?.scores;
       return h('div', { class: 'row' }, h('span', { class: 'mono' }, new Date(r.created_at).toLocaleDateString('pt-BR')),
         btn, audio, s ? h('span', { class: 'muted mono' }, Object.values(s).join('·')) : null);
