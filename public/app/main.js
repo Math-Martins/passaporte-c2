@@ -1,4 +1,4 @@
-import { getSession, getKV, supabase } from './db.js';
+import { getSession, getKV, setKV, addCards, supabase } from './db.js';
 import { h } from './ui.js';
 import { localDate } from './dates.js';
 
@@ -25,6 +25,13 @@ function serverDown(err) {
     h('button', { onclick: () => location.reload() }, 'Tentar de novo')));
 }
 
+// The 68 interview questions enter the SRS once, as new cards (released 15 per day by buildQueue).
+async function seedInterview() {
+  if (await getKV('seeded_interview', false)) return;
+  await addCards(state.data.cards.map(c => ({ kind: 'interview', source_ref: c.id, front: c.q, back: c.a })));
+  await setKV('seeded_interview', true);
+}
+
 export async function reloadCfg() {
   state.cfg = { ...DEFAULT_CFG, ...(await getKV('plancfg', {})) };
   return state.cfg;
@@ -41,6 +48,10 @@ async function render() {
     if (!state.data) state.data = await (await fetch('data.json')).json();
     if (!state.cfg) await reloadCfg();
   } catch (e) { return serverDown(e); }
+  if (!state.seeded) {
+    state.seeded = true;
+    seedInterview().catch(e => { state.seeded = false; console.warn(e); });
+  }
   if (!state.cfg.setupDone) {
     nav.hidden = true;
     return (await import('./views/setup.js')).render(view);
