@@ -1,4 +1,4 @@
-import { h } from '../ui.js';
+import { h, mount } from '../ui.js';
 import { listCards } from '../db.js';
 import { mountRecorder } from '../recorder.js';
 import { speak } from '../tts.js';
@@ -32,5 +32,5 @@ export async function render(el) {
     }));
   };
   paint();
-  el.replaceChildren(h('h1', {}, 'Entrevista'), h('p', { class: 'muted' }, `${state.data.cards.length} perguntas. Elas entram na revisão diária sozinhas, 15 novas por dia.`), chips, list);
+  mount(el, h('h1', {}, 'Entrevista'), h('p', { class: 'muted' }, `${state.data.cards.length} perguntas. Elas entram na revisão diária sozinhas, 15 novas por dia.`), chips, list);
 }

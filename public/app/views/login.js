@@ -1,11 +1,11 @@
-import { h, attempt } from '../ui.js';
+import { h, mount, attempt } from '../ui.js';
 import { signIn } from '../db.js';
 
 export async function render(el) {
   const email = h('input', { type: 'email', id: 'email', autocomplete: 'username', required: true });
   const pw = h('input', { type: 'password', id: 'pw', autocomplete: 'current-password', required: true });
   const btn = h('button', { type: 'submit', class: 'amber' }, 'Embarcar');
-  el.replaceChildren(h('form', {
+  mount(el, h('form', {
     class: 'login card',
     onsubmit: async e => {
       e.preventDefault(); btn.disabled = true;

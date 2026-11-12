@@ -1,4 +1,4 @@
-import { h, attempt } from '../ui.js';
+import { h, mount, attempt } from '../ui.js';
 import { listCards, updateCard } from '../db.js';
 import { review, buildQueue } from '../srs.js';
 import { mountRecorder } from '../recorder.js';
@@ -19,14 +19,14 @@ export async function render(el) {
   const head = [h('h1', {}, 'Prática'),
     recovery ? h('div', { class: 'banner' }, `Modo recuperação: ${dueCount} revisões vencidas. Hoje vão as 40 mais atrasadas, sem cartões novos.`) : null];
   if (!queue.length) {
-    el.replaceChildren(...head, h('div', { class: 'card' }, h('p', {}, 'Nada para revisar hoje. ✓'),
+    mount(el, ...head, h('div', { class: 'card' }, h('p', {}, 'Nada para revisar hoje. ✓'),
       h('p', { class: 'muted' }, 'Envie exemplos das aulas, termos do glossário ou erros do caderno para a revisão com o botão +.')));
     return;
   }
   let i = 0, revealed = false, currentReveal = () => {};
   const counter = h('p', { class: 'mono muted' });
   const stage = h('div');
-  el.replaceChildren(...head, counter, stage,
+  mount(el, ...head, counter, stage,
     h('p', { class: 'muted' }, h('span', { class: 'kbd' }, 'espaço'), ' mostra a resposta · ', h('span', { class: 'kbd' }, '1'), ' errei · ', h('span', { class: 'kbd' }, '2'), ' lembrei'));
 
   const show = () => {

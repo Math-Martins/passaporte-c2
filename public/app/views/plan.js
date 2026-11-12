@@ -1,8 +1,8 @@
-import { h, attempt, fmtMin } from '../ui.js';
+import { h, mount, attempt, fmtMin } from '../ui.js';
 import { getKV, setKV, addEntry, listEntries } from '../db.js';
-import { currentWeek, phaseOf, weekGoalMinutes, repeatWeeks, TOTAL_WEEKS } from '../plan.js';
-import { addDays, diffDays } from '../dates.js';
-import { weekRange, minutesBySkill } from '../stats.js';
+import { currentWeek, phaseOf, weekGoalMinutes, repeatWeeks, planWeekRange, TOTAL_WEEKS } from '../plan.js';
+import { diffDays } from '../dates.js';
+import { minutesBySkill } from '../stats.js';
 import { state, today, go } from '../main.js';
 
 const linkFor = l => (!l ? null : l === 'plano' ? null : /^m\d\d$/.test(l) ? `#/modulo/${l}` : `#/aula/${l}`);
@@ -46,7 +46,7 @@ function gateView(phase, gate, saved, onChange) {
 export async function render(el, [n]) {
   const cw = currentWeek(state.cfg.start, today());
   if (!n) {
-    if (cw.status === 'unset') { el.replaceChildren(h('p', {}, 'Defina a data de início em ', h('a', { href: '#/config' }, 'Config'), '.')); return; }
+    if (cw.status === 'unset') { mount(el, h('p', {}, 'Defina a data de início em ', h('a', { href: '#/config' }, 'Config'), '.')); return; }
     return go(`#/plano/${cw.week}`);
   }
   const week = Math.min(TOTAL_WEEKS, Math.max(1, Number(n) || 1));
@@ -54,8 +54,8 @@ export async function render(el, [n]) {
   const W = plan.weeks[week - 1];
   const phase = phaseOf(week, plan.phases);
   const [ptasks, gateSaved, logs] = await Promise.all([getKV('ptasks', {}), getKV('gate:' + phase.id, {}), listEntries('study_log')]);
-  const weekStart = addDays(state.cfg.start, (week - 1) * 7);
-  const range = { from: weekStart, to: addDays(weekStart, 6) };
+  const range = planWeekRange(state.cfg.start, week);
+  const weekStart = range.from;
   const mins = minutesBySkill(logs, range.from, range.to);
   const total = Object.values(mins).reduce((a, b) => a + b, 0);
   const goal = weekGoalMinutes(phase, state.cfg.goalMinutes);
@@ -66,7 +66,7 @@ export async function render(el, [n]) {
 
   const groups = {};
   for (const t of W.tasks) (groups[t.a] ||= []).push(t);
-  el.replaceChildren(
+  mount(el, 
     notice,
     h('p', { class: 'label' }, `Fase ${phase.name} · ${phase.level}${week === cw.week ? ' · semana atual' : ''}`),
     h('h1', {}, `Semana ${week}`), h('p', { class: 'muted' }, `Tema: ${W.theme} · ${weekStart.split('-').reverse().join('/')} a ${range.to.split('-').reverse().join('/')}`),

@@ -1,4 +1,4 @@
-import { h, attempt } from '../ui.js';
+import { h, mount, attempt } from '../ui.js';
 import { addEntry, listEntries, addCards } from '../db.js';
 import { currentWeek } from '../plan.js';
 import { logError, logStudy } from '../actions.js';
@@ -48,7 +48,7 @@ export async function render(el) {
   h('p', {}, h('button', { type: 'submit', class: 'amber' }, 'Salvar')));
 
   const past = await listEntries('conversation');
-  el.replaceChildren(h('h1', {}, 'Conversas'), form,
+  mount(el, h('h1', {}, 'Conversas'), form,
     h('h2', {}, 'Roteiros'), h('div', { class: 'grid' }, SCRIPTS.map(([t, qs, vocab]) => h('div', { class: 'card' }, h('b', {}, t), h('ul', { lang: 'en' }, qs.map(q => h('li', {}, q))), h('p', { class: 'muted', lang: 'en' }, vocab)))),
     h('h2', {}, 'Anteriores'),
     past.length ? past.map(c => h('div', { class: 'task' }, h('span', {}, h('b', {}, c.day.split('-').reverse().join('/')), ` · ${c.data.partner || c.data.platform} · ${c.data.minutes} min · ${c.data.topic}`))) : h('p', { class: 'muted' }, 'Nenhuma conversa registrada.'));

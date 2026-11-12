@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { localDate, addDays, diffDays } from '../public/app/dates.js';
 import { review, buildQueue, INTERVALS } from '../public/app/srs.js';
-import { currentWeek, repeatWeeks, weekGoalMinutes, phaseOf } from '../public/app/plan.js';
+import { currentWeek, repeatWeeks, weekGoalMinutes, phaseOf, planWeekRange } from '../public/app/plan.js';
 import { weekRange, minutesBySkill, streak } from '../public/app/stats.js';
 
 test('localDate uses local time, not UTC (23:30 stays on the same day)', () => {
@@ -68,6 +68,10 @@ test('repeatWeeks moves start 28 days and clears the 4 gate weeks', () => {
   const r = repeatWeeks('2026-01-05', 30, { 'w26-1': true, 'w27-1': true, 'w30-11': true });
   assert.deepEqual(r.ptasks, { 'w26-1': true });
   assert.equal(r.start, '2026-02-02');
+});
+
+test('planWeekRange follows the plan start date', () => {
+  assert.deepEqual(planWeekRange('2026-11-12', 2), { from: '2026-11-19', to: '2026-11-25' });
 });
 
 test('weekGoalMinutes and phaseOf', () => {

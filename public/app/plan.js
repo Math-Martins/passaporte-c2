@@ -11,6 +11,11 @@ export function currentWeek(startISO, today) {
   return { week: w, status: 'active' };
 }
 
+export function planWeekRange(startISO, week) {
+  const from = addDays(startISO, (week - 1) * 7);
+  return { from, to: addDays(from, 6) };
+}
+
 export const phaseOf = (week, phases) => phases.find(p => p.start <= week && week <= p.end);
 
 export const weekGoalMinutes = (phase, override) => override ?? phase.hours * 60;

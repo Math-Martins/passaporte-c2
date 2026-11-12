@@ -1,4 +1,4 @@
-import { h, attempt } from '../ui.js';
+import { h, mount, attempt } from '../ui.js';
 import { speak } from '../tts.js';
 import { sendToSRS } from '../actions.js';
 import { state } from '../main.js';
@@ -52,5 +52,5 @@ export async function render(el) {
     show.hidden = false; hide.hidden = true;
     e.currentTarget.parentElement.querySelectorAll('button').forEach(b => b.setAttribute('aria-selected', String(b === e.currentTarget)));
   } }, label);
-  el.replaceChildren(h('h1', {}, 'Biblioteca'), h('div', { class: 'tabs', role: 'tablist' }, tab('Glossário', g, l), tab('Links', l, g)), g, l);
+  mount(el, h('h1', {}, 'Biblioteca'), h('div', { class: 'tabs', role: 'tablist' }, tab('Glossário', g, l), tab('Links', l, g)), g, l);
 }

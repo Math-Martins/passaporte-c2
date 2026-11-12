@@ -1,4 +1,4 @@
-import { h, attempt } from '../ui.js';
+import { h, mount, attempt } from '../ui.js';
 import { setKV } from '../db.js';
 import { state, today, rerender } from '../main.js';
 
@@ -24,7 +24,7 @@ export function cfgForm(cfg, submitLabel, onSaved) {
 }
 
 export async function render(el) {
-  el.replaceChildren(h('div', { class: 'login card' },
+  mount(el, h('div', { class: 'login card' },
     h('h1', {}, 'Antes de embarcar'),
     h('p', { class: 'muted' }, '156 semanas, três fases e três portões. Escolha quando começa a semana 1.'),
     cfgForm(state.cfg, 'Começar', () => { location.hash = '#/hoje'; rerender(); })));

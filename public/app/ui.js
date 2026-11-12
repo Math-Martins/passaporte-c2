@@ -12,6 +12,11 @@ export function h(tag, attrs = {}, ...children) {
   return el;
 }
 
+// Replace el's content; accepts nested arrays and skips null/false like h() does.
+export function mount(el, ...children) {
+  el.replaceChildren(...children.flat(Infinity).filter(c => c != null && c !== false));
+}
+
 export function toast(msg, kind = 'ok') {
   const t = h('div', { class: `toast ${kind}`, role: kind === 'error' ? 'alert' : 'status' }, msg);
   document.getElementById('toasts').append(t);

@@ -1,4 +1,4 @@
-import { h, attempt } from '../ui.js';
+import { h, mount, attempt } from '../ui.js';
 import { getKV, setKV } from '../db.js';
 import { checkAnswer } from '../check.js';
 import { mountRecorder } from '../recorder.js';
@@ -10,7 +10,7 @@ export async function render(el, params) {
   if (params[0] === 'modulo') return renderModule(el, params[1]);
   const done = await getKV('done', {});
   const chdone = await getKV('chdone', {});
-  el.replaceChildren(h('h1', {}, 'Trilha'), h('p', { class: 'muted' }, 'Painel de partidas: 11 módulos, do B1 ao projeto final.'),
+  mount(el, h('h1', {}, 'Trilha'), h('p', { class: 'muted' }, 'Painel de partidas: 11 módulos, do B1 ao projeto final.'),
     h('div', { class: 'board' }, h('ul', { class: 'departures' }, state.data.modules.map(m => {
       const n = m.lessons.filter(l => done[l.id]).length;
       const complete = n === m.lessons.length && m.challenges.every(c => chdone[c.id]);
@@ -54,7 +54,7 @@ function manualChallenge(c, chdone, chitems, onDone) {
 
 async function renderModule(el, id) {
   const m = state.data.modules.find(x => x.id === id);
-  if (!m) { el.replaceChildren(h('p', {}, 'Módulo não encontrado.')); return; }
+  if (!m) { mount(el, h('p', {}, 'Módulo não encontrado.')); return; }
   const [done, chdone, chitems] = await Promise.all([getKV('done', {}), getKV('chdone', {}), getKV('chitems', {})]);
   const markDone = c => async () => {
     chdone[c.id] = true;
@@ -62,7 +62,7 @@ async function renderModule(el, id) {
     if (m.challenges.every(x => chdone[x.id])) await attempt(() => completeChallenges(m));
     renderModule(el, id);
   };
-  el.replaceChildren(
+  mount(el, 
     h('p', { class: 'label' }, h('a', { href: '#/trilha' }, 'Trilha'), ` · Módulo ${m.num} · ${m.level}`),
     h('h1', {}, m.title), h('p', { class: 'prose' }, m.summary), h('p', { class: 'muted' }, 'Objetivo: ', m.goal),
     h('h2', {}, 'Aulas'),

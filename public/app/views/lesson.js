@@ -1,4 +1,4 @@
-import { h, toast, attempt } from '../ui.js';
+import { h, mount, toast, attempt } from '../ui.js';
 import { getKV, setKV, listRecordings, listEntries } from '../db.js';
 import { checkAnswer } from '../check.js';
 import { speak } from '../tts.js';
@@ -41,7 +41,7 @@ function mountExercise(el, ex, exok) {
   const input = h('input', { type: 'text', lang: 'en', autocomplete: 'off', 'aria-label': ex.p });
   const out = h('div', { 'aria-live': 'polite' });
   const btn = h('button', { type: 'submit' }, 'Verificar');
-  el.replaceChildren(h('form', {
+  mount(el, h('form', {
     onsubmit: async e => {
       e.preventDefault();
       if (!input.value.trim()) return;
@@ -84,7 +84,7 @@ function mountQuiz(el, lesson, saved, onAnswered) {
 
 export async function render(el, [id]) {
   const lesson = findLesson(id);
-  if (!lesson) { el.replaceChildren(h('p', {}, 'Aula não encontrada.')); return; }
+  if (!lesson) { mount(el, h('p', {}, 'Aula não encontrada.')); return; }
   const [done, quizSaved, exok, videos, recs, subs] = await Promise.all([
     getKV('done', {}), getKV('quiz', {}), getKV('exok', {}),
     fetch('videos.json').then(r => r.json()).catch(() => ({})),
@@ -142,7 +142,7 @@ export async function render(el, [id]) {
   const prev = mod.lessons[ix - 1], next = mod.lessons[ix + 1];
   const videoBox = h('div');
   if (videos[id]) mountVideo(videoBox, videos[id]);
-  el.replaceChildren(
+  mount(el, 
     h('p', { class: 'label' }, h('a', { href: `#/modulo/${mod.id}` }, `Módulo ${mod.num} · ${mod.title}`), ` · ${lesson.min} min`),
     h('h1', {}, lesson.title),
     h('div', { class: 'lesson' }, toc, h('div', {}, videoBox, prose, quizBox, h('div', { class: 'card' }, completeBtn, why),

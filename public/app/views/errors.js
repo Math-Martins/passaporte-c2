@@ -1,4 +1,4 @@
-import { h, attempt } from '../ui.js';
+import { h, mount, attempt } from '../ui.js';
 import { listEntries, deleteEntry } from '../db.js';
 import { normAns } from '../check.js';
 import { logError, sendToSRS } from '../actions.js';
@@ -42,7 +42,7 @@ export async function render(el) {
       : [h('p', { class: 'muted' }, 'Nenhum erro aqui ainda.')]));
   };
   paint();
-  el.replaceChildren(h('h1', {}, 'Caderno de erros'), form,
+  mount(el, h('h1', {}, 'Caderno de erros'), form,
     h('h2', {}, 'Top 10'), top.length ? h('ol', {}, top.map(g => h('li', {}, h('span', { lang: 'en' }, g.e.data.wrong), ' → ', h('b', { lang: 'en' }, g.e.data.correct), h('span', { class: 'mono muted' }, `  ×${g.n}`)))) : h('p', { class: 'muted' }, 'Sem erros registrados.'),
     h('h2', {}, 'Todos'), chips, list);
 }
